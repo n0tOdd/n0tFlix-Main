@@ -1,0 +1,9 @@
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.deps.json
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.dll
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.pdb
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.csprojAssemblyReference.cache
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.AssemblyInfoInputs.cache
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.AssemblyInfo.cs
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.csproj.CoreCompileInputs.cache
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.dll
+C:\Users\oddos\Downloads\jellyfin-plugin-opensubtitles-master\jellyfin-plugin-opensubtitles-master\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\Jellyfin.Plugin.Podnapisi.pdb

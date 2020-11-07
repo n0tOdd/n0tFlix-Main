@@ -1,0 +1,2 @@
+﻿Only tested this channel once and i got audio/video on my Ubuntu 20.04 desktop setup, but theres allot that needs updating here before im happy,
+if anybody got some problems or tips or trix to fix it up you know what to do :)

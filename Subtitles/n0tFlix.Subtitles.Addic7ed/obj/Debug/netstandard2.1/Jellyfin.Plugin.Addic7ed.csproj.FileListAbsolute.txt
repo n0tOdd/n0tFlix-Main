@@ -1,0 +1,9 @@
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\bin\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.deps.json
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\bin\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.dll
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\bin\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.pdb
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.AssemblyInfoInputs.cache
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.AssemblyInfo.cs
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.csproj.CoreCompileInputs.cache
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.dll
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.pdb
+E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Addic7ed\obj\Debug\netstandard2.1\Jellyfin.Plugin.Addic7ed.csprojAssemblyReference.cache

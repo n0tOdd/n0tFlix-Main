@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Configuration\SubscriptionPage.html" />
+		<None Remove="Configuration\SubscriptionPage.js" />
+		<None Remove="Images\subscribe.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Configuration\SubscriptionPage.html" />
+		<EmbeddedResource Include="Configuration\SubscriptionPage.js" />
+		<EmbeddedResource Include="Images\subscribe.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Jellyfin.Common" Version="10.6.0" />
+		<PackageReference Include="Jellyfin.Controller" Version="10.6.0" />
+		<PackageReference Include="Jellyfin.Model" Version="10.6.0" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,2 @@
+﻿Channel seems to be working on my Ubuntu 20.04 desktop setup, biggest problem is loading to much content on the categories so its sloooow.
+If anybody is having any problems or tips to fix this, please tell and hopefully we can fix it :)

@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+        "projectName": "n0tFlix.Helpers.Common",
+        "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+        "packagesPath": "C:\\Users\\oddos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oddos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Text.Encoding.CodePages": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

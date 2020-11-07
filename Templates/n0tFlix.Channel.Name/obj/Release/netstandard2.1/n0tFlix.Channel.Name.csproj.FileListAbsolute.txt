@@ -1,0 +1,9 @@
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\bin\Release\netstandard2.1\n0tFlix.Channel.Name.deps.json
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\bin\Release\netstandard2.1\n0tFlix.Channel.Name.dll
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.AssemblyInfoInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.AssemblyInfo.cs
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\bin\Release\netstandard2.1\n0tFlix.Channel.Name.pdb
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.csproj.CoreCompileInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.dll
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.pdb
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Channel.Name\obj\Release\netstandard2.1\n0tFlix.Channel.Name.csprojAssemblyReference.cache

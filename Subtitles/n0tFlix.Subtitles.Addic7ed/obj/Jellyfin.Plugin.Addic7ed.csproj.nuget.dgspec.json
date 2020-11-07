@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\oddos\\source\\repos\\n0tFlix\\Subtitles\\Jellyfin.Plugin.Addic7ed\\Jellyfin.Plugin.Addic7ed.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\oddos\\source\\repos\\n0tFlix\\Subtitles\\Jellyfin.Plugin.Addic7ed\\Jellyfin.Plugin.Addic7ed.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\oddos\\source\\repos\\n0tFlix\\Subtitles\\Jellyfin.Plugin.Addic7ed\\Jellyfin.Plugin.Addic7ed.csproj",
+        "projectName": "Jellyfin.Plugin.Addic7ed",
+        "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix\\Subtitles\\Jellyfin.Plugin.Addic7ed\\Jellyfin.Plugin.Addic7ed.csproj",
+        "packagesPath": "C:\\Users\\oddos\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix\\Subtitles\\Jellyfin.Plugin.Addic7ed\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\oddos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Jellyfin.Common": {
+              "target": "Package",
+              "version": "[10.6.0, )"
+            },
+            "Jellyfin.Controller": {
+              "target": "Package",
+              "version": "[10.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

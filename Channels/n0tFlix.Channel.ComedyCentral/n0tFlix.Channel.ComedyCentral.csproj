@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="Configuration\configPage.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="Configuration\configPage.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Jellyfin.Controller" Version="10.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\Helpers\n0tFlix.Helpers.Common\n0tFlix.Helpers.Common.csproj" />
+	</ItemGroup>
+</Project>

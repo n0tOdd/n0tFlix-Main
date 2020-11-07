@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "eG7hVNkt+DgJzQGs13VLPRfyZcd4J+qwq9YlxxHhGBgh9kpLxwrgh4ZM/qb2QlPCLZCfwCz6aElwcQwzkNEoHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oddos\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.7.1\\system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\system.text.encoding.codepages\\4.7.1\\system.text.encoding.codepages.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

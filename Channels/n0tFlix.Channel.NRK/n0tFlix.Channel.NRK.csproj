@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Configuration\configPage.html" />
+	  <None Remove="Images\logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Configuration\configPage.html" />
+	  <EmbeddedResource Include="Images\logo.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Jellyfin.Common" Version="10.6.0" />
+	  <PackageReference Include="Jellyfin.Controller" Version="10.6.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	</ItemGroup>
+</Project>

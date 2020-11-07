@@ -1,0 +1,4 @@
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subliminal.csprojAssemblyReference.cache
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subliminal.AssemblyInfoInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subliminal.AssemblyInfo.cs
+C:\Users\oddos\source\repos\n0tFlix2\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subliminal.csproj.CoreCompileInputs.cache

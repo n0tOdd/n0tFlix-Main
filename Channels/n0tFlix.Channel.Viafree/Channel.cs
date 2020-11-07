@@ -1,0 +1,173 @@
+﻿using MediaBrowser.Controller.Channels;
+using MediaBrowser.Controller.LiveTv;
+using MediaBrowser.Controller.Providers;
+using MediaBrowser.Model.Drawing;
+using MediaBrowser.Model.Dto;
+using MediaBrowser.Model.Entities;
+using MediaBrowser.Model.Tasks;
+using Microsoft.Extensions.Caching.Memory;
+using Microsoft.Extensions.Logging;
+using n0tFlix.Channel.Viafree.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace n0tFlix.Channel.Viafree
+{
+    public class Channel : IChannel, ISupportsLatestMedia
+    {
+        #region Just some variables that uses the Plugin.cs file variables
+
+        public string Name => Plugin.Instance.Name;
+        public string Description => Plugin.Instance.Description;
+        public string DataVersion => Plugin.Instance.Version.ToString();
+        public string HomePageUrl => Plugin.Instance.HomePageURL;
+        public string Key => Plugin.Instance.Name;
+        public string Category => Plugin.Instance.Name;
+
+        #endregion Just some variables that uses the Plugin.cs file variables
+
+        #region Access controller function/settings
+
+        /// <summary>
+        /// Gotta be kid friendly here now
+        /// </summary>
+        public ChannelParentalRating ParentalRating => ChannelParentalRating.GeneralAudience;
+
+        /// <summary>
+        /// Checks if the user has access to the channel
+        /// </summary>
+        /// <param name="userId"></param>
+        /// <returns></returns>
+        public bool IsEnabledFor(string userId)
+        {
+            //todo make a user access check system here
+            return true;
+        }
+
+        #endregion Access controller function/settings
+
+        private readonly ILogger<Channel> logger;
+        private readonly Worker worker;
+        private IMemoryCache memoryCache;
+
+        public Channel(ILogger<Channel> logger, IMemoryCache memoryCache)
+        {
+            this.logger = logger;
+            worker = new Worker();
+            this.memoryCache = memoryCache;
+            this.logger.LogInformation(GetType().Namespace + " initialised and ready for use");
+        }
+
+        public InternalChannelFeatures GetChannelFeatures()
+        {
+            return new InternalChannelFeatures()
+            {
+                MediaTypes = new List<MediaBrowser.Model.Channels.ChannelMediaType>()
+                {
+                    MediaBrowser.Model.Channels.ChannelMediaType.Video,
+                    MediaBrowser.Model.Channels.ChannelMediaType.Audio,
+                    MediaBrowser.Model.Channels.ChannelMediaType.Photo,
+                },
+                ContentTypes = new List<MediaBrowser.Model.Channels.ChannelMediaContentType>()
+                 {
+                    MediaBrowser.Model.Channels.ChannelMediaContentType.Clip,
+                     MediaBrowser.Model.Channels.ChannelMediaContentType.Episode,
+                      MediaBrowser.Model.Channels.ChannelMediaContentType.Movie,
+                     MediaBrowser.Model.Channels.ChannelMediaContentType.Clip,
+                     MediaBrowser.Model.Channels.ChannelMediaContentType.Podcast,
+                     MediaBrowser.Model.Channels.ChannelMediaContentType.Song,
+                     MediaBrowser.Model.Channels.ChannelMediaContentType.Trailer
+                }, //<=== just adding all to have them, probably only need one but hey we can remove that when we get there
+                DefaultSortFields = new List<MediaBrowser.Model.Channels.ChannelItemSortField>()
+                 {
+                      MediaBrowser.Model.Channels.ChannelItemSortField.Name,
+                       MediaBrowser.Model.Channels.ChannelItemSortField.DateCreated,
+                        MediaBrowser.Model.Channels.ChannelItemSortField.Runtime,
+                     MediaBrowser.Model.Channels.ChannelItemSortField.CommunityPlayCount,
+                     MediaBrowser.Model.Channels.ChannelItemSortField.CommunityRating,
+                     MediaBrowser.Model.Channels.ChannelItemSortField.PremiereDate,
+                      MediaBrowser.Model.Channels.ChannelItemSortField.PlayCount
+                 }, //<== again adding all, probably dont need it, but hey the luxuary problems in life =D
+                MaxPageSize = 25, //<== this one here is n0t working, i downloaded 1000s of youtube pages at once and it became a big a list without any more pages :(
+                SupportsContentDownloading = true,
+                SupportsSortOrderToggle = true,
+                AutoRefreshLevels = 4, //<== i would love to know whats a good value to put here bro
+            };
+        }
+
+        public async Task<ChannelItemResult> GetChannelItems(InternalChannelItemQuery query, CancellationToken cancellationToken)
+        {
+            //Todo add a way to get content based of the channel page we are on now
+            logger.LogInformation(query.FolderId);
+            if (string.IsNullOrEmpty(query.FolderId))
+                return await worker.GetFirstPage(logger, memoryCache);
+            else if (query.FolderId.StartsWith("channel_") || query.FolderId.StartsWith("category_"))
+                return await worker.GetItemsFromThisSection(query, logger, memoryCache);
+            else if (query.FolderId.StartsWith("program_"))
+                return await worker.GetSeasonsAsync(query, logger, memoryCache);
+            else if (query.FolderId.StartsWith("season_"))
+                return await worker.GetEpisodesAsync(query, logger, memoryCache);
+
+            logger.LogInformation("This should not happen, we cant find any folderid to use " + query.FolderId);
+            return default;
+        }
+
+        #region Channel image configuration
+
+        /// <summary>
+        /// 850width and 475 Height are the dimensions that give me the best logo here, else its gonna be all kinds of coco
+        /// </summary>
+        /// <param name="type"></param>
+        /// <param name="cancellationToken"></param>
+        /// <returns></returns>
+        public async Task<DynamicImageResponse> GetChannelImage(ImageType type, CancellationToken cancellationToken)
+        {
+            switch (type)
+            {
+                case ImageType.Thumb: //Gives back your logo png from the ManifestResource
+                    {
+                        var path = GetType().Namespace + ".Images.logo.png";
+
+                        return await Task.FromResult(new DynamicImageResponse
+                        {
+                            Format = ImageFormat.Png,
+                            HasImage = true,
+
+                            Stream = GetType().Assembly.GetManifestResourceStream(path)
+                        });
+                    }
+                default:
+                    throw new ArgumentException("Unsupported image type: " + type);
+            }
+        }
+
+        /// <summary>
+        /// This beutifull little bastard tells us what kind of pictures to support,
+        /// you should probably enable more types, im just lazy
+        /// </summary>
+        /// <returns></returns>
+        public IEnumerable<ImageType> GetSupportedChannelImages()
+            => new List<ImageType>
+            {
+                ImageType.Thumb
+    };
+
+        #endregion Channel image configuration
+
+        public async Task<IEnumerable<ChannelItemInfo>> GetLatestMedia(ChannelLatestMediaSearch request, CancellationToken cancellationToken)
+        {
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            logger.LogInformation("TEST TEST");
+            return default;
+        }
+    }
+}
