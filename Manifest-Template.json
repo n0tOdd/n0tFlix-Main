@@ -19,6 +19,24 @@
     ]
   },
   {
+    "guid": "cc3620d9-d4da-4c69-8867-9c051645353e",
+    "name": "n0tFlix.Addons.VideoExtractor",
+    "description": "A video extraction api for jellyfin",
+    "overview": "A video extraction api for jellyfin",
+    "owner": "n0tme",
+    "category": "n0tFlix",
+    "versions": [
+      {
+        "version": "1.0.0.0",
+        "changelog": "Initial Release",
+        "targetAbi": "10.6.0.0",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.VideoExtractor/bin/Release/netstandard2.1/n0tFlix.Addons.VideoExtractor.zip",
+        "checksum": "n0tFlix.Addons.VideoExtractor-MD5",
+        "timestamp": "2020-11-09T18:42:00Z"
+      }
+    ]
+  },
+  {
     "guid": "e84adafb-7ad0-43c9-92b6-2dfbd54d1342",
     "name": "n0tFlix.Addons.YoutubeDL",
     "description": "Adds a new api to use youtube-dl for reciving streamable links, going to use this for future channels",
@@ -341,5 +359,5 @@
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
-  },
+  }
 ]

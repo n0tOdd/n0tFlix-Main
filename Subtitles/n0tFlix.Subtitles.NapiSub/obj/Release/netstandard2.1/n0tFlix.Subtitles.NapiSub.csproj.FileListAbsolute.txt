@@ -33,4 +33,3 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Na
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.csprojAssemblyReference.cache
