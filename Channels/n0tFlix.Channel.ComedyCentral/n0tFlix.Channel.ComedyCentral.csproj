@@ -19,4 +19,8 @@
 	<ItemGroup>
 		<ProjectReference Include="..\..\Helpers\n0tFlix.Helpers.Common\n0tFlix.Helpers.Common.csproj" />
 	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
+	</Target>
 </Project>

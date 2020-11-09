@@ -39,7 +39,7 @@ namespace n0tFlix.Channel.TWiT
         /// The id of our plugin rememmber DONT run multiple plugins with same guid, its just trouble in the end
         /// use new-guid in powershell for å fresh value
         /// </summary>
-        public override Guid Id => Guid.Parse("9ea53b0f-1e34-4c01-9c7f-f96ef4f1380f");
+        public override Guid Id => Guid.Parse("34d435b3-fce2-4680-9787-3e408a7e6f25");
 
         /// <summary>
         /// Only way i found to keep the Version value managed, if anybody finds a better way please tell me

@@ -41,6 +41,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Jellyfin.Controller": {
+              "target": "Package",
+              "version": "[10.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

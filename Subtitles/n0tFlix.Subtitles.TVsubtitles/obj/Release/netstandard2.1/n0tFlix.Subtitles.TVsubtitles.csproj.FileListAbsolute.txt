@@ -7,3 +7,11 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix.Subtitles.TVsubtitles\obj\Release\n
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.deps.json
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.AssemblyInfoInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.AssemblyInfo.cs
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.csproj.CoreCompileInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb

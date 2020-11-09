@@ -1,0 +1,2 @@
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Plugin.Manifest\obj\Release\n0tFlix.Plugin.Manifest.csprojAssemblyReference.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Plugin.Manifest\obj\Release\n0tFlix.Plugin.Manifest.csproj.CoreCompileInputs.cache

@@ -15,4 +15,8 @@
 	<ItemGroup>
 		<Folder Include="YoutubedlManager\" />
 	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
+	</Target>
 </Project>

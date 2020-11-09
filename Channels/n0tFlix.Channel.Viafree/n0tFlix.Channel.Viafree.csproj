@@ -24,4 +24,8 @@
 	<ItemGroup>
 	  <Page Include="Images\logo.png" />
 	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
+	</Target>
 </Project>
