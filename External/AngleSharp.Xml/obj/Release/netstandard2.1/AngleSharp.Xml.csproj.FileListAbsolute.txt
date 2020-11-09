@@ -29,3 +29,4 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.Xml\obj\Re
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.Xml\obj\Release\netstandard2.1\AngleSharp.Xml.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.Xml\obj\Release\netstandard2.1\AngleSharp.Xml.xml
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.Xml\obj\Release\netstandard2.1\AngleSharp.Xml.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.Xml\obj\Release\netstandard2.1\AngleSharp.Xml.csprojAssemblyReference.cache
