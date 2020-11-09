@@ -36,7 +36,7 @@ namespace n0tFlix.Subtitles.TVsubtitles
         /// The id of our plugin rememmber DONT run multiple plugins with same guid, its just trouble in the end
         /// use new-guid in powershell for å fresh value
         /// </summary>
-        public override Guid Id => Guid.Parse("602f22e1-ad98-41ae-8d7e-3cd7bc7c1000");
+        public override Guid Id => Guid.Parse("70792d42-3d74-4c2a-a424-f7df79b50115");
 
         /// <summary>
         /// Only way i found to keep the Version value managed, if anybody finds a better way please tell me
