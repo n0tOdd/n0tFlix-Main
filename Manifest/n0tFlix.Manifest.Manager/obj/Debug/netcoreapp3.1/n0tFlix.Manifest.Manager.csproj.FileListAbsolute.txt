@@ -58,3 +58,4 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Mana
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Debug\netcoreapp3.1\n0tFlix.Manifest.Manager.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Debug\netcoreapp3.1\n0tFlix.Manifest.Manager.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Debug\netcoreapp3.1\n0tFlix.Manifest.Manager.genruntimeconfig.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll

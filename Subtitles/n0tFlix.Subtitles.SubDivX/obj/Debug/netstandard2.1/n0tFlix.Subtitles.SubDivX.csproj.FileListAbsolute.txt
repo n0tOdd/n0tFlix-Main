@@ -16,3 +16,12 @@ E:\Git\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubD
 E:\Git\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.dll
 E:\Git\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.pdb
 C:\Users\oddos\source\repos\n0tFlix\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.csproj.CoreCompileInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\bin\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.deps.json
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\bin\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.dll
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\bin\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.csprojAssemblyReference.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.AssemblyInfoInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.AssemblyInfo.cs
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.csproj.CoreCompileInputs.cache
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.dll
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Debug\netstandard2.1\n0tFlix.Subtitles.SubDivX.pdb

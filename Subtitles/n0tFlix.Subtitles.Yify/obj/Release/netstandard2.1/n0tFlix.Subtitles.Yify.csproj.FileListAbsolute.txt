@@ -15,3 +15,4 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yi
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\netstandard2.1\n0tFlix.Subtitles.Yify.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\netstandard2.1\n0tFlix.Subtitles.Yify.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\netstandard2.1\n0tFlix.Subtitles.Yify.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\netstandard2.1\n0tFlix.Subtitles.Yify.csprojAssemblyReference.cache

@@ -36,7 +36,6 @@ C:\Users\oddos\source\repos\n0tFlix2\Subtitles\n0tFlix.Subtitles.TheSubDB\obj\Re
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\bin\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.deps.json
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\bin\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\bin\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\obj\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.csprojAssemblyReference.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\obj\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.AssemblyInfoInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\obj\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.AssemblyInfo.cs
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TheSubDB\obj\Release\netstandard2.1\n0tFlix.Subtitles.TheSubDB.csproj.CoreCompileInputs.cache
