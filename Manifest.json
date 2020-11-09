@@ -1,5 +1,7 @@
-{
-  "Plugins": {
+[
+  "Plugins",
+  :,
+  {
     "guid": "fd876e40-9413-4fbc-acee-94bfce03734f",
     "name": "n0tFlix.Addons.Subscriptions",
     "description": "A subscription system for jellyfin (work in progress)",
@@ -340,5 +342,5 @@
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
-  }
-}
+  },
+]
