@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iSmQE30EH1GbdwSL1Jmo5i5P5B5a7zVKLF8QjRTTMzMr99Ccr5+FnoKMUR/thh6lPK3hPRz+ZZw8W/uzqt+ckg==",
+  "dgSpecHash": "9j0I0+DOEPxDJkRJhJ7fFE6ukYTWiGy29hHz75x7lhvBOnC5j2vda14yw01Svn1uEvOy2PYKV1aY4KyW36amZg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
+  "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oddos\\.nuget\\packages\\jellyfin.common\\10.6.0\\jellyfin.common.10.6.0.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\jellyfin.data\\10.6.0\\jellyfin.data.10.6.0.nupkg.sha512",

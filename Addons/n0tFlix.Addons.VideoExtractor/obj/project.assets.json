@@ -1684,11 +1684,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
+      "projectUniqueName": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
       "projectName": "n0tFlix.Addons.VideoExtractor",
-      "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
+      "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
       "packagesPath": "C:\\Users\\oddos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\n0tFlix.Addons.VideoExtractor\\obj\\",
+      "outputPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

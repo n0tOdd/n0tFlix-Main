@@ -1,5 +1,4 @@
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\bin\Release\netcoreapp3.1\n0tFlix.Manifest.Manager.exe
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Release\netcoreapp3.1\n0tFlix.Manifest.Manager.csprojAssemblyReference.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Release\netcoreapp3.1\n0tFlix.Manifest.Manager.AssemblyInfoInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\obj\Release\netcoreapp3.1\n0tFlix.Manifest.Manager.AssemblyInfo.cs
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest\n0tFlix.Manifest.Manager\bin\Release\netcoreapp3.1\n0tFlix.Manifest.Manager.deps.json
