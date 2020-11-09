@@ -13,7 +13,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.Subscriptions/bin/Release/netstandard2.1/n0tFlix.Addons.Subscriptions.zip",
-        "checksum": "20B7FE237E9A432E32E4220A799EC775",
+        "checksum": "FD415E8B718C2F43B1673D73F924FB1E",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -21,8 +21,8 @@
   {
     "guid": "cc3620d9-d4da-4c69-8867-9c051645353e",
     "name": "n0tFlix.Addons.VideoExtractor",
-    "description": "A video extraction api for jellyfin",
-    "overview": "A video extraction api for jellyfin",
+    "description": "A video extraction api for jellyfin\"(use jellyfin.url/VideoExtractor/StreamURL?Url=https://www.youtube.com/watch?v=wl5SkAjlO2k to get back the streamable link)",
+    "overview": "A video extraction api for jellyfin\"(use jellyfin.url/VideoExtractor/StreamURL?Url=https://www.youtube.com/watch?v=wl5SkAjlO2k to get back the streamable link)",
     "owner": "n0tme",
     "category": "n0tFlix",
     "versions": [
@@ -31,7 +31,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.VideoExtractor/bin/Release/netstandard2.1/n0tFlix.Addons.VideoExtractor.zip",
-        "checksum": "7CA15067C494A6AC5C2C8BB634576C12",
+        "checksum": "2E4D3C5CB05FFF5503C0E963038C1438",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -49,7 +49,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.YoutubeDL/bin/Release/netstandard2.1/n0tFlix.Addons.YoutubeDL.zip",
-        "checksum": "EC49F78BF56BEB5AFD937DEA2F48AC75",
+        "checksum": "C78437CDFDE9AF6853697DADC6619BC8",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -67,7 +67,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.ComedyCentral.zip",
-        "checksum": "BDB332DB68188F94ED107A5E339C0AA7",
+        "checksum": "7B2355E52EF8A4DDF384E9604E610896",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -85,7 +85,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Crunchyroll.zip",
-        "checksum": "EC7168B71EDB2BB6A0559D8A48D14905",
+        "checksum": "D4EF252547EC1A9E028AD44EC72541D1",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -103,7 +103,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.NRK.zip",
-        "checksum": "0A2865443774F13AF3AF39F3BEB5A4B2",
+        "checksum": "BBFCAFC474CB6F09843FA2D46BE513DC",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -121,7 +121,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Pornhub.zip",
-        "checksum": "DFD0C93A95A70AA00314A1FAF9494CDB",
+        "checksum": "60E942B9CDB32CB8BCB0995BE63B8536",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -139,7 +139,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Redtube.zip",
-        "checksum": "325FAD68F80F6BB1B202566FD92DE833",
+        "checksum": "9D3D3DDEED0884FBAA430120E02C02C4",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -157,7 +157,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.TubiTV.zip",
-        "checksum": "17285184F5A8B2A78248745099497D8C",
+        "checksum": "4857DE988B417F2CB5E1F49E3071ED68",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -175,7 +175,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.TWiT/bin/Release/netstandard2.1/n0tFlix.Channel.TWiT.zip",
-        "checksum": "87180EDD1DBD5299BA37D759ECFC90DA",
+        "checksum": "08770408FBA0AC4E3E945A3E0BB7FF27",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -193,7 +193,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Viafree/bin/Release/netstandard2.1/n0tFlix.Channel.Viafree.zip",
-        "checksum": "4ACB1EE8CE82CDAD577F8DD88A2CA877",
+        "checksum": "03590D3B0A21E57BA89A1CBF759F7AB6",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -211,7 +211,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Addic7ed/bin/Release/netstandard2.1/n0tFlix.Subtitles.Addic7ed.zip",
-        "checksum": "36AD3AD119307991F8C3167690BC7053",
+        "checksum": "F9D1FB7BFA19D23C4F18967D970C5EEF",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -229,7 +229,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Napisub/bin/Release/netstandard2.1/n0tFlix.Subtitles.Napisub.zip",
-        "checksum": "5C6E501413E771B5C530E765BEE13E7C",
+        "checksum": "1DD1481482F08CCA6487902ACD208703",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -247,7 +247,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.OpenSubtitles/bin/Release/netstandard2.1/n0tFlix.Subtitles.OpenSubtitles.zip",
-        "checksum": "829B004C1ED14FB2DAA275907296E7A3",
+        "checksum": "B5ADFDCF6A36FD39247E09008CF7AC65",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -265,7 +265,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Podnapisi/bin/Release/netstandard2.1/n0tFlix.Subtitles.Podnapisi.zip",
-        "checksum": "1F53866CFB4FA5600A33E3E8802166F7",
+        "checksum": "E07CFF6F16AAFA8FC0F8B70D478FFD1D",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -283,7 +283,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.SubDivX/bin/Release/netstandard2.1/n0tFlix.Subtitles.SubDivX.zip",
-        "checksum": "AAF50E0F5E907CCFACF41024B601FFB4",
+        "checksum": "8B3C37EA3DB9B644A8B92C199C1E5A07",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -301,7 +301,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Subscene/bin/Release/netstandard2.1/n0tFlix.Subtitles.Subscene.zip",
-        "checksum": "1C8E09483E4672A0CB2174F9090D1CBF",
+        "checksum": "305E2DCC004C4DE446C37A2C733180B1",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -319,7 +319,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.TheSubDB/bin/Release/netstandard2.1/n0tFlix.Subtitles.TheSubDB.zip",
-        "checksum": "8CA6B71632A3F9E9F67DB85E60008EC8",
+        "checksum": "79C810C428E82A510EF98521291BDEEC",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -337,7 +337,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.TVsubtitles/bin/Release/netstandard2.1/n0tFlix.Subtitles.TVsubtitles.zip",
-        "checksum": "EFFFF528099BC4BE1B8B79CAF1566265",
+        "checksum": "06ECE6E74014C714B4BAC38703B4DFD0",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -355,7 +355,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
         "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Subtitles/n0tFlix.Subtitles.Yify/bin/Release/netstandard2.1/n0tFlix.Subtitles.Yify.zip",
-        "checksum": "B219A8AFC76DAD5D11003E67C237D14C",
+        "checksum": "451BE78A2369625BC0E7C2E05AC9AABE",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]

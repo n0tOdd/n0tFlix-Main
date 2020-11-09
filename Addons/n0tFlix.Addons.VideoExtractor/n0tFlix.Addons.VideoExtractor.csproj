@@ -20,5 +20,15 @@
 
 	<ItemGroup>
 	  <PackageReference Include="Jellyfin.Common" Version="10.6.0" />
+	  <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+	  <PackageReference Include="PlaywrightSharp" Version="0.152.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\External\AngleSharp.Css\AngleSharp.Css.csproj" />
+	  <ProjectReference Include="..\..\External\AngleSharp.Io\AngleSharp.Io.csproj" />
+	  <ProjectReference Include="..\..\External\AngleSharp.Js\AngleSharp.Js.csproj" />
+	  <ProjectReference Include="..\..\External\AngleSharp\AngleSharp.Core.csproj" />
 	</ItemGroup>
 </Project>

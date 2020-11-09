@@ -28,7 +28,7 @@ namespace n0tFlix.Addons.VideoExtractor
         /// <summary>
         /// The Description of youre plugin, goin to be used by the manifestmanager later to keep the repository clrean
         /// </summary>
-        public override string Description => "A plugin that adds a new web api to jellyfin so you can extract the streaming url from youre page(a clone of youtube-dl in dotnet)";
+        public override string Description => "A plugin that adds a new web api to jellyfin so you can extract the streaming url from youre page(a clone of youtube-dl in dotnet)(use jellyfin.url//VideoExtractor/StreamURL?Url=https://www.youtube.com/watch?v=wl5SkAjlO2k to get back the streamable link)";
 
         /// <summary>
         /// Just added so we can share where more is to be found :P

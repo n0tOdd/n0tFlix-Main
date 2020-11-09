@@ -1,0 +1,15 @@
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.XPath.deps.json
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.XPath.dll
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.XPath.pdb
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.XPath.xml
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.dll
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.pdb
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\bin\Debug\netstandard2.1\AngleSharp.xml
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.AssemblyInfoInputs.cache
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.AssemblyInfo.cs
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.csproj.CoreCompileInputs.cache
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.csproj.CopyComplete
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.dll
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.xml
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.pdb
+C:\Users\oddos\Downloads\AngleSharp.XPath-master\AngleSharp.XPath-master\src\AngleSharp.XPath\obj\Debug\netstandard2.1\AngleSharp.XPath.csprojAssemblyReference.cache

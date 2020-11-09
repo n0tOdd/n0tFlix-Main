@@ -1,0 +1,1922 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AngleSharp.Xml</name>
+    </assembly>
+    <members>
+        <member name="T:AngleSharp.Xml.AutoSelectedMarkupFormatter">
+            <summary>
+            AutoSelectedMarkupFormatter class to select the proper MarkupFormatter
+            implementation depending on the used document type.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.#ctor(AngleSharp.Dom.IDocumentType)">
+            <summary>
+            Creates a new instance of the auto selected markup formatter.
+            </summary>
+            <param name="docType">
+            Optional DocumentType to hint the implementation to use.
+            </param>
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.OpenTag(AngleSharp.Dom.IElement,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.CloseTag(AngleSharp.Dom.IElement,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.Comment(AngleSharp.Dom.IComment)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.Doctype(AngleSharp.Dom.IDocumentType)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.Processing(AngleSharp.Dom.IProcessingInstruction)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.Text(AngleSharp.Dom.ICharacterData)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.AutoSelectedMarkupFormatter.LiteralText(AngleSharp.Dom.ICharacterData)">
+            <inheritdoc />
+        </member>
+        <member name="T:AngleSharp.Xml.DomImplementationExtension">
+            <summary>
+            Extensions for the DomImplementation interface.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.DomImplementationExtension.CreateDocument(AngleSharp.Dom.IImplementation,System.String,System.String,AngleSharp.Dom.IDocumentType)">
+            <summary>
+            Creates and returns an XMLDocument.
+            </summary>
+            <param name="impl">The implementation instance to extend.</param>
+            <param name="namespaceUri">
+            The namespace URI of the document to be created, or null if the
+            document doesn't belong to one.
+            </param>
+            <param name="qualifiedName">
+            The qualified name, that is an optional prefix and colon plus the
+            local root element name, of the document to be created.
+            </param>
+            <param name="doctype">
+            DocumentType of the document to be created. It defaults to null.
+            </param>
+            <returns>A new document.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Dom.Events.XmlParseEvent">
+            <summary>
+            The event that is published in case of starting XML parsing.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dom.Events.XmlParseEvent.#ctor(AngleSharp.Dom.IDocument,System.Boolean)">
+            <summary>
+            Creates a new event for starting XML parsing.
+            </summary>
+            <param name="document">The document to be filled.</param>
+            <param name="completed">Determines if parsing is done.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Dom.Events.XmlParseEvent.Document">
+            <summary>
+            Gets the document, which is to be filled.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dom.XmlDocument">
+            <summary>
+            Represents a document node that contains only XML nodes.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dom.XmlElement">
+            <summary>
+            The object representation of an XMLElement.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dom.XmlElement.ParseSubtree(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.Dom.XmlElement.Clone(AngleSharp.Dom.Document,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="T:AngleSharp.Xml.Dom.IXmlDocument">
+            <summary>
+            The interface represent an XML document.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dom.IXmlDocument.IsValid">
+            <summary>
+            Gets if the document is actually valid.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Declaration.ElementDeclaration">
+            <summary>
+            Represents the element declaration.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Declaration.ElementDeclaration.Name">
+            <summary>
+            Gets or sets the name of the element to define.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Declaration.ElementDeclaration.Entry">
+            <summary>
+            Gets or sets the definition of the element.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Declaration.ElementDeclaration.Check(AngleSharp.Dom.Element)">
+            <summary>
+            Checks the element.
+            </summary>
+            <param name="element">The element to check.</param>
+            <returns>True if everything is according to the definition, otherwise false.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Declaration.ElementContentType">
+            <summary>
+            The content type of the element definition.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementContentType.Empty">
+            <summary>
+            EMPTY
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementContentType.Any">
+            <summary>
+            ANY
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementContentType.Mixed">
+            <summary>
+            (#PCDATA|name|name|...)*
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementContentType.Children">
+            <summary>
+            ((a,b,(c?,d*),(e|f+))?,g)+
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Declaration.ElementQuantifier">
+            <summary>
+            The quantifier in the element definition.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementQuantifier.One">
+            <summary>
+            Nothing specified.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementQuantifier.ZeroOrOne">
+            <summary>
+            Questionmark specified.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementQuantifier.ZeroOrMore">
+            <summary>
+            Asterisk specified.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Declaration.ElementQuantifier.OneOrMore">
+            <summary>
+            Plus specified.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdContainer">
+            <summary>
+            The DTD container contains the whole DTD.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.IsInvalid">
+            <summary>
+            Gets if the DTD is invalid.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Parent">
+            <summary>
+            Gets or sets the XML document parent if any.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Url">
+            <summary>
+            Gets or sets the url of the container.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Root">
+            <summary>
+            Gets the root container.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Count">
+            <summary>
+            Gets the number of rules / nodes in this DTD (without the parent).
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Text">
+            <summary>
+            Gets the text of this DTD (without the parents text).
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Notations">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) notations.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Entities">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) entities.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Parameters">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) parameters.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Attributes">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) attributes.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdContainer.Elements">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) elements.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.GetEntity(System.String)">
+            <summary>
+            Gets the entity with the given name.
+            </summary>
+            <param name="name">The name of the entity.</param>
+            <returns>The entity or null if no such entity exists.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.GetParameter(System.String)">
+            <summary>
+            Gets the parameter entity with the given name.
+            </summary>
+            <param name="name">The name of the parameter.</param>
+            <returns>The entity or null if no such entity exists.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.Items(System.Func{AngleSharp.Xml.Dtd.Parser.DtdContainer,AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin{`0}})">
+            <summary>
+            Gets the enumeration over all the contained (self and parent) notations.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.Contains(System.String)">
+            <summary>
+            Checks if the given name exists in the current bin.
+            </summary>
+            <param name="name">The name to check for.</param>
+            <returns>True if such an item exists, otherwise false.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.Add(`0)">
+            <summary>
+            Adds the item to the bin if the uniqueness contraint (if set) is fulfilled.
+            </summary>
+            <param name="item">The item to add.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.Reset">
+            <summary>
+            Resets the current bin.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.GetEnumerator">
+            <summary>
+            Gets the enumerator over the items of the current bin.
+            </summary>
+            <returns>The specific enumerator.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdContainer.Bin`1.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Gets the non-specific enumerator over all the items.
+            </summary>
+            <returns>The non-specific enumerator.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdParser">
+            <summary>
+            The parser for the Document Type Definition.
+            Can be used internally and externally.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.#ctor(System.String)">
+            <summary>
+            Creates a new Dtd parser for the given (DTD) content.
+            </summary>
+            <param name="content">The DTD to parse.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.#ctor(AngleSharp.Xml.Dtd.Parser.DtdContainer,AngleSharp.Text.TextSource)">
+            <summary>
+            Creates a new Dtd parser that uses the given container
+            as the result for parsing the given source.
+            </summary>
+            <param name="container">The container to use.</param>
+            <param name="source">The source to parse.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdParser.IsInternal">
+            <summary>
+            Gets or sets if the DTD is internal.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdParser.Result">
+            <summary>
+            Gets the DtdContainer, i.e. the result of the computation.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.Parse">
+            <summary>
+            Parses the set source.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.Prolog(AngleSharp.Xml.Dtd.Parser.DtdToken)">
+            <summary>
+            Consume the given prolog token (first token to consume).
+            </summary>
+            <param name="token">The token to consume.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.Consume(AngleSharp.Xml.Dtd.Parser.DtdToken)">
+            <summary>
+            Consumes the given token.
+            </summary>
+            <param name="token">The token to consume.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.SetEncoding(AngleSharp.Text.TextSource,System.String)">
+            <summary>
+            Sets the document's encoding to the given one.
+            </summary>
+            <param name="source">The source to change.</param>
+            <param name="encoding">The encoding to use.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.AddEntity(AngleSharp.Xml.Dtd.Parser.DtdEntityToken)">
+            <summary>
+            Adds the given entity to the DTD container.
+            </summary>
+            <param name="token">The entity token to add.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdParser.GetText(System.String)">
+            <summary>
+            Gets the text included in the external source.
+            </summary>
+            <param name="url">The URL of the external source.</param>
+            <returns>The contained string.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer">
+            <summary>
+            The base tokenizer class for Document Type Definitions.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.#ctor(AngleSharp.Xml.Dtd.Parser.DtdContainer,AngleSharp.Text.TextSource)">
+            <summary>
+            Creates a new DTD tokenizer with the given source and container.
+            </summary>
+            <param name="container">The container to use.</param>
+            <param name="src">The source to inspect.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.Get">
+            <summary>
+            Scans the DTD in the doctype as specified in the
+            official XML spec and (in German) here:
+            http://www.stefanheymann.de/xml/dtdxml.htm
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDecl(System.Char)">
+            <summary>
+            The text declaration for external DTDs.
+            </summary>
+            <param name="c">The character.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDeclVersion(System.Char,AngleSharp.Xml.Dtd.Parser.DtdDeclToken)">
+            <summary>
+            Gets the version specified in the text declaration.
+            </summary>
+            <param name="c">The character.</param>
+            <param name="decl">The current declaration.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDeclBetween(System.Char,AngleSharp.Xml.Dtd.Parser.DtdDeclToken)">
+            <summary>
+            Between the version and the encoding in the text declaration.
+            </summary>
+            <param name="c">The character.</param>
+            <param name="decl">The current declaration.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDeclEncoding(System.Char,AngleSharp.Xml.Dtd.Parser.DtdDeclToken)">
+            <summary>
+            Gets the encoding specified in the text declaration.
+            </summary>
+            <param name="c">The character.</param>
+            <param name="decl">The current declaration.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDeclAfter(System.Char,AngleSharp.Xml.Dtd.Parser.DtdDeclToken)">
+            <summary>
+            After the declaration specified in the text declaration.
+            </summary>
+            <param name="c">The character.</param>
+            <param name="decl">The current declaration.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.TextDeclEnd(System.Char,AngleSharp.Xml.Dtd.Parser.DtdDeclToken)">
+            <summary>
+            Checks if the text declaration ended correctly.
+            </summary>
+            <param name="c">The character.</param>
+            <param name="decl">The current declaration.</param>
+            <returns>The token.</returns>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Content">
+            <summary>
+            The content (of the original stream).
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Next">
+            <summary>
+            The next character.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Current">
+            <summary>
+            The current character.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Push(System.String,System.String)">
+            <summary>
+            Pushes the the param entity with its text onto the stack.
+            </summary>
+            <param name="param">The param entity to use.</param>
+            <param name="text">The text to insert.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Advance">
+            <summary>
+            Advances by one character.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.Advance(System.Int32)">
+            <summary>
+            Advances by n characters.
+            </summary>
+            <param name="n">The number of characters to skip.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdPlainTokenizer.IntermediateStream.ContinuesWith(System.String)">
+            <summary>
+            Checks if the stream continues with the given word.
+            </summary>
+            <param name="word">The word to check for.</param>
+            <returns>True if it continues, otherwise false.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdTokenizer">
+            <summary>
+            The tokenizer class for Document Type Definitions.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.#ctor(AngleSharp.Xml.Dtd.Parser.DtdContainer,AngleSharp.Text.TextSource)">
+            <summary>
+            Creates a new DTD tokenizer with the given source and container.
+            </summary>
+            <param name="container">The container to use.</param>
+            <param name="src">The source to inspect.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.Content">
+            <summary>
+            Gets the parsed content.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.IsExternal">
+            <summary>
+            Gets or sets if the DTD is from an external source.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.GetElement(System.Char)">
+            <summary>
+            Gets the next found DTD element by advancing
+            and applying the rules for DTD.
+            </summary>
+            <param name="c">The current character.</param>
+            <returns>The found declaration.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.Conditional(System.Char)">
+            <summary>
+            Treats the conditional sects with respect.
+            http://www.w3.org/TR/REC-xml/#sec-condition-sect
+            </summary>
+            <param name="c">The current character.</param>
+            <returns>The evaluated token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.ProcessingStart(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.ProcessingTarget(System.Char,AngleSharp.Xml.Dtd.Parser.DtdPIToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="c">The next input character.</param>
+            <param name="pi">The processing instruction token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.ProcessingContent(System.Char,AngleSharp.Xml.Dtd.Parser.DtdPIToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="c">The next input character.</param>
+            <param name="pi">The processing instruction token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.CommentStart(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.Comment(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.CommentDash(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.CommentEnd(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.EntityDeclaration(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-entity-decl.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.AttributeDeclaration(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#attdecls.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.NotationDeclaration(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#Notations.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdTokenizer.TypeDeclaration(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#elemdecls.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdTokenType">
+            <summary>
+            An enumation of all possible tokens.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.TextDecl">
+            <summary>
+            The prolog text declaration token (for external subsets).
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.Element">
+            <summary>
+            The element token for element definitions.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.Attribute">
+            <summary>
+            The attribute token for attribute definitions.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.Notation">
+            <summary>
+            The notation token for notation definitions.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.Entity">
+            <summary>
+            The entity token for entity definitions.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.Comment">
+            <summary>
+            The comment token to mark a comment.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.ProcessingInstruction">
+            <summary>
+            The processing instruction token to mark a PI.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Dtd.Parser.DtdTokenType.EOF">
+            <summary>
+            The End-Of-File token to mark the end.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdAttributeToken.#ctor">
+            <summary>
+            Creates a new entity token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdAttributeToken.Attributes">
+            <summary>
+            Gets the list of attributes defined.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdCommentToken.Data">
+            <summary>
+            Gets or sets the supplied data.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdElementToken.#ctor">
+            <summary>
+            Creates a new entity token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdEndOfFileToken.#ctor">
+            <summary>
+            Creates a new EOF token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdEntityToken.#ctor">
+            <summary>
+            Creates a new entity token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Dtd.Parser.DtdNotationToken.#ctor">
+            <summary>
+            Creates a new entity token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdNotationToken.IsExternalId">
+            <summary>
+            Gets if the declaration is an external id (the system identifier
+            has been set directly or indirectly).
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdNotationToken.IsPublicId">
+            <summary>
+            Gets if the declaration is an external id (the system identifier
+            has been set directly or indirectly).
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdNotationToken.PublicIdentifier">
+            <summary>
+            Gets or sets the value of the public identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdNotationToken.SystemIdentifier">
+            <summary>
+            Gets or sets the value of the system identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdPIToken.Target">
+            <summary>
+            Gets or sets the target data.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdPIToken.Content">
+            <summary>
+            Gets or sets the content data.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Dtd.Parser.DtdToken">
+            <summary>
+            The abstract base class of any DTD token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Dtd.Parser.DtdToken.EOF">
+            <summary>
+            Gets the end of file token.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.MarkupFormatterExtensions">
+            <summary>
+            Extensions for the markup formattable elements.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.MarkupFormatterExtensions.ToXml(AngleSharp.IMarkupFormattable)">
+            <summary>
+            Returns the serialization of the object model guided by the
+            XML markup formatter.
+            </summary>
+            <param name="markup">The markup to serialize.</param>
+            <returns>The source code snippet.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.MarkupFormatterExtensions.ToXml(AngleSharp.IMarkupFormattable,System.IO.TextWriter)">
+            <summary>
+            Serializes the object model guided by the XML markup formatter.
+            </summary>
+            <param name="markup">The markup to serialize.</param>
+            <param name="writer">The output target of the serialization.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.MarkupFormatterExtensions.ToMarkup(AngleSharp.IMarkupFormattable)">
+            <summary>
+            Returns the serialization of the object model guided by the
+            auto selected (XML, XHTML, HTML) markup formatter.
+            </summary>
+            <param name="markup">The markup to serialize.</param>
+            <returns>The source code snippet.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.MarkupFormatterExtensions.ToMarkup(AngleSharp.IMarkupFormattable,System.IO.TextWriter)">
+            <summary>
+            Serializes the object model guided by the auto selected (XML,
+            XHTML, HTML) markup formatter.
+            </summary>
+            <param name="markup">The markup to serialize.</param>
+            <param name="writer">The output target of the serialization.</param>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.IXmlParser">
+            <summary>
+            Represents the interface of an XML parser.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseDocument(System.String)">
+            <summary>
+            Parses the string and returns the result.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseDocument(System.IO.Stream)">
+            <summary>
+            Parses the stream and returns the result.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseFragment(System.String,AngleSharp.Dom.IElement)">
+            <summary>
+            Parses the string and returns the result.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseDocumentAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Parses the string asynchronously with option to cancel.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseDocumentAsync(System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Parses the stream asynchronously with option to cancel.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.IXmlParser.ParseDocumentAsync(AngleSharp.Dom.IDocument,System.Threading.CancellationToken)">
+            <summary>
+            Populates the given document asynchronously.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlCDataToken">
+            <summary>
+            The CData token that contains a sequence of raw characters.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCDataToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new CData token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCDataToken.#ctor(AngleSharp.Text.TextPosition,System.String)">
+            <summary>
+            Creates a new CData token with the supplied data.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlCDataToken.Data">
+            <summary>
+            Gets or sets the supplied data.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlCharacterToken">
+            <summary>
+            The character token that contains a single character.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCharacterToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new character token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCharacterToken.#ctor(AngleSharp.Text.TextPosition,System.String)">
+            <summary>
+            Creates a new character token with the given character.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlCharacterToken.IsIgnorable">
+            <summary>
+            Gets if the token only contains spaces.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlCharacterToken.Data">
+            <summary>
+            Gets the data of the character token.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlCommentToken">
+            <summary>
+            The token that is used for comments.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCommentToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new comment token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlCommentToken.#ctor(AngleSharp.Text.TextPosition,System.String)">
+            <summary>
+            Creates a new comment token with the supplied data.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlCommentToken.Data">
+            <summary>
+            Gets or sets the supplied data.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken">
+            <summary>
+            Represents the XML declaration &lt;?xml ...?&gt;
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new XML declaration token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken.IsEncodingMissing">
+            <summary>
+            Gets if the encoding value has been set.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken.Version">
+            <summary>
+            Gets or sets the version value.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken.Encoding">
+            <summary>
+            Gets or sets the encoding value.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken.Standalone">
+            <summary>
+            Gets or sets the standalone value.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken">
+            <summary>
+            The DOCTYPE token.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new DOCTYPE token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.IsNameMissing">
+            <summary>
+            Gets the state of the name.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.IsPublicIdentifierMissing">
+            <summary>
+            Gets the state of the public identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.IsSystemIdentifierMissing">
+            <summary>
+            Gets the state of the system identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.Name">
+            <summary>
+            Gets or sets the name of the DOCTYPE token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.PublicIdentifier">
+            <summary>
+            Gets or sets the value of the public identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.SystemIdentifier">
+            <summary>
+            Gets or sets the value of the system identifier.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken.InternalSubset">
+            <summary>
+            Gets or sets the internal subset.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlEndOfFileToken">
+            <summary>
+            Represents the final token to mark the EOF.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlEndOfFileToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new EOF token.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlPIToken">
+            <summary>
+            The processing instruction token that defines a processing instruction.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlPIToken.#ctor(AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new processing instruction token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlPIToken.Target">
+            <summary>
+            Gets or sets the target data.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlPIToken.Content">
+            <summary>
+            Gets or sets the content data.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlTagToken">
+            <summary>
+            Class for StartTagToken and EndTagToken.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlTagToken.#ctor(AngleSharp.Xml.Parser.XmlTokenType,AngleSharp.Text.TextPosition)">
+            <summary>
+            Sets the default values.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlTagToken.IsSelfClosing">
+            <summary>
+            Gets or sets the state of the self-closing flag.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlTagToken.Name">
+            <summary>
+            Gets or sets the name of the tag.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlTagToken.Attributes">
+            <summary>
+            Gets the list of attributes.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlTagToken.AddAttribute(System.String)">
+            <summary>
+            Adds a new attribute to the list of attributes. The value will
+            be set to an empty string.
+            </summary>
+            <param name="name">The name of the attribute.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlTagToken.AddAttribute(System.String,System.String)">
+            <summary>
+            Adds a new attribute to the list of attributes.
+            </summary>
+            <param name="name">The name of the attribute.</param>
+            <param name="value">The value of the attribute.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlTagToken.SetAttributeValue(System.String)">
+            <summary>
+            Sets the value of the last added attribute.
+            </summary>
+            <param name="value">The value to set.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.Tokens.XmlTagToken.GetAttribute(System.String)">
+            <summary>
+            Gets the value of the attribute with the given name or an empty
+            string if the attribute is not available.
+            </summary>
+            <param name="name">The name of the attribute.</param>
+            <returns>The value of the attribute.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.Tokens.XmlToken">
+            <summary>
+            The abstract base class of any XML token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlToken.IsIgnorable">
+            <summary>
+            Gets if the token can be ignored.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlToken.Type">
+            <summary>
+            Gets the type of the token.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.Tokens.XmlToken.Position">
+            <summary>
+            Gets the position of the token.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlDomBuilder">
+            <summary>
+            Represents the Tree construction as specified in the official W3C
+            specification for XML:
+            http://www.w3.org/TR/REC-xml/
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.#ctor(AngleSharp.Dom.Document)">
+            <summary>
+            Creates a new instance of the XML parser.
+            </summary>
+            <param name="document">The document instance to be filled.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlDomBuilder.IsStandalone">
+            <summary>
+            Gets if the document was detected to be standalone.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlDomBuilder.CurrentNode">
+            <summary>
+            Gets the current node.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.ParseAsync(AngleSharp.Xml.Parser.XmlParserOptions,System.Threading.CancellationToken)">
+            <summary>
+            Parses the given source asynchronously and creates the document.
+            </summary>
+            <param name="options">The options to use for parsing.</param>
+            <param name="cancelToken">The cancellation token to use.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.Parse(AngleSharp.Xml.Parser.XmlParserOptions)">
+            <summary>
+            Parses the given source and creates the document.
+            </summary>
+            <param name="options">The options to use for parsing.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.ParseFragment(AngleSharp.Xml.Parser.XmlParserOptions,AngleSharp.Dom.Element)">
+            <summary>
+            Switches to the fragment algorithm with the specified context
+            element. Then parses the given source and creates the document.
+            </summary>
+            <param name="options">The options to use for parsing.</param>
+            <param name="context">
+            The context element where the algorithm is applied to.
+            </param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.Consume(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            Consumes a token and processes it.
+            </summary>
+            <param name="token">The token to consume.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.Initial(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            The initial state. Expects an XML declaration.
+            </summary>
+            <param name="token">The consumed token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.BeforeDoctype(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            Before any doctype - still in the prolog. No declaration
+            allowed.
+            </summary>
+            <param name="token">The consumed token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.InMisc(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            In the body state - no doctypes and declarations allowed.
+            </summary>
+            <param name="token">The consumed token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.InBody(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            In the body state - no doctypes and declarations allowed.
+            </summary>
+            <param name="token">The consumed token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlDomBuilder.AfterBody(AngleSharp.Xml.Parser.Tokens.XmlToken)">
+            <summary>
+            After the body state - nothing except Comment PI S allowed.
+            </summary>
+            <param name="token">The consumed token.</param>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParseError">
+            <summary>
+            A collection of error codes.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.EOF">
+            <summary>
+            Unexpected end of file detected.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.UndefinedMarkupDeclaration">
+            <summary>
+            Undefined markup declaration found.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.CharacterReferenceInvalidNumber">
+            <summary>
+            Character reference is an invalid number.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.CharacterReferenceInvalidCode">
+            <summary>
+            Character reference is an invalid code.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.CharacterReferenceNotTerminated">
+            <summary>
+            Character reference is not terminated by a semicolon.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DoctypeInvalid">
+            <summary>
+            The given doctype tag is invalid.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.TagClosingMismatch">
+            <summary>
+            The closing tag and the currently open tag do not match.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlMissingRoot">
+            <summary>
+            (0x200) Missing root element.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlDoctypeAfterContent">
+            <summary>
+            (0x201) Document type declaration after content.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlDeclarationInvalid">
+            <summary>
+            (0x202) Invalid XML declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlDeclarationMisplaced">
+            <summary>
+            (0x203) XML declaration not at beginning of document.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlDeclarationVersionUnsupported">
+            <summary>
+            (0x204) The given version number is not supported.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidStartTag">
+            <summary>
+            (0x205) Invalid start-tag.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidEndTag">
+            <summary>
+            (0x206) Invalid end-tag.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlLtInAttributeValue">
+            <summary>
+            (0x207) Well-formedness constraint: No &lt; in Attribute Values.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlUniqueAttribute">
+            <summary>
+            (0x208) Well-formedness constraint: Unique Att Spec.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidPI">
+            <summary>
+            (0x209) Invalid processing instruction.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlValidationFailed">
+            <summary>
+            (0x210) XML validation for the current document failed.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidCharData">
+            <summary>
+            (0x211) XML invalid character data detected.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidName">
+            <summary>
+            (0x212) XML invalid name found.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidPubId">
+            <summary>
+            (0x213) XML invalid public identifier character.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidAttribute">
+            <summary>
+            (0x214) XML invalid attribute seen.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.XmlInvalidComment">
+            <summary>
+            (0x215) XML invalid comment detected.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdInvalid">
+            <summary>
+            (0x300) Invalid document type declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdPEReferenceInvalid">
+            <summary>
+            (0x301) Invalid parameter entity reference.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdNameInvalid">
+            <summary>
+            (0x302) Invalid name in entity declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdDeclInvalid">
+            <summary>
+            (0x303) Declaration invalid.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdTypeInvalid">
+            <summary>
+            (0x304) Invalid element type declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdEntityInvalid">
+            <summary>
+            (0x305) Invalid entity declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdAttListInvalid">
+            <summary>
+            (0x306) Invalid element name in attribute-list declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdTypeContent">
+            <summary>
+            (0x307) Invalid content specification in element type declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdUniqueElementViolated">
+            <summary>
+            (0x308) An element type must not be declared more than once.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdConditionInvalid">
+            <summary>
+            (0x309) The DTD conditional section is invalid.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdTextDeclInvalid">
+            <summary>
+            (0x310) The given text declaration contains errors.s
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdNotationInvalid">
+            <summary>
+            (0x311) The notation declaration is invalid.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlParseError.DtdPEReferenceRecursion">
+            <summary>
+            (0x312) No parameter reference recursion allowed.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParseErrorExtensions">
+            <summary>
+            Extensions for the parse error enumeration.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParseErrorExtensions.At(AngleSharp.Xml.Parser.XmlParseError,AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates the XmlParseException at the given position.
+            </summary>
+            <param name="code">The code for the exception.</param>
+            <param name="position">The position of the error.</param>
+            <returns>The new exception object.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParseErrorExtensions.GetCode(AngleSharp.Xml.Parser.XmlParseError)">
+            <summary>
+            Retrieves a number describing the error of a given error code.
+            </summary>
+            <param name="code">A specific error code.</param>
+            <returns>The code of the error.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParseException">
+            <summary>
+            Exception that is thrown if an ill-formatted XML document is parsed.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParseException.#ctor(System.Int32,System.String,AngleSharp.Text.TextPosition)">
+            <summary>
+            Creates a new XmlParseException.
+            </summary>
+            <param name="code">The provided error code.</param>
+            <param name="message">The associated error message.</param>
+            <param name="position">The position in the source.</param>
+            
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParseException.Position">
+            <summary>
+            Gets the position of the error.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParseException.Code">
+            <summary>
+            Gets the provided error code.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParser">
+            <summary>
+            Creates an instance of the XML parser front-end.
+            </summary>
+        </member>
+        <member name="E:AngleSharp.Xml.Parser.XmlParser.Parsing">
+            <summary>
+            Fired when the XML parser is starting.
+            </summary>
+        </member>
+        <member name="E:AngleSharp.Xml.Parser.XmlParser.Parsed">
+            <summary>
+            Fired when the XML parser is finished.
+            </summary>
+        </member>
+        <member name="E:AngleSharp.Xml.Parser.XmlParser.Error">
+            <summary>
+            Fired when a XML parse error is encountered.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.#ctor">
+            <summary>
+            Creates a new parser with the default options and context.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.#ctor(AngleSharp.Xml.Parser.XmlParserOptions)">
+            <summary>
+            Creates a new parser with the custom options.
+            </summary>
+            <param name="options">The options to use.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.#ctor(AngleSharp.IBrowsingContext)">
+            <summary>
+            Creates a new parser with the custom configuration.
+            </summary>
+            <param name="context">The context to use.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.#ctor(AngleSharp.Xml.Parser.XmlParserOptions,AngleSharp.IBrowsingContext)">
+            <summary>
+            Creates a new parser with the custom options and the given context.
+            </summary>
+            <param name="options">The options to use.</param>
+            <param name="context">The context to use.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParser.Options">
+            <summary>
+            Gets the specified options.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParser.Context">
+            <summary>
+            Gets the specified context.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.ParseDocument(System.String)">
+            <summary>
+            Parses the string and returns the result.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.ParseDocument(System.IO.Stream)">
+            <summary>
+            Parses the stream and returns the result.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.ParseDocumentAsync(System.String,System.Threading.CancellationToken)">
+            <summary>
+            Parses the string asynchronously with option to cancel.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.ParseDocumentAsync(System.IO.Stream,System.Threading.CancellationToken)">
+            <summary>
+            Parses the stream asynchronously with option to cancel.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParser.ParseFragment(System.String,AngleSharp.Dom.IElement)">
+            <summary>
+            Parses the string and returns the result.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParserExtensions">
+            <summary>
+            Extensions for the IXmlParser instances.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParserExtensions.ParseDocumentAsync(AngleSharp.Xml.Parser.IXmlParser,System.String)">
+            <summary>
+            Parses the string asynchronously.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParserExtensions.ParseDocumentAsync(AngleSharp.Xml.Parser.IXmlParser,System.IO.Stream)">
+            <summary>
+            Parses the stream asynchronously.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlParserExtensions.ParseDocumentAsync(AngleSharp.Xml.Parser.IXmlParser,AngleSharp.Dom.IDocument)">
+            <summary>
+            Populates the given document asynchronously.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlParserOptions">
+            <summary>
+            Contains a number of options for the XML parser.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParserOptions.IsSuppressingErrors">
+            <summary>
+            Gets or sets if errors should be surpressed. This way the document
+            will be parsed for sure, but may look weird.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParserOptions.IsKeepingSourceReferences">
+            <summary>
+            Gets or sets if references to the original source document
+            should be kept on the elements in form of their tokens.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlParserOptions.OnCreated">
+            <summary>
+            Gets or sets the callback once a new element was created.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlTokenizer">
+            <summary>
+            Performs the tokenization of the source code. Most of
+            the information is taken from http://www.w3.org/TR/REC-xml/.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.#ctor(AngleSharp.Text.TextSource,AngleSharp.Dom.IEntityProvider)">
+            <summary>
+            Creates a new tokenizer for XML documents.
+            </summary>
+            <param name="source">The source code manager.</param>
+            <param name="resolver">The entity resolver to use.</param>
+        </member>
+        <member name="P:AngleSharp.Xml.Parser.XmlTokenizer.IsSuppressingErrors">
+            <summary>
+            Gets or sets if some errors should be suppressed.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.Get">
+            <summary>
+            Gets the next available token.
+            </summary>
+            <returns>The next available token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.Data(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-logical-struct.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CheckNextCharacter">
+            <summary>
+            Checks if the character sequence is equal to ]]&gt;.
+            </summary>
+            <returns>The given character.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CData">
+            <summary>
+            See http://www.w3.org/TR/REC-xml/#NT-CData.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CharacterReference">
+            <summary>
+            Called once an &amp; character is being seen.
+            </summary>
+            <returns>The entity token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.TagOpen">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-starttags.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.TagEnd">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#dt-etag.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.TagName(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Name.
+            </summary>
+            <param name="tag">The current tag token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.TagSelfClosing(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#d0e2480.
+            </summary>
+            <param name="tag">The current tag token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.MarkupDeclaration">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#dt-markup.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationStart">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-XMLDecl.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationVersionAfterName(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-VersionInfo.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationVersionBeforeValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-VersionInfo.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationVersionValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken,System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-VersionInfo.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+            <param name="quote">The quote character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationAfterVersion(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-VersionNum.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationEncodingAfterName(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-EncodingDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationEncodingBeforeValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-EncodingDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationEncodingValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken,System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-EncodingDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+            <param name="quote">The quote character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationAfterEncoding(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-SDDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationStandaloneAfterName(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-SDDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationStandaloneBeforeValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-SDDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationStandaloneValue(AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken,System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-SDDecl.
+            </summary>
+            <param name="decl">The current declaration token.</param>
+            <param name="quote">The quote character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DeclarationEnd(System.Char,AngleSharp.Xml.Parser.Tokens.XmlDeclarationToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-XMLDecl.
+            </summary>
+            <param name="c">The next input character.</param>
+            <param name="decl">The current declaration token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.Doctype">
+            <summary>
+            See 8.2.4.52 DOCTYPE state
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeNameBefore">
+            <summary>
+            See 8.2.4.53 Before DOCTYPE name state
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeName(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.54 DOCTYPE name state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeNameAfter(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.55 After DOCTYPE name state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypePublic(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.56 After DOCTYPE public keyword state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypePublicIdentifierValue(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken,System.Char)">
+            <summary>
+            See 8.2.4.58 DOCTYPE public identifier (double-quoted) state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <param name="quote">The closing character.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypePublicIdentifierAfter(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.60 After DOCTYPE public identifier state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeBetween(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.61 Between DOCTYPE public and system identifiers state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeSystem(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.62 After DOCTYPE system keyword state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeSystemIdentifierValue(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken,System.Char)">
+            <summary>
+            See 8.2.4.64 DOCTYPE system identifier (double-quoted) state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <param name="quote">The quote character.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeSystemIdentifierAfter(AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            See 8.2.4.66 After DOCTYPE system identifier state
+            </summary>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.DoctypeAfter(System.Char,AngleSharp.Xml.Parser.Tokens.XmlDoctypeToken)">
+            <summary>
+            The doctype finalizer.
+            </summary>
+            <param name="c">The next input character.</param>
+            <param name="doctype">The current doctype token.</param>
+            <returns>The emitted token.</returns>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.AttributeBeforeName(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Attribute.
+            </summary>
+            <param name="tag">The current tag token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.AttributeName(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Attribute.
+            </summary>
+            <param name="tag">The current tag token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.AttributeBeforeValue(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Attribute.
+            </summary>
+            <param name="tag">The current tag token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.AttributeValue(AngleSharp.Xml.Parser.Tokens.XmlTagToken,System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Attribute.
+            </summary>
+            <param name="tag">The current tag token.</param>
+            <param name="quote">The quote character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.AttributeAfterValue(AngleSharp.Xml.Parser.Tokens.XmlTagToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#NT-Attribute.
+            </summary>
+            <param name="tag">The current tag token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.ProcessingStart(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.ProcessingTarget(System.Char,AngleSharp.Xml.Parser.Tokens.XmlPIToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="c">The next input character.</param>
+            <param name="pi">The processing instruction token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.ProcessingContent(AngleSharp.Xml.Parser.Tokens.XmlPIToken)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-pi.
+            </summary>
+            <param name="pi">The processing instruction token.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CommentStart">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.Comment(System.Char)">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+            <param name="c">The next input character.</param>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CommentDash">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.Parser.XmlTokenizer.CommentEnd">
+            <summary>
+            More http://www.w3.org/TR/REC-xml/#sec-comments.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlTokenType">
+            <summary>
+            An enumation of all possible tokens.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.Doctype">
+            <summary>
+            The DOCTYPE token.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.Declaration">
+            <summary>
+            The XML declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.StartTag">
+            <summary>
+            The start tag token to mark open tags.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.EndTag">
+            <summary>
+            The end tag token to mark ending tags.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.Comment">
+            <summary>
+            The comment tag to mark comments.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.CData">
+            <summary>
+            The CData token for such regions.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.Character">
+            <summary>
+            The character token to mark a single character.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.CharacterReference">
+            <summary>
+            A charref token to mark character references.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.ProcessingInstruction">
+            <summary>
+            A processing instruction token to mark such elements.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTokenType.EndOfFile">
+            <summary>
+            The End-Of-File token to mark the end.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.Parser.XmlTreeMode">
+            <summary>
+            Possible insertation mode values.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTreeMode.Initial">
+            <summary>
+            The initial mode - waiting for the XML declaration.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTreeMode.Prolog">
+            <summary>
+            The prolog (before the doctype or any element).
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTreeMode.Misc">
+            <summary>
+            The misc mode (e.g. between doctype and first element).
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTreeMode.Body">
+            <summary>
+            The body (after the doctype or first element).
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.Parser.XmlTreeMode.After">
+            <summary>
+            The misc mode (after root).
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Xml.XmlEntityProvider">
+            <summary>
+            Represents the list of all Xml entities.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.XmlEntityProvider.Resolver">
+            <summary>
+            Gets the instance to resolve entities.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.XmlEntityProvider.GetSymbol(System.String)">
+            <summary>
+            Gets a symbol specified by its entity name.
+            </summary>
+            <param name="name">The name of the entity in the XML code.</param>
+            <returns>The string with the symbol or null.</returns>
+        </member>
+        <member name="T:AngleSharp.Xml.XmlMarkupFormatter">
+            <summary>
+            Represents the standard XML markup formatter.
+            </summary>
+        </member>
+        <member name="F:AngleSharp.Xml.XmlMarkupFormatter.Instance">
+            <summary>
+            An instance of the XmlMarkupFormatter.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Xml.XmlMarkupFormatter.IsAlwaysSelfClosing">
+            <summary>
+            Gets or sets if empty elements should always be considered self-closing.
+            Otherwise, requires the element to have a self-closing flag.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.CloseTag(AngleSharp.Dom.IElement,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.Comment(AngleSharp.Dom.IComment)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.Doctype(AngleSharp.Dom.IDocumentType)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.OpenTag(AngleSharp.Dom.IElement,System.Boolean)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.Processing(AngleSharp.Dom.IProcessingInstruction)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.LiteralText(AngleSharp.Dom.ICharacterData)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.Text(AngleSharp.Dom.ICharacterData)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.Xml.XmlMarkupFormatter.EscapeText(System.String)">
+            <summary>
+            Escapes the given text by replacing special characters with their
+            XML entity (only applies to ampersands and opening angle brackets).
+            </summary>
+            <param name="content">The string to alter.</param>
+            <returns>The altered string.</returns>
+        </member>
+        <member name="T:AngleSharp.Svg.Dom.SvgDocument">
+            <summary>
+            Represents a document node that contains only SVG nodes.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.Svg.Dom.ISvgDocument">
+            <summary>
+            Serves as an entry point to the content of an SVG document.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.Svg.Dom.ISvgDocument.RootElement">
+            <summary>
+            Gets the root svg element in the document hierachy.
+            </summary>
+        </member>
+        <member name="T:AngleSharp.XmlConfigurationExtensions">
+            <summary>
+            XML related extensions for the configuration.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.XmlConfigurationExtensions.WithXml(AngleSharp.IConfiguration)">
+            <summary>
+            Adds XML capabilities to the configuration.
+            </summary>
+            <param name="configuration">The configuration to extend.</param>
+            <returns>The new configuration.</returns>
+        </member>
+    </members>
+</doc>

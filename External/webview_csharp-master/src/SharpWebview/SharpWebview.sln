@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpWebview", "SharpWebview.csproj", "{E7FE7147-A0D1-4205-8BC6-7AF05A849071}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7FE7147-A0D1-4205-8BC6-7AF05A849071}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7FE7147-A0D1-4205-8BC6-7AF05A849071}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7FE7147-A0D1-4205-8BC6-7AF05A849071}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7FE7147-A0D1-4205-8BC6-7AF05A849071}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5BF0F5E-15AD-4089-A06C-B6C5E2BB36D9}
+	EndGlobalSection
+EndGlobal

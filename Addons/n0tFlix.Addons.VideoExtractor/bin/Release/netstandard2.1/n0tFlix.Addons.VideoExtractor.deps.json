@@ -9,7 +9,14 @@
     ".NETStandard,Version=v2.1/": {
       "n0tFlix.Addons.VideoExtractor/1.0.0": {
         "dependencies": {
-          "Jellyfin.Common": "10.6.0"
+          "AngleSharp": "1.0.0",
+          "AngleSharp.Css": "1.0.0",
+          "AngleSharp.Io": "1.0.0",
+          "AngleSharp.Js": "1.0.0",
+          "Jellyfin.Common": "10.6.0",
+          "Microsoft.CSharp": "4.7.0",
+          "Newtonsoft.Json": "12.0.3",
+          "PlaywrightSharp": "0.152.0"
         },
         "runtime": {
           "n0tFlix.Addons.VideoExtractor.dll": {}
@@ -56,6 +63,17 @@
           }
         }
       },
+      "Macross.Json.Extensions/1.5.0": {
+        "dependencies": {
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Macross.Json.Extensions.dll": {
+            "assemblyVersion": "1.5.0.20143",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
@@ -94,6 +112,14 @@
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll": {
             "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {
+            "assemblyVersion": "4.0.5.0",
             "fileVersion": "4.700.19.56404"
           }
         }
@@ -326,6 +352,29 @@
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "PlaywrightSharp/0.152.0": {
+        "dependencies": {
+          "Esprima": "2.0.0-beta-0",
+          "Macross.Json.Extensions": "1.5.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Extensions.Logging": "3.1.6",
+          "System.Text.Json": "4.7.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PlaywrightSharp.dll": {
+            "assemblyVersion": "0.152.0.0",
+            "fileVersion": "0.152.0.0"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.0.2",
@@ -442,6 +491,17 @@
           }
         }
       },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.7.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
       "System.Text.Encodings.Web/4.7.1": {
         "runtime": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
@@ -477,6 +537,52 @@
             "fileVersion": "4.6.28619.1"
           }
         }
+      },
+      "AngleSharp/1.0.0": {
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "runtime": {
+          "AngleSharp.dll": {}
+        }
+      },
+      "AngleSharp.Css/1.0.0": {
+        "dependencies": {
+          "AngleSharp": "1.0.0"
+        },
+        "runtime": {
+          "AngleSharp.Css.dll": {}
+        }
+      },
+      "AngleSharp.Io/1.0.0": {
+        "dependencies": {
+          "AngleSharp": "1.0.0"
+        },
+        "runtime": {
+          "AngleSharp.Io.dll": {}
+        }
+      },
+      "AngleSharp.Js/1.0.0": {
+        "dependencies": {
+          "AngleSharp": "1.0.0",
+          "Jint": "1.0.0"
+        },
+        "runtime": {
+          "AngleSharp.Js.dll": {}
+        }
+      },
+      "Esprima/2.0.0-beta-0": {
+        "runtime": {
+          "Esprima.dll": {}
+        }
+      },
+      "Jint/1.0.0": {
+        "dependencies": {
+          "Esprima": "2.0.0-beta-0"
+        },
+        "runtime": {
+          "Jint.dll": {}
+        }
       }
     }
   },
@@ -507,6 +613,13 @@
       "path": "jellyfin.model/10.6.0",
       "hashPath": "jellyfin.model.10.6.0.nupkg.sha512"
     },
+    "Macross.Json.Extensions/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-00EVZg73Zn1Ai55QXxmxD1qEqLCxx1QKGSyTfotkYgNiMnXtiJwZgqSCOxZp35kCsk9D+m1NEbRWN0vSW6THLQ==",
+      "path": "macross.json.extensions/1.5.0",
+      "hashPath": "macross.json.extensions.1.5.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -534,6 +647,13 @@
       "sha512": "sha512-J2G1k+u5unBV+aYcwxo94ip16Rkp65pgWFb0R6zwJipzWNMgvqlWeuI7/+R+e8bob66LnSG+llLJ+z8wI94cHg==",
       "path": "microsoft.bcl.hashcode/1.1.0",
       "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.Sqlite.Core/3.1.6": {
       "type": "package",
@@ -696,6 +816,20 @@
       "path": "microsoft.netcore.targets/1.1.0",
       "hashPath": "microsoft.netcore.targets.1.1.0.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "PlaywrightSharp/0.152.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k0KoCnzbEpdE0WuuREPYGCpDB48D1c0lmIWCcsDV2C7yIrEtOsharHdQIZEjuOMKGjDxju08x/DzJUKMQAQvYw==",
+      "path": "playwrightsharp/0.152.0",
+      "hashPath": "playwrightsharp.0.152.0.nupkg.sha512"
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
       "type": "package",
       "serviceable": true,
@@ -787,6 +921,13 @@
       "path": "system.runtime.compilerservices.unsafe/4.7.1",
       "hashPath": "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512"
     },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "hashPath": "system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    },
     "System.Text.Encodings.Web/4.7.1": {
       "type": "package",
       "serviceable": true,
@@ -807,6 +948,36 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    },
+    "AngleSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp.Css/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp.Io/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AngleSharp.Js/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Esprima/2.0.0-beta-0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Jint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -46,6 +46,18 @@
           "lib/netstandard2.1/MediaBrowser.Model.dll": {}
         }
       },
+      "Macross.Json.Extensions/1.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Macross.Json.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Macross.Json.Extensions.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -90,6 +102,15 @@
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.HashCode.dll": {}
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/Microsoft.CSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.CSharp.dll": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/3.1.6": {
@@ -370,6 +391,31 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PlaywrightSharp/0.152.0": {
+        "type": "package",
+        "dependencies": {
+          "Esprima": "1.0.1270",
+          "Macross.Json.Extensions": "1.5.0",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
+          "Microsoft.Extensions.Logging": "3.1.1",
+          "System.Text.Json": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/PlaywrightSharp.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/PlaywrightSharp.dll": {}
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
         "type": "package",
         "dependencies": {
@@ -562,6 +608,24 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
+      "System.Text.Encoding.CodePages/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Text.Encodings.Web/4.7.1": {
         "type": "package",
         "compile": {
@@ -599,6 +663,82 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "AngleSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "System.Text.Encoding.CodePages": "4.5.0"
+        },
+        "compile": {
+          "bin/placeholder/AngleSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AngleSharp.dll": {}
+        }
+      },
+      "AngleSharp.Css/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AngleSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AngleSharp.Css.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AngleSharp.Css.dll": {}
+        }
+      },
+      "AngleSharp.Io/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AngleSharp": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AngleSharp.Io.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AngleSharp.Io.dll": {}
+        }
+      },
+      "AngleSharp.Js/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "AngleSharp": "1.0.0",
+          "Jint": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AngleSharp.Js.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AngleSharp.Js.dll": {}
+        }
+      },
+      "Esprima/2.0.0-beta-0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Esprima.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Esprima.dll": {}
+        }
+      },
+      "Jint/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Esprima": "2.0.0-beta-0"
+        },
+        "compile": {
+          "bin/placeholder/Jint.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Jint.dll": {}
         }
       }
     }
@@ -645,6 +785,21 @@
         "lib/netstandard2.0/MediaBrowser.Model.xml",
         "lib/netstandard2.1/MediaBrowser.Model.dll",
         "lib/netstandard2.1/MediaBrowser.Model.xml"
+      ]
+    },
+    "Macross.Json.Extensions/1.5.0": {
+      "sha512": "00EVZg73Zn1Ai55QXxmxD1qEqLCxx1QKGSyTfotkYgNiMnXtiJwZgqSCOxZp35kCsk9D+m1NEbRWN0vSW6THLQ==",
+      "type": "package",
+      "path": "macross.json.extensions/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Macross.Json.Extensions.dll",
+        "lib/netstandard2.0/Macross.Json.Extensions.xml",
+        "lib/netstandard2.1/Macross.Json.Extensions.dll",
+        "lib/netstandard2.1/Macross.Json.Extensions.xml",
+        "macross.json.extensions.1.5.0.nupkg.sha512",
+        "macross.json.extensions.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
@@ -721,6 +876,75 @@
         "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll",
         "ref/netstandard2.0/Microsoft.Bcl.HashCode.dll",
         "ref/netstandard2.1/Microsoft.Bcl.HashCode.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "type": "package",
+      "path": "microsoft.csharp/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/netcore50/Microsoft.CSharp.dll",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.3/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.dll",
+        "lib/netstandard2.0/Microsoft.CSharp.xml",
+        "lib/portable-net45+win8+wp8+wpa81/_._",
+        "lib/uap10.0.16299/_._",
+        "lib/win8/_._",
+        "lib/wp80/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "microsoft.csharp.4.7.0.nupkg.sha512",
+        "microsoft.csharp.nuspec",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/netcore50/Microsoft.CSharp.dll",
+        "ref/netcore50/Microsoft.CSharp.xml",
+        "ref/netcore50/de/Microsoft.CSharp.xml",
+        "ref/netcore50/es/Microsoft.CSharp.xml",
+        "ref/netcore50/fr/Microsoft.CSharp.xml",
+        "ref/netcore50/it/Microsoft.CSharp.xml",
+        "ref/netcore50/ja/Microsoft.CSharp.xml",
+        "ref/netcore50/ko/Microsoft.CSharp.xml",
+        "ref/netcore50/ru/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hans/Microsoft.CSharp.xml",
+        "ref/netcore50/zh-hant/Microsoft.CSharp.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/Microsoft.CSharp.dll",
+        "ref/netstandard1.0/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/de/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/es/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/fr/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/it/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ja/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ko/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/ru/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hans/Microsoft.CSharp.xml",
+        "ref/netstandard1.0/zh-hant/Microsoft.CSharp.xml",
+        "ref/netstandard2.0/Microsoft.CSharp.dll",
+        "ref/netstandard2.0/Microsoft.CSharp.xml",
+        "ref/portable-net45+win8+wp8+wpa81/_._",
+        "ref/uap10.0.16299/_._",
+        "ref/win8/_._",
+        "ref/wp80/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1081,6 +1305,50 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "PlaywrightSharp/0.152.0": {
+      "sha512": "k0KoCnzbEpdE0WuuREPYGCpDB48D1c0lmIWCcsDV2C7yIrEtOsharHdQIZEjuOMKGjDxju08x/DzJUKMQAQvYw==",
+      "type": "package",
+      "path": "playwrightsharp/0.152.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/PlaywrightSharp.dll",
+        "lib/netstandard2.0/PlaywrightSharp.xml",
+        "playwrightsharp.0.152.0.nupkg.sha512",
+        "playwrightsharp.nuspec"
       ]
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.0.2": {
@@ -1588,6 +1856,54 @@
         "version.txt"
       ]
     },
+    "System.Text.Encoding.CodePages/4.5.0": {
+      "sha512": "S0wEUiKcLvRlkFUXca8uio1UQ5bYQzYgOmOKtCqaBQC3GR9AJjh43otcM32IGsAyvadFTaAMw9Irm6dS4Evfng==",
+      "type": "package",
+      "path": "system.text.encoding.codepages/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Text.Encoding.CodePages.dll",
+        "lib/net461/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard1.3/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/de/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/es/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/fr/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/it/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ja/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ko/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/ru/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hans/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard1.3/zh-hant/System.Text.Encoding.CodePages.xml",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "ref/netstandard2.0/System.Text.Encoding.CodePages.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net461/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard1.3/System.Text.Encoding.CodePages.dll",
+        "runtimes/win/lib/netstandard2.0/System.Text.Encoding.CodePages.dll",
+        "system.text.encoding.codepages.4.5.0.nupkg.sha512",
+        "system.text.encoding.codepages.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Text.Encodings.Web/4.7.1": {
       "sha512": "3qreYFQcLnyFk1LuaNWyyWE+sfkfe5eSTaIIssYrLNUIDbgyZNQBYQSzSDo4AprpjVeVX2T4KHKii9fiSZVUow==",
       "type": "package",
@@ -1670,11 +1986,48 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "AngleSharp/1.0.0": {
+      "type": "project",
+      "path": "../../External/AngleSharp/AngleSharp.Core.csproj",
+      "msbuildProject": "../../External/AngleSharp/AngleSharp.Core.csproj"
+    },
+    "AngleSharp.Css/1.0.0": {
+      "type": "project",
+      "path": "../../External/AngleSharp.Css/AngleSharp.Css.csproj",
+      "msbuildProject": "../../External/AngleSharp.Css/AngleSharp.Css.csproj"
+    },
+    "AngleSharp.Io/1.0.0": {
+      "type": "project",
+      "path": "../../External/AngleSharp.Io/AngleSharp.Io.csproj",
+      "msbuildProject": "../../External/AngleSharp.Io/AngleSharp.Io.csproj"
+    },
+    "AngleSharp.Js/1.0.0": {
+      "type": "project",
+      "path": "../../External/AngleSharp.Js/AngleSharp.Js.csproj",
+      "msbuildProject": "../../External/AngleSharp.Js/AngleSharp.Js.csproj"
+    },
+    "Esprima/2.0.0-beta-0": {
+      "type": "project",
+      "path": "../../External/Esprima/Esprima.csproj",
+      "msbuildProject": "../../External/Esprima/Esprima.csproj"
+    },
+    "Jint/1.0.0": {
+      "type": "project",
+      "path": "../../External/Jint/Jint.csproj",
+      "msbuildProject": "../../External/Jint/Jint.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Jellyfin.Common >= 10.6.0"
+      "AngleSharp >= 1.0.0",
+      "AngleSharp.Css >= 1.0.0",
+      "AngleSharp.Io >= 1.0.0",
+      "AngleSharp.Js >= 1.0.0",
+      "Jellyfin.Common >= 10.6.0",
+      "Microsoft.CSharp >= 4.7.0",
+      "Newtonsoft.Json >= 12.0.3",
+      "PlaywrightSharp >= 0.152.0"
     ]
   },
   "packageFolders": {
@@ -1707,7 +2060,20 @@
       },
       "frameworks": {
         "netstandard2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Css\\AngleSharp.Css.csproj": {
+              "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Css\\AngleSharp.Css.csproj"
+            },
+            "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Io\\AngleSharp.Io.csproj": {
+              "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Io\\AngleSharp.Io.csproj"
+            },
+            "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj": {
+              "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj"
+            },
+            "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
+              "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1722,6 +2088,18 @@
           "Jellyfin.Common": {
             "target": "Package",
             "version": "[10.6.0, )"
+          },
+          "Microsoft.CSharp": {
+            "target": "Package",
+            "version": "[4.7.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          },
+          "PlaywrightSharp": {
+            "target": "Package",
+            "version": "[0.152.0, )"
           }
         },
         "imports": [

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "kIRcsmEyQAOvXVYg2mUHJddc4PZAdRfz1j6+4lTApJwCG7T766vbkrpRfDHYIroLE1k9QhrOsUxpt6SeDjbA/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oddos\\.nuget\\packages\\microsoft.build.tasks.git\\1.0.0\\microsoft.build.tasks.git.1.0.0.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\microsoft.sourcelink.common\\1.0.0\\microsoft.sourcelink.common.1.0.0.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\microsoft.sourcelink.github\\1.0.0\\microsoft.sourcelink.github.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

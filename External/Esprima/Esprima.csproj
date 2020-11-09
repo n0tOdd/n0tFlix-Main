@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Description>Standard-compliant ECMAScript 2016 parser (also popularly known as JavaScript or ES6).</Description>
+		<Copyright>Sebastien Ros</Copyright>
+		<AssemblyName>Esprima</AssemblyName>
+		<AssemblyTitle>Esprima .NET</AssemblyTitle>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<BuildNumber Condition="'$(BuildNumber)' == ''">0</BuildNumber>
+		<Authors>Sebastien Ros</Authors>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<PackageId>Esprima</PackageId>
+		<PackageTags>javascript, parser</PackageTags>
+		<PackageProjectUrl>https://github.com/sebastienros/esprima-dotnet</PackageProjectUrl>
+		<PackageLicenseExpression>BSD-3-Clause</PackageLicenseExpression>
+		<Version>2.0.0-beta-$(BuildNumber)</Version>
+
+		<LangVersion>latest</LangVersion>
+		<Nullable>enable</Nullable>
+
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="all" />
+	</ItemGroup>
+</Project>

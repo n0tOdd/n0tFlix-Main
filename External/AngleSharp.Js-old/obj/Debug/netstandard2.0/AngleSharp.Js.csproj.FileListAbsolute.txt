@@ -1,0 +1,5 @@
+C:\Users\oddos\Downloads\AngleSharp-master\AngleSharp.Js-master\src\AngleSharp.Js\obj\Debug\netstandard2.0\AngleSharp.Js.csprojAssemblyReference.cache
+C:\Users\oddos\Downloads\AngleSharp-master\AngleSharp.Js-master\src\AngleSharp.Js\obj\Debug\netstandard2.0\AngleSharp.Js.AssemblyInfoInputs.cache
+C:\Users\oddos\Downloads\AngleSharp-master\AngleSharp.Js-master\src\AngleSharp.Js\obj\Debug\netstandard2.0\AngleSharp.Js.AssemblyInfo.cs
+C:\Users\oddos\Downloads\AngleSharp-master\AngleSharp.Js-master\src\AngleSharp.Js\obj\Debug\netstandard2.0\AngleSharp.Js.csproj.CoreCompileInputs.cache
+C:\Users\oddos\Downloads\AngleSharp-master\AngleSharp.Js-master\src\AngleSharp.Js\obj\Debug\netstandard2.0\AngleSharp.Js.sourcelink.json

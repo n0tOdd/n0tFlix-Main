@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AngleSharp.XPath</name>
+    </assembly>
+    <members>
+        <member name="T:AngleSharp.XPath.Extensions">
+            <summary>
+            Hosts the extension methods for XPath parsing.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.XPath.Extensions.CreateNavigator(AngleSharp.Dom.IDocument,System.Boolean)">
+            <summary>
+            Creates a new navigator for the given document.
+            </summary>
+            <param name="document">The document to extend.</param>
+            <param name="ignoreNamespaces"></param>
+            <returns>The navigator for XPath expressions.</returns>
+        </member>
+        <member name="M:AngleSharp.XPath.Extensions.SelectSingleNode(AngleSharp.Dom.IElement,System.String,System.Boolean)">
+            <summary>
+            Selects a single node (or returns null) matching the <see cref="N:AngleSharp.XPath"/> expression.
+            </summary>
+            <param name="element">The element to start looking from.</param>
+            <param name="xpath">The XPath expression.</param>
+            <param name="ignoreNamespaces"></param>
+            <returns>The node matching <paramref name="xpath"/> query, if any.</returns>
+            <exception cref="T:System.ArgumentNullException">Throws if <paramref name="element"/> or <paramref name="xpath"/> is <c>null</c></exception>
+        </member>
+        <member name="M:AngleSharp.XPath.Extensions.SelectSingleNode(AngleSharp.Dom.IElement,System.String,System.Xml.IXmlNamespaceResolver,System.Boolean)">
+            <summary>
+            Selects a single node (or returns null) matching the <see cref="N:AngleSharp.XPath"/> expression.
+            </summary>
+            <param name="element">The element to start looking from.</param>
+            <param name="xpath">The XPath expression.</param>
+            <param name="resolver"></param>
+            <param name="ignoreNamespaces"></param>
+            <returns>The node matching <paramref name="xpath"/> query, if any.</returns>
+            <exception cref="T:System.ArgumentNullException">Throws if <paramref name="element"/> or <paramref name="xpath"/> is <c>null</c></exception>
+        </member>
+        <member name="M:AngleSharp.XPath.Extensions.SelectNodes(AngleSharp.Dom.IElement,System.String,System.Boolean)">
+            <summary>
+            Selects a list of nodes matching the <see cref="N:AngleSharp.XPath"/> expression.
+            </summary>
+            <param name="element">The element to start looking from.</param>
+            <param name="xpath">The XPath expression.</param>
+            <param name="ignoreNamespaces"></param>
+            <returns>List of nodes matching <paramref name="xpath"/> query.</returns>
+            <exception cref="T:System.ArgumentNullException">Throws if <paramref name="element"/> or <paramref name="xpath"/> is <c>null</c></exception>
+        </member>
+        <member name="M:AngleSharp.XPath.Extensions.SelectNodes(AngleSharp.Dom.IElement,System.String,System.Xml.IXmlNamespaceResolver,System.Boolean)">
+            <summary>
+            Selects a list of nodes matching the <see cref="N:AngleSharp.XPath"/> expression.
+            </summary>
+            <param name="element">The element to start looking from.</param>
+            <param name="xpath">The XPath expression.</param>
+            <param name="resolver"></param>
+            <param name="ignoreNamespaces"></param>
+            <returns>List of nodes matching <paramref name="xpath"/> query.</returns>
+            <exception cref="T:System.ArgumentNullException">Throws if <paramref name="element"/> or <paramref name="xpath"/> is <c>null</c></exception>
+        </member>
+        <member name="T:AngleSharp.XPath.HtmlDocumentNavigable">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigable.#ctor(AngleSharp.Dom.IDocument)">
+            <summary>
+            Creates a new wrapper for navigations regarding the provided document.
+            </summary>
+            <param name="document">The document to create navigators for.</param>
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigable.CreateNavigator">
+            <inheritdoc />
+        </member>
+        <member name="T:AngleSharp.XPath.HtmlDocumentNavigator">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.#ctor(AngleSharp.Dom.IDocument,AngleSharp.Dom.INode,System.Boolean)">
+            <summary>
+            Creates a new XPath navigator for the given document using the provided root node.
+            </summary>
+            <param name="document">The document to navigate.</param>
+            <param name="currentNode">The node to start navigation.</param>
+            <param name="ignoreNamespaces"></param>
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.BaseURI">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.CurrentNode">
+            <summary>
+            Gets the currently selected node.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.CurrentElement">
+            <summary>
+            Gets the currently selected element.
+            </summary>
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.HasAttributes">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.IsEmptyElement">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.LocalName">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.Name">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.NamespaceURI">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.Prefix">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.NameTable">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.NodeType">
+            <inheritdoc />
+        </member>
+        <member name="P:AngleSharp.XPath.HtmlDocumentNavigator.Value">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.Clone">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.IsSamePosition(System.Xml.XPath.XPathNavigator)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveTo(System.Xml.XPath.XPathNavigator)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToFirstAttribute">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToFirstChild">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToFirstNamespace(System.Xml.XPath.XPathNamespaceScope)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToId(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToNext">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToNextAttribute">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToNextNamespace(System.Xml.XPath.XPathNamespaceScope)">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToParent">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToPrevious">
+            <inheritdoc />
+        </member>
+        <member name="M:AngleSharp.XPath.HtmlDocumentNavigator.MoveToRoot">
+            <inheritdoc />
+        </member>
+        <member name="T:AngleSharp.XPathConfigurationExtensions">
+            <summary>
+            Additional extensions for integrating XPath.
+            </summary>
+        </member>
+        <member name="M:AngleSharp.XPathConfigurationExtensions.WithXPath(AngleSharp.IConfiguration)">
+            <summary>
+            Adds XPath to standard queries.
+            </summary>
+            <param name="configuration">The configuration to use.</param>
+            <returns>The new configuration.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\SharpWebview\SharpWebview.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="icon.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\app.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\app.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  
+  <!-- This is only necessary, because I don't use the nuget in this example! -->
+  <Target Name="CopyDll" AfterTargets="AfterBuild">
+    <Copy SourceFiles="..\..\libs\webview.dll" DestinationFolder="$(OutDir)" />
+  </Target>
+  <Target Name="CopyDll2" AfterTargets="CopyDll">
+    <Copy SourceFiles="..\..\libs\WebView2Loader.dll" DestinationFolder="$(OutDir)" />
+  </Target>
+  <Target Name="CopyDyLib" AfterTargets="CopyDll2">
+    <Copy SourceFiles="..\..\libs\libwebview.dylib" DestinationFolder="$(OutDir)" />
+  </Target>
+  <Target Name="CopySo" AfterTargets="CopyDyLib">
+    <Copy SourceFiles="..\..\libs\libwebview.so" DestinationFolder="$(OutDir)" />
+  </Target>
+</Project>

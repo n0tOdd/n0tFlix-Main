@@ -1,0 +1,5 @@
+C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp.Js\obj\Debug\netstandard2.1\AngleSharp.Js.csprojAssemblyReference.cache
+C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp.Js\obj\Debug\netstandard2.1\AngleSharp.Js.AssemblyInfoInputs.cache
+C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp.Js\obj\Debug\netstandard2.1\AngleSharp.Js.AssemblyInfo.cs
+C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp.Js\obj\Debug\netstandard2.1\AngleSharp.Js.csproj.CoreCompileInputs.cache
+C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp.Js\obj\Debug\netstandard2.1\AngleSharp.Js.sourcelink.json

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<AssemblyName>AngleSharp.Js</AssemblyName>
+		<RootNamespace>AngleSharp.Js</RootNamespace>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<LangVersion>7.1</LangVersion>
+		<RepositoryUrl>https://github.com/AngleSharp/AngleSharp.Js</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<IncludeSymbols>true</IncludeSymbols>
+		<SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All" />
+	</ItemGroup>
+
+	<ItemGroup Condition="'$(TargetFramework)' == 'netstandard1.3'">
+		<PackageReference Include="System.Threading.Thread" Version="4.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\AngleSharp\AngleSharp.Core.csproj" />
+		<ProjectReference Include="..\Jint\Jint.csproj" />
+	</ItemGroup>
+
+	<PropertyGroup Condition=" '$(OS)' == 'Windows_NT' ">
+		<DelaySign>false</DelaySign>
+	</PropertyGroup>
+</Project>

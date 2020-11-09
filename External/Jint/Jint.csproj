@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<TargetFrameworks>netstandard2.1</TargetFrameworks>
+		<AssemblyOriginatorKeyFile>Jint.snk</AssemblyOriginatorKeyFile>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Esprima\Esprima.csproj" />
+	</ItemGroup>
+</Project>
