@@ -15,7 +15,6 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Comed
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\bin\Release\netstandard2.1\n0tFlix.Channel.ComedyCentral.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\obj\Release\netstandard2.1\n0tFlix.Channel.ComedyCentral.csprojAssemblyReference.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\obj\Release\netstandard2.1\n0tFlix.Channel.ComedyCentral.AssemblyInfoInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\obj\Release\netstandard2.1\n0tFlix.Channel.ComedyCentral.AssemblyInfo.cs
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.ComedyCentral\obj\Release\netstandard2.1\n0tFlix.Channel.ComedyCentral.csproj.CoreCompileInputs.cache

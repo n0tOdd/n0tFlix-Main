@@ -21,8 +21,8 @@
   {
     "guid": "cc3620d9-d4da-4c69-8867-9c051645353e",
     "name": "n0tFlix.Addons.VideoExtractor",
-    "description": "A video extraction api for jellyfin\"(use jellyfin.url/VideoExtractor/StreamURL?Url=https://www.youtube.com/watch?v=wl5SkAjlO2k to get back the streamable link)",
-    "overview": "A video extraction api for jellyfin\"(use jellyfin.url/VideoExtractor/StreamURL?Url=https://www.youtube.com/watch?v=wl5SkAjlO2k to get back the streamable link)",
+    "description": "A video extraction api for jellyfin ",
+    "overview": "A video extraction api for jellyfin",
     "owner": "n0tme",
     "category": "n0tFlix",
     "versions": [

@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Standard-compliant ECMAScript 2016 parser (also popularly known as JavaScript or " +
     "ES6).")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0-beta-0+505b93a2c013f75c99a29b28af0056c3f7f0e907")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0-beta-0+6df786c9ae6dcd9e2beca705f7cf839d17dcd220")]
 [assembly: System.Reflection.AssemblyProductAttribute("Esprima")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Esprima .NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
