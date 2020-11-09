@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
+    <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetDir)  $(TargetPath)" />
   </Target>
 
 </Project>
