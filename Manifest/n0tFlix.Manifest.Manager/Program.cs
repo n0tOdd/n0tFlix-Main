@@ -7,6 +7,8 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Metadata;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 
 namespace n0tFlix.Manifest.Manager
 {
@@ -17,7 +19,7 @@ namespace n0tFlix.Manifest.Manager
             //  if (args.Length == 0)
             //    return;
 
-            var manifest = JsonConvert.DeserializeObject<root>("{{" + File.ReadAllText(@"C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest.json") + "}}");
+            var manifest = JsonDocument.ParseAsync(File.OpenRead(@"C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest.json"));
         }
     }
 
