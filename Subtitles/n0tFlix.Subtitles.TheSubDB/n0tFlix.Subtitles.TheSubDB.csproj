@@ -13,6 +13,6 @@
     <PackageReference Include="Jellyfin.Model" Version="10.6.0" />
   </ItemGroup>
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="xcopy &quot;$(TargetPath)&quot; &quot;C:\ProgramData\Jellyfin\Server\plugins&quot; /y" />
+		<Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
 	</Target>
 </Project>
