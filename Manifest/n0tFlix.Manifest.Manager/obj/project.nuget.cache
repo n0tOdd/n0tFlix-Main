@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ky44i2bh9biK8V5uZXkSm+xBNQGOctRkKDcjxbE87H2H/9+GpENVTSCG1w3RMxEyV449sYeUVodojmOsPNFreQ==",
+  "dgSpecHash": "bfc+Xce7sFA2+jnpw/nNVWEwfwmLObDRGVArdS7qFixFXJyNmH0ywyybgdj951dITD/gLXJWBJlJt7lyAaJHCg==",
   "success": true,
   "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Manifest\\n0tFlix.Manifest.Manager\\n0tFlix.Manifest.Manager.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\oddos\\.nuget\\packages\\microsoft.net.http.headers\\2.2.8\\microsoft.net.http.headers.2.2.8.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\oddos\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.2\\sqlitepclraw.bundle_e_sqlite3.2.0.2.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\sqlitepclraw.core\\2.0.2\\sqlitepclraw.core.2.0.2.nupkg.sha512",
     "C:\\Users\\oddos\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.2\\sqlitepclraw.lib.e_sqlite3.2.0.2.nupkg.sha512",

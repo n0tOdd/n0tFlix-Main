@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetPath)" />
+	</Target>
+
+	<ItemGroup>
+	  <None Remove="Configuration\SubscriptionPage.html" />
+	  <None Remove="Configuration\SubscriptionPage.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Configuration\SubscriptionPage.html" />
+	  <EmbeddedResource Include="Configuration\SubscriptionPage.js" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Jellyfin.Common" Version="10.6.0" />
+	</ItemGroup>
+</Project>

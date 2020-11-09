@@ -1,0 +1,60 @@
+﻿<div data-role="page" class=" type-interior pluginConfigurationPage SubscriptionPage" data-require="emby-button,emby-input,emby-select,emby-checkbox" data-controller="__plugin/SubscriptionPageJS">
+    <div class="content-primary">
+        <div class="verticalSection verticalSection-extrabottompadding">
+            <form id="adminPasswordForm">
+                <div class="inputContainer">
+                    <div style="display: flex; align-items: center;">
+                        <div style="flex-grow:1;">
+                            <label class="inputLabel inputLabelUnfocused" for="adminPass">Admin Password:</label><input is="emby-input" type="password" id="adminPass" label="Admin Password" autocomplete="off" class="emby-input">
+                        </div>
+                        <button type="button" is="paper-icon-button-light" id="saveAdminPass" title="Admin Password" class="emby-input-iconbutton paper-icon-button-light"><i class="md-icon">add</i></button>
+                    </div>
+                    <div class="fieldDescription">Specify a custom default password to change subscriptions to before deletion for 30 days. This will allow late payments to stay enabled, but inaccessible.</div>
+                </div>
+            </form>
+            <div class="detailSectionHeader">
+                <h2 style="margin: .6em 0; vertical-align: middle; display: inline-block;">
+                    Add CSV
+                </h2>
+                <button is="paper-icon-button-light" style="margin-left: 1em;" class="fab emby-input-iconbutton paper-icon-button-light" id="addCsvDialog"><i class="md-icon">insert_drive_file</i></button>
+            </div>
+            <div class="detailSectionHeader">
+                <h2 style="margin: .6em 0; vertical-align: middle; display: inline-block;">
+                    Email Settings
+                </h2>
+                <button is="paper-icon-button-light" style="margin-left: 1em;" class="fab emby-input-iconbutton paper-icon-button-light" id="emailSettingsDialog"><i class="md-icon">settings</i></button>
+            </div>
+            <div class="detailSectionHeader">
+                <h2 style="margin: .6em 0; vertical-align: middle; display: inline-block;">
+                    New Subscription
+                </h2>
+                <button is="paper-icon-button-light" style="margin-left: 1em;" class="fab emby-input-iconbutton paper-icon-button-light" id="addSubscription"><i class="md-icon">add</i></button>
+            </div>
+
+            <div class="paperList">
+                <h2 style="display: flex; align-items: center; margin: auto; padding-bottom: 1em;">Subscribers</h2>
+                <div style="margin:2em">
+                    <div class="scrollY" style="max-height: 30em">
+                        <table class="tblTorrentResults table detailTable" style="width: 100%;">
+                            <thead>
+                                <tr style="text-align: left;">
+                                    <th class="detailTableHeaderCell" data-priority="3" style="width: 12%">User Name</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Valid Account</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Days Until Removal</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Account Id</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Start Date</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Expire Date</th>
+                                    <th class="detailTableHeaderCell" data-priority="1" style="width: 15%">Email Address</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Reminder Email Sent</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Edit</th>
+                                    <th class="detailTableHeaderCell" data-priority="1">Remove</th>
+                                </tr>
+                            </thead>
+                            <tbody id="subscriptions"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
