@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "n0tFlix.Subtitles.Podnapisi", "n0tFlix.Subtitles.Podnapisi.csproj", "{9BBC9E8A-23B3-4DDF-A791-C8D9C3B5E792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BBC9E8A-23B3-4DDF-A791-C8D9C3B5E792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBC9E8A-23B3-4DDF-A791-C8D9C3B5E792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBC9E8A-23B3-4DDF-A791-C8D9C3B5E792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBC9E8A-23B3-4DDF-A791-C8D9C3B5E792}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46A74607-E1CA-40B8-B835-CD94B66D6077}
+	EndGlobalSection
+EndGlobal
