@@ -53,7 +53,7 @@ namespace n0tFlix.Channel.Viafree
                 ImageUrl = "https://mpng.subpng.com/20171216/849/pirate-png-5a350658adbbb2.2125216315134244727116.jpg",// <== this is the fresh new n0tflix logo :P
                 ConfigurationFileName = this.Name + "-V" + Version.ToString(), //Configuration filename, using this as a themeplate incase we trow in a new one on updates and dont wanna override the old one at the first dropoff
                 CanUninstall = true, //i wonder if this one really makes it impossible to remove the pluginss rofl
-                Version = "1.0.0.4",//Remember to increase every tim you want the ManifestManager to update youre plugin
+                Version = "1.0.0.0",//Remember to increase every tim you want the ManifestManager to update youre plugin
             };
         }
 

@@ -20,7 +20,6 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\bin\
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\bin\Release\netstandard2.1\AngleSharp.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\bin\Release\netstandard2.1\AngleSharp.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\bin\Release\netstandard2.1\AngleSharp.xml
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.csprojAssemblyReference.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.AssemblyInfoInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.AssemblyInfo.cs
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.csproj.CoreCompileInputs.cache

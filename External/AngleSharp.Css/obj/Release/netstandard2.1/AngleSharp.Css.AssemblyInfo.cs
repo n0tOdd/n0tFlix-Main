@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngleSharp.Css")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1db38f9f0d7161c6be2236e44b8bdefb6aebe448")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+587813f216606668ecd269e65d44de5edbd3fb7e")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngleSharp.Css")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngleSharp.Css")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
