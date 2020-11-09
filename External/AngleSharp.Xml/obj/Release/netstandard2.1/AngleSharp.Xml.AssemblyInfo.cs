@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngleSharp.Xml")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6df786c9ae6dcd9e2beca705f7cf839d17dcd220")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d762844e2fae36cd82fcc9e982f37a4baf139f64")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngleSharp.Xml")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngleSharp.Xml")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

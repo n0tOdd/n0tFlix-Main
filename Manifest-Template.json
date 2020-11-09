@@ -84,7 +84,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Crunchyroll.zip",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Crunchyroll/bin/Release/netstandard2.1/n0tFlix.Channel.Crunchyroll.zip",
         "checksum": "n0tFlix.Channel.Crunchyroll-MD5",
         "timestamp": "2020-11-09T18:42:00Z"
       }
@@ -102,7 +102,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.NRK.zip",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.NRK/bin/Release/netstandard2.1/n0tFlix.Channel.NRK.zip",
         "checksum": "n0tFlix.Channel.NRK-MD5",
         "timestamp": "2020-11-09T18:42:00Z"
       }
@@ -120,7 +120,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Pornhub.zip",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Pornhub/bin/Release/netstandard2.1/n0tFlix.Channel.Pornhub.zip",
         "checksum": "n0tFlix.Channel.Pornhub-MD5",
         "timestamp": "2020-11-09T18:42:00Z"
       }
@@ -138,7 +138,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.Redtube.zip",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Redtube/bin/Release/netstandard2.1/n0tFlix.Channel.Redtube.zip",
         "checksum": "n0tFlix.Channel.Redtube-MD5",
         "timestamp": "2020-11-09T18:42:00Z"
       }
@@ -156,7 +156,7 @@
         "version": "1.0.0.0",
         "changelog": "Initial Release",
         "targetAbi": "10.6.0.0",
-        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/netstandard2.1/n0tFlix.Channel.TubiTV.zip",
+        "sourceUrl": "https://github.com/n0tMaster/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.TubiTV/bin/Release/netstandard2.1/n0tFlix.Channel.TubiTV.zip",
         "checksum": "n0tFlix.Channel.TubiTV-MD5",
         "timestamp": "2020-11-09T18:42:00Z"
       }
