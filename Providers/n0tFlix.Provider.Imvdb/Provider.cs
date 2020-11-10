@@ -19,6 +19,15 @@ namespace n0tFlix.Provider.Imvdb
     public class Provider : IRemoteMetadataProvider<MusicVideo, MusicVideoInfo>
     {
         public string Name => "IMVDb";
+
+        public string ProviderName => Name;
+
+        public string Key => Name;
+
+        public ExternalIdMediaType? Type => ExternalIdMediaType.Track & ExternalIdMediaType.Movie;
+
+        public string UrlFormatString => "https://imvdb.com/api/v1/{0}/search/videos?q={1}+{2}";
+
         private IHttpClient _httpClient;
         private ILogger _logger;
 

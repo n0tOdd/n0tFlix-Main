@@ -15,4 +15,3 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafr
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Release\netstandard2.1\n0tFlix.Channel.Viafree.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Release\netstandard2.1\n0tFlix.Channel.Viafree.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Release\netstandard2.1\n0tFlix.Channel.Viafree.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Release\netstandard2.1\n0tFlix.Channel.Viafree.csprojAssemblyReference.cache

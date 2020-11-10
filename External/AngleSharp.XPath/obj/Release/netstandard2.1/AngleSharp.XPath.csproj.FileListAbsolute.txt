@@ -27,3 +27,4 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.xml
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.pdb
+C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\AngleSharp.XPath\obj\Release\netstandard2.1\AngleSharp.XPath.csprojAssemblyReference.cache
