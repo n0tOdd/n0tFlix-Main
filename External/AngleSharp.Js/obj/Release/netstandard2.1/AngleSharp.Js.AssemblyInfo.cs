@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AngleSharp.Js")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b585eb3519bc8ed9ae0dfe93c2824b4a54ac90da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+44235496e5c4504eec72c16d95767833d9e856a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AngleSharp.Js")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AngleSharp.Js")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -15,4 +15,3 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.TubiT
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.TubiTV\obj\Release\netstandard2.1\n0tFlix.Channel.TubiTV.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.TubiTV\obj\Release\netstandard2.1\n0tFlix.Channel.TubiTV.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.TubiTV\obj\Release\netstandard2.1\n0tFlix.Channel.TubiTV.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.TubiTV\obj\Release\netstandard2.1\n0tFlix.Channel.TubiTV.csprojAssemblyReference.cache

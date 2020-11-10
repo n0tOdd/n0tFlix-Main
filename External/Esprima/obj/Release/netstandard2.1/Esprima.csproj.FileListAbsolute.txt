@@ -16,4 +16,3 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\n
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.sourcelink.json
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.csprojAssemblyReference.cache

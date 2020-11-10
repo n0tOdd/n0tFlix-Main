@@ -23,4 +23,3 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscrip
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.csprojAssemblyReference.cache
