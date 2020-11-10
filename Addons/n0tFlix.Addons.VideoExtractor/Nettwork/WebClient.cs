@@ -57,7 +57,7 @@ namespace n0tFlix.Addons.VideoExtractor.Nettwork
                 //UseDefaultCredentials = true,
                 ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator,
                 CookieContainer = cookieContainer,
-                SslProtocols = System.Security.Authentication.SslProtocols.Tls11,
+                SslProtocols = System.Security.Authentication.SslProtocols.None,
             };
 
             httpClient = new HttpClient(httpClientHandler, false)

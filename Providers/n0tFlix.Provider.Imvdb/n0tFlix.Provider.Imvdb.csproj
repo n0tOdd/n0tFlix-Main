@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Configuration\configPage.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Configuration\configPage.html" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Jellyfin.Common" Version="10.6.0" />
+	  <PackageReference Include="Jellyfin.Controller" Version="10.6.0" />
+	  <PackageReference Include="Jellyfin.Model" Version="10.6.0" />
+	</ItemGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+	  <Exec Command="powershell.exe $(SolutionDir)AfterBuild.ps1 $(TargetDir)  $(TargetPath)" />
+	</Target>
+</Project>
