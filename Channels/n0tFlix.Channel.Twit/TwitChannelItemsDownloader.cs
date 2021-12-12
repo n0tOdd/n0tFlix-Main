@@ -6,49 +6,39 @@ using MediaBrowser.Model.Serialization;
 using System.IO;
 using System.Text;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
 
 namespace n0tFlix.Channel.TWiT
 {
     public class TwitChannelItemsDownloader
     {
         private ILogger<TwitChannel> _logger;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IXmlSerializer _xmlSerializer;
 
-        public TwitChannelItemsDownloader(ILogger<TwitChannel> logManager, IXmlSerializer xmlSerializer, IHttpClient httpClient)
+        public TwitChannelItemsDownloader(ILogger<TwitChannel> logManager, IXmlSerializer xmlSerializer, IHttpClientFactory httpClientFactory)
         {
             _logger = logManager;
             _xmlSerializer = xmlSerializer;
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
         }
 
         public async Task<rss> GetStreamList(String queryUrl, int offset, CancellationToken cancellationToken)
         {
-            using (var response = await _httpClient.GetResponse(new HttpRequestOptions
+            using (var xml = await _httpClientFactory.CreateClient().GetStreamAsync(queryUrl, cancellationToken))
             {
-                CancellationToken = cancellationToken,
-                Url = queryUrl,
-                EnableDefaultUserAgent = true,
+                _logger.LogInformation("Reading TWiT response with StreamReader");
 
-                BufferContent = false,
-                EnableKeepAlive = false
-            }).ConfigureAwait(false))
-            {
-                using (var xml = response.Content)
+                using (var reader = new StreamReader(xml))
                 {
-                    _logger.LogInformation("Reading TWiT response with StreamReader");
+                    var str = reader.ReadToEnd();
 
-                    using (var reader = new StreamReader(xml))
-                    {
-                        var str = reader.ReadToEnd();
+                    _logger.LogInformation("Deserializing TwiT response");
 
-                        _logger.LogInformation("Deserializing TwiT response");
-
-                        rss result = _xmlSerializer.DeserializeFromBytes(typeof(rss), Encoding.UTF8.GetBytes(str)) as rss;
-                        _logger.LogInformation(result.channel.category);
-                        _logger.LogInformation("Deserialized TwiT response");
-                        return result;
-                    }
+                    rss result = _xmlSerializer.DeserializeFromBytes(typeof(rss), Encoding.UTF8.GetBytes(str)) as rss;
+                    _logger.LogInformation(result.channel.category);
+                    _logger.LogInformation("Deserialized TwiT response");
+                    return result;
                 }
             }
         }

@@ -18,6 +18,7 @@ using n0tFlix.Subtitles.NapiSub.Configuration;
 using MediaBrowser.Common;
 using MediaBrowser.Controller.Configuration;
 using MediaBrowser.Model.Serialization;
+using System.Net.Http;
 
 namespace n0tFlix.Subtitles.NapiSub.Provider
 {
@@ -25,7 +26,7 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
     {
         private readonly ILogger<NapiSubProvider> _logger;
         private readonly IFileSystem _fileSystem;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
 
         private ILocalizationManager _localizationManager;
 
@@ -33,10 +34,10 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
 
         private readonly IJsonSerializer _json;
 
-        public NapiSubProvider(ILogger<NapiSubProvider> logger, IHttpClient httpClient, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
+        public NapiSubProvider(ILogger<NapiSubProvider> logger, IHttpClientFactory httpClientFactory, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
         {
             _logger = logger;
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
 
 
             _config = config;
@@ -47,14 +48,14 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
 
         public async Task<SubtitleResponse> GetSubtitles(string hash, CancellationToken cancellationToken)
         {
-            var opts = NapiCore.CreateRequest(hash, "PL");
-            _logger.LogInformation($"Requesting {opts.Url}");
+            var opts = NapiCore.CreatePostRequest(hash, "PL");
+            _logger.LogInformation($"Requesting {opts.RequestUri}");
 
             try
             {
-                using (var response = await _httpClient.Post(opts).ConfigureAwait(false))
+                using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
                 {
-                    using (var reader = new StreamReader(response.Content))
+                    using (var reader = new StreamReader(response.Content.ReadAsStream()))
                     {
                         var xml = await reader.ReadToEndAsync().ConfigureAwait(false);
                         var status = XmlParser.GetStatusFromXml(xml);
@@ -81,7 +82,7 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
                 _logger.LogInformation("No subtitles downloaded");
                 return new SubtitleResponse();
             }
-            catch (HttpException ex)
+            catch (HttpRequestException ex)
             {
                 if (!ex.StatusCode.HasValue || ex.StatusCode.Value != HttpStatusCode.NotFound) throw;
                 _logger.LogDebug("ERROR");
@@ -100,13 +101,13 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
             }
 
             var hash = await NapiCore.GetHash(request.MediaPath, cancellationToken, _fileSystem, _logger).ConfigureAwait(false);
-            var opts = NapiCore.CreateRequest(hash, language.TwoLetterISOLanguageName);
+            var opts = NapiCore.CreatePostRequest(hash, language.TwoLetterISOLanguageName);
 
             try
             {
-                using (var response = await _httpClient.Post(opts).ConfigureAwait(false))
+                using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
                 {
-                    using (var reader = new StreamReader(response.Content))
+                    using (var reader = new StreamReader(response.Content.ReadAsStream()))
                     {
                         var xml = await reader.ReadToEndAsync().ConfigureAwait(false);
                         var status = XmlParser.GetStatusFromXml(xml);
@@ -134,7 +135,7 @@ namespace n0tFlix.Subtitles.NapiSub.Provider
                     return new List<RemoteSubtitleInfo>();
                 }
             }
-            catch (HttpException ex)
+            catch (HttpRequestException ex)
             {
                 if (!ex.StatusCode.HasValue || ex.StatusCode.Value != HttpStatusCode.NotFound) throw;
                 _logger.LogDebug("ERROR");

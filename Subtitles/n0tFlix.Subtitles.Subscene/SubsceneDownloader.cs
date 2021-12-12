@@ -49,26 +49,28 @@ namespace n0tFlix.Subtitles.Subscene
         public int Order => 3;
 
 
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<SubsceneDownloader> _logger;
         private readonly IApplicationHost _appHost;
         private readonly ILocalizationManager _localizationManager;
         private readonly IJsonSerializer _jsonSerializer;
 
-        public SubsceneDownloader(IHttpClient httpClient, ILogger<SubsceneDownloader> logger, IApplicationHost appHost
+        public SubsceneDownloader(IHttpClientFactory httpClientFactory, ILogger<SubsceneDownloader> logger, IApplicationHost appHost
             , ILocalizationManager localizationManager, IJsonSerializer jsonSerializer)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _logger = logger;
             _appHost = appHost;
             _localizationManager = localizationManager;
             _jsonSerializer = jsonSerializer;
         }
 
-        private HttpRequestOptions BaseRequestOptions => new HttpRequestOptions
+        private HttpRequestMessage BaseRequestOptions(HttpMethod httpMethod, string url)
         {
-            UserAgent = $"Jellyfin/{_appHost.ApplicationVersion}"
-        };
+            var request = new HttpRequestMessage(httpMethod, url);
+            request.Headers.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue($"Jellyfin/{_appHost?.ApplicationVersion}"));
+            return request;
+        }
 
         public async Task<SubtitleResponse> GetSubtitles(string id, CancellationToken cancellationToken)
         {
@@ -93,17 +95,16 @@ namespace n0tFlix.Subtitles.Subscene
 
             _logger?.LogDebug($"Subscene= Downloading subtitle= {downloadLink}");
 
-            var opts = BaseRequestOptions;
-            opts.Url = $"{Domain}/{downloadLink}";
+            var opts = BaseRequestOptions(HttpMethod.Get, $"{Domain}/{downloadLink}");
 
             var ms = new MemoryStream();
             var fileExt = string.Empty;
             try
             {
-                using (var response = await _httpClient.GetResponse(opts).ConfigureAwait(false))
+                using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
                 {
-                    _logger?.LogInformation("Subscene=" + response.ContentType);
-                    var contentType = response.ContentType.ToLower();
+                    _logger?.LogInformation("Subscene=" + response.Content.Headers.ContentType.MediaType);
+                    var contentType = response.Content.Headers.ContentType.MediaType.ToLower();
                     if (!contentType.Contains("zip"))
                     {
                         return new SubtitleResponse()
@@ -112,7 +113,7 @@ namespace n0tFlix.Subtitles.Subscene
                         };
                     }
 
-                    var archive = new ZipArchive(response.Content);
+                    var archive = new ZipArchive(response.Content.ReadAsStream());
 
                     var item = (archive.Entries.Count > 1
                         ? archive.Entries.FirstOrDefault(a => a.FullName.ToLower().Contains("utf"))
@@ -311,7 +312,7 @@ namespace n0tFlix.Subtitles.Subscene
         {
             var res = new List<RemoteSubtitleInfo>();
 
-            var mDb = new MovieDb(_jsonSerializer, _httpClient, _appHost);
+            var mDb = new MovieDb(_jsonSerializer, _httpClientFactory, _appHost);
             var info = await mDb.GetTvInfo(movieId);
 
             if (info == null)

@@ -1,0 +1,12 @@
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\net6.0\n0tFlix.Subtitles.Napisub.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\net6.0\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\net6.0\ref\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\net6.0\n0tFlix.Subtitles.Napisub.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\ref\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\net6.0\n0tFlix.Subtitles.Napisub.pdb

@@ -30,17 +30,17 @@ namespace n0tFlix.Subtitles.TVsubtitles
         private DateTime _lastRateLimitException;
         private DateTime _lastLogin;
         private int _rateLimitLeft = 40;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private ILocalizationManager _localizationManager;
 
         private readonly IServerConfigurationManager _config;
 
         private readonly IJsonSerializer _json;
 
-        public TVsubtitlesDownloader(ILogger<TVsubtitlesDownloader> logger, IHttpClient httpClient, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
+        public TVsubtitlesDownloader(ILogger<TVsubtitlesDownloader> logger, IHttpClientFactory httpClientFactory, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
         {
             _logger = logger;
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
 
             _config = config;
             _json = json;

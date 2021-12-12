@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "54sdhummQB3q1r8U/zVxixkuq+4FRqpXc2SahEFIaZ9HaLkp3s21up0VeHhC+fzD/Op8dcwoLFmXWBVJOzVQYg==",
+  "dgSpecHash": "uWZCxuz3EwTxIQZKp/7yTFys9O35sWxhZxro9/XkmufRA/KoVMPN+LqFd3sOuiiWqWK8uFUyhmT65Z4Ow20dlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\External\\AngleSharp.Io\\AngleSharp.Io.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Io\\AngleSharp.Io.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\oddos\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.0\\system.runtime.compilerservices.unsafe.4.5.0.nupkg.sha512",
-    "C:\\Users\\oddos\\.nuget\\packages\\system.text.encoding.codepages\\4.5.0\\system.text.encoding.codepages.4.5.0.nupkg.sha512"
+    "C:\\Users\\ersoucy\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\ersoucy\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\ersoucy\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\ersoucy\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ersoucy\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -15,18 +15,19 @@ using System.Threading.Tasks;
 using MediaBrowser.Model.Dto;
 using MediaBrowser.Model.Drawing;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
 
 namespace n0tFlix.Channel.TWiT
 {
     public class TwitChannel : IChannel, IRequiresMediaInfoCallback
     {
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<TwitChannel> _logger;
         private readonly IXmlSerializer _xmlSerializer;
 
-        public TwitChannel(IHttpClient httpClient, IXmlSerializer xmlSerializer, ILogger<TwitChannel> logManager)
+        public TwitChannel(IHttpClientFactory httpClientFactory, IXmlSerializer xmlSerializer, ILogger<TwitChannel> logManager)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _logger = logManager;
             _xmlSerializer = xmlSerializer;
         }
@@ -213,7 +214,7 @@ namespace n0tFlix.Channel.TWiT
         private async Task<ChannelItemResult> GetChannelItemsInternal(InternalChannelItemQuery query, CancellationToken cancellationToken)
         {
             var offset = query.StartIndex.GetValueOrDefault();
-            var downloader = new TwitChannelItemsDownloader(_logger, _xmlSerializer, _httpClient);
+            var downloader = new TwitChannelItemsDownloader(_logger, _xmlSerializer, _httpClientFactory);
 
             var baseurl = "http://feeds.twit.tv/" + query.FolderId + "_video_hd.xml";
 

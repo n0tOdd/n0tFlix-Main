@@ -16,3 +16,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TV
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.csprojAssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.TVsubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.TVsubtitles.pdb

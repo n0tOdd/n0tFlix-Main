@@ -21,6 +21,8 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -34,7 +36,7 @@ namespace OpenSubtitlesHandler
     /// </summary>
     public static class Utilities
     {
-        public static IHttpClient HttpClient { get; set; }
+        public static HttpClient HttpClient { get; set; }
         private const string XML_RPC_SERVER = "https://vip-api.opensubtitles.org/xml-rpc";
         //private const string XML_RPC_SERVER = "https://92.240.234.122/xml-rpc";
         private const string HostHeader = "vip-api.opensubtitles.org:443";
@@ -148,26 +150,16 @@ namespace OpenSubtitlesHandler
 
         public static async Task<(Stream, int?, HttpStatusCode)> SendRequestAsync(byte[] request, string userAgent, CancellationToken cancellationToken)
         {
-            var options = new HttpRequestOptions
+            var requestMessage = new HttpRequestMessage(HttpMethod.Post, XML_RPC_SERVER);
+            requestMessage.Content = new StringContent(Encoding.UTF8.GetString(request), Encoding.UTF8, "text/xml");
+            requestMessage.Headers.UserAgent.Add(new ProductInfoHeaderValue(userAgent));
+            requestMessage.Headers.Host = HostHeader;
+
+            if (string.IsNullOrEmpty(requestMessage.Headers.UserAgent.FirstOrDefault().Comment.ToString()))
             {
-                RequestContent = Encoding.UTF8.GetString(request),
-                RequestContentType = "text/xml",
-                UserAgent = userAgent,
-                Host = HostHeader,
-                Url = XML_RPC_SERVER,
-
-                // Response parsing will fail with this enabled
-                DecompressionMethod = CompressionMethods.None,
-
-                CancellationToken = cancellationToken,
-                BufferContent = false
-            };
-
-            if (string.IsNullOrEmpty(options.UserAgent))
-            {
-                options.UserAgent = "xmlrpc-epi-php/0.2 (PHP)";
+                requestMessage.Headers.UserAgent.Add(new ProductInfoHeaderValue("xmlrpc-epi-php/0.2 (PHP)"));
             }
-            var result = await HttpClient.Post(options).ConfigureAwait(false);
+            var result = await HttpClient.SendAsync(requestMessage).ConfigureAwait(false);
 
             IEnumerable<string> values;
             int? limit = null;
@@ -180,7 +172,7 @@ namespace OpenSubtitlesHandler
                 }
             }
 
-            return (result.Content, limit, result.StatusCode);
+            return (result.Content.ReadAsStream(), limit, result.StatusCode);
         }
     }
 }

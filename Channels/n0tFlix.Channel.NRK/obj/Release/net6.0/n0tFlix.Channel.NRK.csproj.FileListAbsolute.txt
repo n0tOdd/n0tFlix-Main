@@ -1,0 +1,12 @@
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\bin\Release\net6.0\n0tFlix.Channel.NRK.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\bin\Release\net6.0\n0tFlix.Channel.NRK.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\bin\Release\net6.0\ref\n0tFlix.Channel.NRK.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\bin\Release\net6.0\n0tFlix.Channel.NRK.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\ref\n0tFlix.Channel.NRK.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.NRK\obj\Release\net6.0\n0tFlix.Channel.NRK.pdb

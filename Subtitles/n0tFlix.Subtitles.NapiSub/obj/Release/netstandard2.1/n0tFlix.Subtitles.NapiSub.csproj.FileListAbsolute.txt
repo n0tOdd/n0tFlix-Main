@@ -33,3 +33,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Na
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\bin\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\obj\Release\netstandard2.1\n0tFlix.Subtitles.Napisub.pdb

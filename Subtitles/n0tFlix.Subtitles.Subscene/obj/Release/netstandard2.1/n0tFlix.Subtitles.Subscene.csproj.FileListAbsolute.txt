@@ -42,3 +42,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Su
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\bin\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\bin\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\bin\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Subscene\obj\Release\netstandard2.1\n0tFlix.Subtitles.Subscene.pdb

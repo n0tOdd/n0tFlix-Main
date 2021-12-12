@@ -1,5 +1,4 @@
-﻿using PlaywrightSharp;
-using PlaywrightSharp.Chromium;
+﻿using Microsoft.Playwright;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -26,12 +25,15 @@ namespace n0tFlix.Addons.VideoExtractor.Nettwork.n0tPlayWrightClient
 
         public async Task<string> OpenPage(string url)
         {
-            await Playwright.InstallAsync();
+            //await Playwright.InstallAsync();
             using var playwright = await Playwright.CreateAsync();
             browser = await playwright.Webkit.LaunchAsync();
-            page = await browser.NewPageAsync(default, true, true);
-            await page.GoToAsync(url);
-            return await page.GetInnerHtmlAsync("*");
+            BrowserNewPageOptions options = new BrowserNewPageOptions() {};
+            options.BypassCSP = true;
+            options.JavaScriptEnabled = true;
+            page = await browser.NewPageAsync(options);
+            await page.GotoAsync(url);
+            return await page.InnerHTMLAsync("*");
         }
     }
 }

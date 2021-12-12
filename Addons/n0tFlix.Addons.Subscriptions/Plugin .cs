@@ -22,15 +22,9 @@ namespace n0tFlix.Addons.Subscriptions
 
         public override PluginInfo GetPluginInfo()
         {
-            PluginInfo pluginInfo = new PluginInfo()
+            PluginInfo pluginInfo = new PluginInfo("Subscriptions", new Version("1.0.0.0"), "", _id, true)
             {
-                Name = "Subscriptions",
-                Version = "1.0.0.0",
-                CanUninstall = true,
-                Description = "",
-                Id = _id.ToString(),
                 ConfigurationFileName = base.ConfigurationFileName,
-                ImageUrl = ""
             };
             return base.GetPluginInfo();
         }
@@ -41,8 +35,7 @@ namespace n0tFlix.Addons.Subscriptions
             return type.Assembly.GetManifestResourceStream(type.Namespace + "Images.subscribe.png");
         }
 
-        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths,
-            xmlSerializer)
+        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
         {
             Instance = this;
         }

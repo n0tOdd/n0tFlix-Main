@@ -23,3 +23,12 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscrip
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\bin\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\bin\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\bin\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Addons\n0tFlix.Addons.Subscriptions\obj\Release\netstandard2.1\n0tFlix.Addons.Subscriptions.pdb

@@ -16,3 +16,14 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\n
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.sourcelink.json
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Release\netstandard2.1\Esprima.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Release\netstandard2.1\Esprima.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Release\netstandard2.1\Esprima.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.sourcelink.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Release\netstandard2.1\Esprima.pdb

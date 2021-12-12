@@ -39,7 +39,7 @@ namespace n0tFlix.Subtitles.Addic7ed
         private DateTime _lastRateLimitException;
         private DateTime _lastLogin;
         private int _rateLimitLeft = 40;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IApplicationHost _appHost;
         private ILocalizationManager _localizationManager;
       
@@ -49,10 +49,10 @@ namespace n0tFlix.Subtitles.Addic7ed
       
         private readonly string _baseUrl = "https://www.addic7ed.com";
      
-        public Addic7edDownloader(ILogger<Addic7edDownloader> logger, IHttpClient httpClient, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
+        public Addic7edDownloader(ILogger<Addic7edDownloader> logger, IHttpClientFactory httpClientFactory, IServerConfigurationManager config, IJsonSerializer json, IFileSystem fileSystem, ILocalizationManager localizationManager)
         {
             _logger = logger;
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
 
 
             _config = config;
@@ -122,15 +122,12 @@ namespace n0tFlix.Subtitles.Addic7ed
             }
         }
 
-        private Task<HttpResponseInfo> GetResponse(string url, CancellationToken cancellationToken)
+        private Task<HttpResponseMessage> GetResponse(string url, CancellationToken cancellationToken)
         {
-            return _httpClient.GetResponse(new HttpRequestOptions
-            {
-                Url = $"{_baseUrl}/{url}",
-                CancellationToken = cancellationToken,
-                Referer = _baseUrl,
-                UserAgent = "Mozilla/5.0 (Windows NT 10.0)"
-            });
+            var request = new HttpRequestMessage(HttpMethod.Get, url);
+            request.Headers.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("Mozilla/5.0 (Windows NT 10.0)"));
+            request.Headers.Referrer = new Uri(_baseUrl);
+            return _httpClientFactory.CreateClient().SendAsync(request, cancellationToken);
         }
 
         private async Task Login(CancellationToken cancellationToken)
@@ -165,37 +162,32 @@ namespace n0tFlix.Subtitles.Addic7ed
 
             var formUrlEncodedContent = new FormUrlEncodedContent(contentData);
             var requestContentBytes = await formUrlEncodedContent.ReadAsStringAsync().ConfigureAwait(false);
-            using (var res = await _httpClient.Post(new HttpRequestOptions
+            
+            var request = new HttpRequestMessage(HttpMethod.Post, _baseUrl + "/dologin.php");
+            request.Headers.Referrer = new Uri(_baseUrl);
+            var content = new StringContent(requestContentBytes, Encoding.Default, "application/x-www-form-urlencoded");
+            using (var client = _httpClientFactory.CreateClient())
             {
-                Url = _baseUrl + "/dologin.php",
-                RequestContentType = "application/x-www-form-urlencoded",
-                RequestContent = requestContentBytes,
-                CancellationToken = cancellationToken,
-                Referer = _baseUrl
-            }).ConfigureAwait(false))
-            {
-
+                client.DefaultRequestHeaders.Referrer = new Uri(_baseUrl);
+                var res = await client.PostAsync(_baseUrl + "/dologin.php", content, cancellationToken).ConfigureAwait(false);
                 if (res.StatusCode == HttpStatusCode.OK)
                 {
-                    using (var reader = new StreamReader(res.Content))
+                    var resContent = await res.Content.ReadAsStringAsync().ConfigureAwait(false);
+                    if (resContent.Contains("User <b></b> doesn't exist"))
                     {
-                        var content = await reader.ReadToEndAsync().ConfigureAwait(false);
-                        if (content.Contains("User <b></b> doesn't exist"))
-                        {
-                            _logger.LogDebug("User doesn't exist");
-                            return;
-                        }
-                        if (content.Contains("Wrong password"))
-                        {
-                            _logger.LogDebug("Wrong password");
-                            return;
-                        }
-                        _logger.LogDebug($"{username} Logged in");
+                        _logger.LogDebug("User doesn't exist");
+                        return;
                     }
+                    if (resContent.Contains("Wrong password"))
+                    {
+                        _logger.LogDebug("Wrong password");
+                        return;
+                    }
+                    _logger.LogDebug($"{username} Logged in");
                 }
             }
 
-            _lastLogin = DateTime.Now;
+            this._lastLogin = DateTime.Now;
         }
 
         private async Task<string> GetShow(string name, CancellationToken cancellationToken)
@@ -213,7 +205,7 @@ namespace n0tFlix.Subtitles.Addic7ed
                 if (res.StatusCode == HttpStatusCode.OK)
                 {
                     var showPattern = "<option value=\"(\\d+)\" >(.*?)</option>";
-                    var showMatches = await GetMatches(res.Content, showPattern).ConfigureAwait(false);
+                    var showMatches = await GetMatches(res.Content.ReadAsStream(), showPattern).ConfigureAwait(false);
                     foreach (Match show in showMatches)
                     {
                         if (!shows.ContainsKey(show.Groups[2].Value))
@@ -233,12 +225,12 @@ namespace n0tFlix.Subtitles.Addic7ed
                            .Where(i => i.Language.Equals(language));
         }
 
-        private async Task<IEnumerable<Addic7edResult>> ParseEpisode(HttpResponseInfo res)
+        private async Task<IEnumerable<Addic7edResult>> ParseEpisode(HttpResponseMessage res)
         {
             var trPattern = "<tr class=\"epeven completed\">(.*?)</tr>";
             var tdPattern = "<td.*?>(.*?)</td>";
 
-            var trMatches = await GetMatches(res.Content, trPattern).ConfigureAwait(false);
+            var trMatches = await GetMatches(res.Content.ReadAsStream(), trPattern).ConfigureAwait(false);
             var episodes = new List<Addic7edResult>();
             foreach (Match tr in trMatches)
             {
@@ -280,7 +272,7 @@ namespace n0tFlix.Subtitles.Addic7ed
             using (var res = await GetResponse($"srch.php?search={name}&Submit=Search", cancellationToken).ConfigureAwait(false))
             {
                 var aPattern = "<a href=\"movie/(\\d+)\" debug=\"\\d+\">(.*?)</a><";
-                var aMatches = await GetMatches(res.Content, aPattern).ConfigureAwait(false);
+                var aMatches = await GetMatches(res.Content.ReadAsStream(), aPattern).ConfigureAwait(false);
                 var movies = new Dictionary<string, string>();
                 foreach (Match a in aMatches)
                 {
@@ -303,7 +295,7 @@ namespace n0tFlix.Subtitles.Addic7ed
                 var langPattern = "class=\"language\">(.*?)<";
                 var downPattern = "<a class=\"buttonDownload\" href=\"/(.*?)\">";
 
-                var matches = await GetMatches(res.Content, new[] { verPattern, langPattern, downPattern, titlePattern }).ConfigureAwait(false);
+                var matches = await GetMatches(res.Content.ReadAsStream(), new[] { verPattern, langPattern, downPattern, titlePattern }).ConfigureAwait(false);
 
                 var results = new List<Addic7edResult>();
                 for (int i = 0; i < matches.FirstOrDefault().Count; i++)
@@ -421,8 +413,8 @@ namespace n0tFlix.Subtitles.Addic7ed
 
             using (var stream = await GetResponse(download, cancellationToken).ConfigureAwait(false))
             {
-                if (string.IsNullOrWhiteSpace(stream.ContentType) ||
-                    stream.ContentType.Contains(format))
+                if (string.IsNullOrWhiteSpace(stream.Content.Headers.ContentType.MediaType) ||
+                    stream.Content.Headers.ContentType.MediaType.Contains(format))
                 {
                     var ms = new MemoryStream();
                     await stream.Content.CopyToAsync(ms).ConfigureAwait(false);

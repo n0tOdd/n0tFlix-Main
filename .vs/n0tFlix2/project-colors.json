@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "dd35db03-52d9-4453-88c0-75677e7f93ed": {
+      "ProjectGuid": "dd35db03-52d9-4453-88c0-75677e7f93ed",
+      "DisplayName": "n0tFlix.Addons.Subscriptions",
+      "ColorIndex": 0
+    },
+    "0207478f-4cbd-4e9a-8d31-99369731b57f": {
+      "ProjectGuid": "0207478f-4cbd-4e9a-8d31-99369731b57f",
+      "DisplayName": "n0tFlix.Addons.VideoExtractor",
+      "ColorIndex": 1
+    },
+    "894a4e87-eea5-43da-bf2b-d7316d517132": {
+      "ProjectGuid": "894a4e87-eea5-43da-bf2b-d7316d517132",
+      "DisplayName": "n0tFlix.Channel.Pornhub",
+      "ColorIndex": 2
+    },
+    "2da4ec94-3cf0-4b6f-8dd1-621caa583c3d": {
+      "ProjectGuid": "2da4ec94-3cf0-4b6f-8dd1-621caa583c3d",
+      "DisplayName": "n0tFlix.Addons.YoutubeDL",
+      "ColorIndex": 3
+    },
+    "2d379d33-d6fc-48ea-9178-0ad114cef197": {
+      "ProjectGuid": "2d379d33-d6fc-48ea-9178-0ad114cef197",
+      "DisplayName": "n0tFlix.Channel.ComedyCentral",
+      "ColorIndex": 4
+    },
+    "7e4dc19d-dfa5-4f3b-8779-78aa94bc37d6": {
+      "ProjectGuid": "7e4dc19d-dfa5-4f3b-8779-78aa94bc37d6",
+      "DisplayName": "n0tFlix.Channel.Crunchyroll",
+      "ColorIndex": 5
+    },
+    "35c9e38e-e99b-4dd9-af0e-e6bef72d5dbb": {
+      "ProjectGuid": "35c9e38e-e99b-4dd9-af0e-e6bef72d5dbb",
+      "DisplayName": "n0tFlix.Channel.NRK",
+      "ColorIndex": 6
+    },
+    "8051c0c9-92b0-4ab0-a488-7fb5ea2ce2e8": {
+      "ProjectGuid": "8051c0c9-92b0-4ab0-a488-7fb5ea2ce2e8",
+      "DisplayName": "n0tFlix.Channel.Redtube",
+      "ColorIndex": 7
+    },
+    "1991600f-744b-4832-a207-1a0c58c5848c": {
+      "ProjectGuid": "1991600f-744b-4832-a207-1a0c58c5848c",
+      "DisplayName": "n0tFlix.Channel.TubiTV",
+      "ColorIndex": 8
+    },
+    "2b463d5d-2c17-4daa-a40a-27603938abb0": {
+      "ProjectGuid": "2b463d5d-2c17-4daa-a40a-27603938abb0",
+      "DisplayName": "n0tFlix.Channel.TWiT",
+      "ColorIndex": 9
+    },
+    "c6e7b9c1-f2ab-4bc1-8cad-675bc358b145": {
+      "ProjectGuid": "c6e7b9c1-f2ab-4bc1-8cad-675bc358b145",
+      "DisplayName": "n0tFlix.Channel.Viafree",
+      "ColorIndex": 10
+    },
+    "9570e180-ea04-4282-adea-e5baf0b59103": {
+      "ProjectGuid": "9570e180-ea04-4282-adea-e5baf0b59103",
+      "DisplayName": "n0tFlix.Helpers.Common",
+      "ColorIndex": 11
+    },
+    "662e07c2-1265-4c25-931b-9f14a85db507": {
+      "ProjectGuid": "662e07c2-1265-4c25-931b-9f14a85db507",
+      "DisplayName": "n0tFlix.Manifest.Manager",
+      "ColorIndex": 12
+    },
+    "09ecfd1f-5062-496f-bab5-5aa8ee2b49cc": {
+      "ProjectGuid": "09ecfd1f-5062-496f-bab5-5aa8ee2b49cc",
+      "DisplayName": "n0tFlix.Provider.Imvdb",
+      "ColorIndex": 13
+    },
+    "5478603c-5361-4afe-837a-11c1e8d5cd9d": {
+      "ProjectGuid": "5478603c-5361-4afe-837a-11c1e8d5cd9d",
+      "DisplayName": "n0tFlix.Subtitles.Addic7ed",
+      "ColorIndex": 14
+    },
+    "e452fdcb-fb6f-400a-adbc-33aab16f87ee": {
+      "ProjectGuid": "e452fdcb-fb6f-400a-adbc-33aab16f87ee",
+      "DisplayName": "n0tFlix.Subtitles.Napisub",
+      "ColorIndex": 15
+    },
+    "47108c79-0d51-49a9-a1fc-fdef65efc028": {
+      "ProjectGuid": "47108c79-0d51-49a9-a1fc-fdef65efc028",
+      "DisplayName": "n0tFlix.Subtitles.Podnapisi",
+      "ColorIndex": 0
+    },
+    "1a35773c-bb5c-4597-9e0e-f39b10c4d1de": {
+      "ProjectGuid": "1a35773c-bb5c-4597-9e0e-f39b10c4d1de",
+      "DisplayName": "n0tFlix.Subtitles.OpenSubtitles",
+      "ColorIndex": 1
+    },
+    "a8643766-eb5a-45b9-83f4-2fa84cf11ea8": {
+      "ProjectGuid": "a8643766-eb5a-45b9-83f4-2fa84cf11ea8",
+      "DisplayName": "n0tFlix.Subtitles.SubDivX",
+      "ColorIndex": 2
+    },
+    "95037a32-9f98-43f3-9125-ec34487899a0": {
+      "ProjectGuid": "95037a32-9f98-43f3-9125-ec34487899a0",
+      "DisplayName": "n0tFlix.Subtitles.Subscene",
+      "ColorIndex": 3
+    },
+    "cc4f06f1-f962-4621-afbc-7e3848e6b4c0": {
+      "ProjectGuid": "cc4f06f1-f962-4621-afbc-7e3848e6b4c0",
+      "DisplayName": "n0tFlix.Subtitles.TheSubDB",
+      "ColorIndex": 4
+    },
+    "3efd6c5c-d8ef-4d75-98b8-26df0fc26c85": {
+      "ProjectGuid": "3efd6c5c-d8ef-4d75-98b8-26df0fc26c85",
+      "DisplayName": "n0tFlix.Subtitles.TVsubtitles",
+      "ColorIndex": 5
+    },
+    "7c4787eb-88de-4add-9089-7eab8ea3d84f": {
+      "ProjectGuid": "7c4787eb-88de-4add-9089-7eab8ea3d84f",
+      "DisplayName": "n0tFlix.Subtitles.Yify",
+      "ColorIndex": 6
+    },
+    "72e715fd-62cc-4f3e-9b53-c110558ee311": {
+      "ProjectGuid": "72e715fd-62cc-4f3e-9b53-c110558ee311",
+      "DisplayName": "n0tFlix.Channel.Name",
+      "ColorIndex": 7
+    },
+    "289142f3-6f88-4f9a-877f-d438913b2d95": {
+      "ProjectGuid": "289142f3-6f88-4f9a-877f-d438913b2d95",
+      "DisplayName": "n0tFlix.Subtitles.Name",
+      "ColorIndex": 8
+    },
+    "297e493a-c758-4c73-ad19-4a130c5e92c4": {
+      "ProjectGuid": "297e493a-c758-4c73-ad19-4a130c5e92c4",
+      "DisplayName": "AngleSharp.Core",
+      "ColorIndex": 9
+    }
+  },
+  "NextColorIndex": 10
+}

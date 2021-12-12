@@ -11,6 +11,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Net.Http;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading;
@@ -22,17 +23,17 @@ namespace n0tFlix.Addons.YoutubeDL
     {
         private IFileSystem FileSystem { get; set; }
         private ILogger Logger { get; set; }
-        private IHttpClient httpclient { get; set; }
+        private IHttpClientFactory httpClientFactory { get; set; }
         private IServerApplicationPaths ServerApplicationPaths { get; set; }
         private static ISessionManager SessionManager { get; set; }
         private static IJsonSerializer JsonSerializer { get; set; }
 
         // ReSharper disable once TooManyDependencies
-        public YoutubeDlEntryPoint(ILogger<YoutubeDlEntryPoint> logger, IServerApplicationPaths paths, IHttpClient httpclient)
+        public YoutubeDlEntryPoint(ILogger<YoutubeDlEntryPoint> logger, IServerApplicationPaths paths, IHttpClientFactory httpClientFactory)
         {
             Logger = logger;
             ServerApplicationPaths = paths;
-            this.httpclient = httpclient;
+            this.httpClientFactory = httpClientFactory;
         }
 
         private void Ses_PlaybackStopped(object sender, MediaBrowser.Controller.Library.PlaybackStopEventArgs e)
@@ -52,7 +53,7 @@ namespace n0tFlix.Addons.YoutubeDL
                 if (!File.Exists(Path.Combine(Plugin.Instance.DataFolderPath, "youtube-dl.exe")))
                 {
                     Logger.LogDebug("Downloading youtube-dl.exe");
-                    Stream youtubeDL = await httpclient.Get(new HttpRequestOptions() { Url = "https://yt-dl.org/downloads/latest/youtube-dl.exe" });
+                    Stream youtubeDL = await httpClientFactory.CreateClient().GetStreamAsync(@"https://yt-dl.org/downloads/latest/youtube-dl.exe");
                     using (var fs = new FileStream(Path.Combine(Plugin.Instance.DataFolderPath, "youtube-dl.exe"), FileMode.CreateNew))
                     {
                         await youtubeDL.CopyToAsync(fs);
@@ -65,7 +66,7 @@ namespace n0tFlix.Addons.YoutubeDL
                 if (!File.Exists(Path.Combine(Plugin.Instance.DataFolderPath, "youtube-dl")))
                 {
                     Logger.LogDebug("Downloading youtube-dl");
-                    Stream youtubeDL = await httpclient.Get(new HttpRequestOptions() { Url = "https://yt-dl.org/downloads/latest/youtube-dl" });
+                    Stream youtubeDL = await httpClientFactory.CreateClient().GetStreamAsync(@"https://yt-dl.org/downloads/latest/youtube-dl");
                     using (var fs = new FileStream(Path.Combine(Plugin.Instance.DataFolderPath, "youtube-dl"), FileMode.CreateNew))
                     {
                         await youtubeDL.CopyToAsync(fs);

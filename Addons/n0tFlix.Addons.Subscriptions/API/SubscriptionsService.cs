@@ -1,6 +1,8 @@
 ﻿using MediaBrowser.Controller.Library;
+using MediaBrowser.Common.Configuration;
+using MediaBrowser.Common.Plugins;
 using MediaBrowser.Model.Serialization;
-using MediaBrowser.Model.Services;
+using System.Net.Http;
 using MediaBrowser.Model.Users;
 using n0tFlix.Addons.Subscriptions.Configuration;
 using System;
@@ -8,13 +10,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using Microsoft.AspNetCore.Mvc;
 
 namespace n0tFlix.Addons.Subscriptions.API
 {
-    [Route("/AddCsvInfo", "GET", Summary = "Get CSV Data")]
-    public class CsvInfo : IReturn<string>
+    public class CsvInfo
     {
-        [ApiMember(Name = "Path", Description = "DirectoryLocationCSV", IsRequired = true, DataType = "string", ParameterType = "query", Verb = "GET")]
         public string Path { get; set; }
 
         //Columns - Follow this in the CSV
@@ -26,24 +27,25 @@ namespace n0tFlix.Addons.Subscriptions.API
         public string EmailAddress { get; set; }  //4
     }
 
-    [Route("/RemoveSubscriptionAndUser", "GET", Summary = "Get CSV Data")]
-    public class SubscriptionRemovalData : IReturn<string>
+    public class SubscriptionRemovalData
     {
-        [ApiMember(Name = "UserId", Description = "The subscription (User) Id to remove from emby", IsRequired = true, DataType = "string", ParameterType = "query", Verb = "GET")]
         public string Id { get; set; }
     }
 
-    public class SubscriptionsService : IService
+    [ApiController]
+    public class SubscriptionsService : ControllerBase
     {
         private IJsonSerializer JsonSerializer { get; set; }
         private IUserManager UserManager { get; set; }
 
         public SubscriptionsService(IJsonSerializer json, IUserManager user)
         {
+            
             JsonSerializer = json;
             UserManager = user;
         }
 
+        [Route("SubscriptionsService/AddCsvInfo/{result:CsvInfo}")]
         public string Get(CsvInfo result)
         {
             try
@@ -79,7 +81,7 @@ namespace n0tFlix.Addons.Subscriptions.API
 
                         var expireDate = DateTime.Parse(expireDateMonth + "/" + expireDateDay + "/" + expireDateYear);
 
-                        var newUser = UserManager.CreateUser(account.UserName);
+                        var newUser = UserManager.CreateUserAsync(account.UserName).Result;
                         {
                             newUser.EnableUserPreferenceAccess = false;
                             newUser.EnableUserPreferenceAccess = true;
@@ -133,7 +135,8 @@ namespace n0tFlix.Addons.Subscriptions.API
                 response = "OK"
             });
         }
-
+        
+        [Route("SubscriptionsService/RemoveSubscriptionAndUser/{result:SubscriptionRemovalData}")]
         public string Get(SubscriptionRemovalData result)
         {
             var config = Plugin.Instance.Configuration;

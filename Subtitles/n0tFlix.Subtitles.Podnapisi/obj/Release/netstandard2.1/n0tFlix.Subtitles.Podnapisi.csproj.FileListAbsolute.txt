@@ -43,3 +43,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Po
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.csprojAssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.pdb

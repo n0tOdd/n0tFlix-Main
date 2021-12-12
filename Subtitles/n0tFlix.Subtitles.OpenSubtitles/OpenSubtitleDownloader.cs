@@ -18,6 +18,7 @@ using MediaBrowser.Model.Providers;
 using MediaBrowser.Model.Serialization;
 using Microsoft.Extensions.Logging;
 using OpenSubtitlesHandler;
+using System.Net.Http;
 
 namespace n0tFlix.Subtitles.OpenSubtitles
 {
@@ -30,12 +31,12 @@ namespace n0tFlix.Subtitles.OpenSubtitles
         private DateTime _lastLogin;
         private int _rateLimitLeft = 1000;
 
-        public OpenSubtitleDownloader(ILogger<OpenSubtitleDownloader> logger, IFileSystem fileSystem, IHttpClient httpClient)
+        public OpenSubtitleDownloader(ILogger<OpenSubtitleDownloader> logger, IFileSystem fileSystem, IHttpClientFactory httpClientFactory)
         {
             _logger = logger;
             _fileSystem = fileSystem;
 
-            Utilities.HttpClient = httpClient;
+            Utilities.HttpClient = httpClientFactory.CreateClient();
             OpenSubtitlesHandler.OpenSubtitles.SetUserAgent("jellyfin");
         }
 

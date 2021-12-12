@@ -20,15 +20,9 @@ namespace n0tFlix.Addons.YoutubeDL
 
         public override PluginInfo GetPluginInfo()
         {
-            PluginInfo pluginInfo = new PluginInfo()
+            PluginInfo pluginInfo = new PluginInfo("YoutubeDL API", new Version("1.0.0.0"), "", _id, true)
             {
-                Name = "YoutubeDL API",
-                Version = "1.0.0.0",
-                CanUninstall = true,
-                Description = "",
-                Id = _id.ToString(),
                 ConfigurationFileName = base.ConfigurationFileName,
-                ImageUrl = ""
             };
             return pluginInfo;
         }

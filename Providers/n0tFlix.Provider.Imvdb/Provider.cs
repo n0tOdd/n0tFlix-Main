@@ -9,6 +9,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -28,7 +29,7 @@ namespace n0tFlix.Provider.Imvdb
 
         public string UrlFormatString => "https://imvdb.com/api/v1/{0}/search/videos?q={1}+{2}";
 
-        private IHttpClient _httpClient;
+        private IHttpClientFactory _httpClientFactory;
         private ILogger _logger;
 
         //   private IXmlReaderSettingsFactory _xmlSettings;
@@ -36,9 +37,9 @@ namespace n0tFlix.Provider.Imvdb
 
         private IApplicationHost _appHost;
 
-        public Provider(IHttpClient httpClient, ILogger logger, IApplicationHost appHost)
+        public Provider(IHttpClientFactory httpClientFactory, ILogger logger, IApplicationHost appHost)
         {
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _logger = logger;
             // _xmlSettings = xmlSettings;
             _appHost = appHost;
@@ -98,12 +99,9 @@ namespace n0tFlix.Provider.Imvdb
 
             if (!string.IsNullOrWhiteSpace(url))
             {
-                using (var response = await GetResponse(url, apiKey, cancellationToken).ConfigureAwait(false))
+                using (var stream = await GetResponse(url, apiKey, cancellationToken).ConfigureAwait(false))
                 {
-                    using (var stream = response.Content)
-                    {
-                        return GetResultsFromResponse(stream, true);
-                    }
+                    return GetResultsFromResponse(stream, true);
                 }
             }
             return new List<RemoteSearchResult>();
@@ -115,12 +113,9 @@ namespace n0tFlix.Provider.Imvdb
 
             if (!string.IsNullOrWhiteSpace(url))
             {
-                using (var response = await GetResponse(url, apiKey, cancellationToken).ConfigureAwait(false))
+                using (var stream = await GetResponse(url, apiKey, cancellationToken).ConfigureAwait(false))
                 {
-                    using (var stream = response.Content)
-                    {
                         return GetResultsFromResponse(stream, false);
-                    }
                 }
             }
             return new List<RemoteSearchResult>();
@@ -153,27 +148,20 @@ namespace n0tFlix.Provider.Imvdb
             }
         }
 
-        public Task<HttpResponseInfo> GetResponse(string url, string apiKey, CancellationToken cancellationToken)
+        public Task<Stream> GetResponse(string url, string apiKey, CancellationToken cancellationToken)
         {
-            var options = new HttpRequestOptions
+            using (var client = _httpClientFactory.CreateClient())
             {
-                CancellationToken = cancellationToken,
-                AcceptHeader = "application/xml",
-                Url = url
-            };
-
-            options.RequestHeaders["IMVDB-APP-KEY"] = apiKey;
-
-            return _httpClient.GetResponse(options);
+                client.DefaultRequestHeaders.Add("Accept", "application/xml");
+                client.DefaultRequestHeaders.Add("IMVDB-APP-KEY", apiKey);
+                var response = client.GetStreamAsync(url, cancellationToken);
+                return response;
+            }
         }
 
-        public Task<HttpResponseInfo> GetImageResponse(string url, CancellationToken cancellationToken)
+        public Task<HttpResponseMessage> GetImageResponse(string url, CancellationToken cancellationToken)
         {
-            return _httpClient.GetResponse(new HttpRequestOptions
-            {
-                CancellationToken = cancellationToken,
-                Url = url
-            });
+            return _httpClientFactory.CreateClient().GetAsync(url, cancellationToken);
         }
 
         private class ReleaseResult

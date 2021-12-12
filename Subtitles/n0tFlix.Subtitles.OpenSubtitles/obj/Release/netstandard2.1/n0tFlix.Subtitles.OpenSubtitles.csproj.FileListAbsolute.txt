@@ -27,3 +27,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Op
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\bin\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.OpenSubtitles\obj\Release\netstandard2.1\n0tFlix.Subtitles.OpenSubtitles.pdb

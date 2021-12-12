@@ -1,35 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj": {}
+    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj": {}
   },
   "projects": {
-    "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj": {
+    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
         "projectName": "n0tFlix.Channel.Name",
-        "projectPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
-        "packagesPath": "C:\\Users\\oddos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\oddos\\source\\repos\\n0tFlix2\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\obj\\",
+        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
+        "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\oddos\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\ersoucy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.1": {
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -40,15 +41,16 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Jellyfin.Common": {
               "target": "Package",
-              "version": "[10.6.0, )"
+              "version": "[10.7.7, )"
             },
             "Jellyfin.Controller": {
               "target": "Package",
-              "version": "[10.6.0, )"
+              "version": "[10.7.7, )"
             }
           },
           "imports": [
@@ -62,11 +64,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

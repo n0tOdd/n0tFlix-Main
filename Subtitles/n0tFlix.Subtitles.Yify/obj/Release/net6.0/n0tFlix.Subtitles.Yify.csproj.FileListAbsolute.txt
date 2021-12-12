@@ -1,0 +1,12 @@
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\bin\Release\net6.0\n0tFlix.Subtitles.Yify.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\bin\Release\net6.0\n0tFlix.Subtitles.Yify.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\bin\Release\net6.0\ref\n0tFlix.Subtitles.Yify.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\bin\Release\net6.0\n0tFlix.Subtitles.Yify.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\ref\n0tFlix.Subtitles.Yify.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Yify\obj\Release\net6.0\n0tFlix.Subtitles.Yify.pdb

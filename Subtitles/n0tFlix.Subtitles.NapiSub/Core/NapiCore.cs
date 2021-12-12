@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
@@ -62,15 +63,11 @@ namespace n0tFlix.Subtitles.NapiSub.Core
             return b;
         }
 
-        public static HttpRequestOptions CreateRequest(string hash, string language)
+        public static HttpRequestMessage CreatePostRequest(string hash, string language)
         {
             if (hash == null) return null;
 
-            var opts = new HttpRequestOptions
-            {
-                Url = Plugin.Instance.Configuration.GetNapiUrl,
-                UserAgent = Plugin.Instance.Configuration.GetUserAgent,
-            };
+            var opts = new HttpRequestMessage(HttpMethod.Post, Plugin.Instance.Configuration.GetNapiUrl);
 
             var dic = new Dictionary<string, string>
             {
@@ -93,10 +90,8 @@ namespace n0tFlix.Subtitles.NapiSub.Core
                     "downloaded_subtitles_lang", language
                 }
             };
-            opts.RequestContent = SetPostData(dic);
-            opts.RequestContentType = "application/x-www-form-urlencoded";
+            opts.Content = new StringContent(SetPostData(dic), Encoding.Default, "application/x-www-form-urlencoded");
     
-
             return opts;
         }
 

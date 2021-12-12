@@ -18,3 +18,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Templates\n0tFlix.Subtitles.Na
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Release\netstandard2.1\n0tFlix.Subtitles.Name.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Release\netstandard2.1\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Release\netstandard2.1\n0tFlix.Subtitles.Name.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Release\netstandard2.1\n0tFlix.Subtitles.Name.pdb

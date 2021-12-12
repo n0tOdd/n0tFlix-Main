@@ -22,3 +22,16 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Crunc
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.pdb
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.csproj.CopyComplete
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\bin\Release\netstandard2.1\n0tFlix.Helpers.Common.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.csproj.CopyComplete
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Crunchyroll\obj\Release\netstandard2.1\n0tFlix.Channel.Crunchyroll.pdb

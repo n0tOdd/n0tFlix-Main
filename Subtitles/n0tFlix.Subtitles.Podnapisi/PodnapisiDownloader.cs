@@ -24,6 +24,7 @@ using MediaBrowser.Model.Net;
 using MediaBrowser.Model.Providers;
 using MediaBrowser.Model.Serialization;
 using Microsoft.Extensions.Logging;
+using System.Net.Http;
 
 namespace n0tFlix.Subtitles.Podnapisi
 {
@@ -35,15 +36,15 @@ namespace n0tFlix.Subtitles.Podnapisi
         private DateTime _lastRateLimitException;
         private DateTime _lastLogin;
         private int _rateLimitLeft = 40;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly IApplicationHost _appHost;
         private ILocalizationManager _localizationManager;
-        public PodnapisiDownloader(ILogger<PodnapisiDownloader> logger, IFileSystem fileSystem, IHttpClient httpClient, IApplicationHost appHost, ILocalizationManager localizationManager)
+        public PodnapisiDownloader(ILogger<PodnapisiDownloader> logger, IFileSystem fileSystem, IHttpClientFactory httpClientFactory, IApplicationHost appHost, ILocalizationManager localizationManager)
         {
             _logger = logger;
             _fileSystem = fileSystem;
 
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _appHost = appHost;
             _localizationManager = localizationManager;
 
@@ -59,10 +60,12 @@ namespace n0tFlix.Subtitles.Podnapisi
             => new[] { VideoContentType.Episode, VideoContentType.Movie };
 
 
-        private HttpRequestOptions BaseRequestOptions => new HttpRequestOptions
+        private HttpRequestMessage BaseRequestOptions(HttpMethod method, string requestUri)
         {
-            UserAgent = $"Jellyfin/{_appHost.ApplicationVersion}"
-        };
+            var request = new HttpRequestMessage(method, requestUri);
+            request.Headers.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue("Jellyfin/{_appHost.ApplicationVersion}"));
+            return request;
+        }
 
         private string NormalizeLanguage(string language)
         {
@@ -83,15 +86,13 @@ namespace n0tFlix.Subtitles.Podnapisi
             var pid = id.Split(',')[0];
             var title = id.Split(',')[1];
             var lang = id.Split(',')[2];
-            var opts = BaseRequestOptions;
-            opts.Url = $"https://www.podnapisi.net/{lang}/subtitles/{title}/{pid}/download";
-            _logger.LogDebug("Requesting {0}", opts.Url);
+            var opts = BaseRequestOptions(HttpMethod.Get, $"https://www.podnapisi.net/{lang}/subtitles/{title}/{pid}/download");
+            _logger.LogDebug("Requesting {0}", opts.RequestUri);
 
-            using (var response = await _httpClient.GetResponse(opts).ConfigureAwait(false))
+            using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
             {
-                _logger.LogDebug(response.ResponseUrl);
                 var ms = new MemoryStream();
-                var contentType = response.ContentType.ToLower();
+                var contentType = response.Content.Headers.ContentType.MediaType.ToLower();
                 if (!contentType.Contains("zip"))
                 {
                     return new SubtitleResponse()
@@ -101,7 +102,7 @@ namespace n0tFlix.Subtitles.Podnapisi
                     };
                 }
 
-                var archive = new ZipArchive(response.Content,ZipArchiveMode.Read);
+                var archive = new ZipArchive(response.Content.ReadAsStream(),ZipArchiveMode.Read);
 
                 await archive.Entries.FirstOrDefault().Open().CopyToAsync(ms).ConfigureAwait(false);
                 ms.Position = 0;
@@ -150,15 +151,14 @@ namespace n0tFlix.Subtitles.Podnapisi
                 url.Append($"&sY={request.ProductionYear}");
             }
 
-            var opts = BaseRequestOptions;
-            opts.Url = url.ToString();
-            _logger.LogDebug("Requesting {0}", opts.Url);
+            var opts = BaseRequestOptions(HttpMethod.Get, url.ToString());
+            _logger.LogDebug("Requesting {0}", opts.RequestUri);
 
             try
             {
-                using (var response = await _httpClient.GetResponse(opts).ConfigureAwait(false))
+                using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
                 {
-                    using (var reader = new StreamReader(response.Content))
+                    using (var reader = new StreamReader(response.Content.ReadAsStream()))
                     {
                         var settings = Create(false);
                         settings.CheckCharacters = false;
@@ -174,7 +174,7 @@ namespace n0tFlix.Subtitles.Podnapisi
                     }
                 }
             }
-            catch (HttpException ex)
+            catch (HttpRequestException ex)
             {
                 if (ex.StatusCode.HasValue && ex.StatusCode.Value == HttpStatusCode.NotFound)
                 {

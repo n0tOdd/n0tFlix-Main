@@ -33,14 +33,14 @@ namespace n0tFlix.Subtitles.TheSubDB
 {
     public class TheSubDbDownloader : ISubtitleProvider
     {
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<TheSubDbDownloader> _logger;
         private readonly IApplicationHost _appHost;
 
-        public TheSubDbDownloader(ILogger<TheSubDbDownloader> logger, IHttpClient httpClient, IApplicationHost appHost)
+        public TheSubDbDownloader(ILogger<TheSubDbDownloader> logger, IHttpClientFactory httpClientFactory, IApplicationHost appHost)
         {
             _logger = logger;
-            _httpClient = httpClient;
+            _httpClientFactory = httpClientFactory;
             _appHost = appHost;
         }
 
@@ -57,19 +57,19 @@ namespace n0tFlix.Subtitles.TheSubDB
             }
         }
 
-        private HttpRequestOptions BaseRequestOptions => new HttpRequestOptions
+        private HttpRequestMessage BaseRequestOptions(HttpMethod httpMethod, string url)
         {
-            UserAgent =
-                $"SubDB/1.0 (n0tFlix/{_appHost.ApplicationVersion}; https://github.com/n0tMaster)"
-        };
+            var request = new HttpRequestMessage(httpMethod, url);
+            request.Headers.UserAgent.Add(new System.Net.Http.Headers.ProductInfoHeaderValue($"Jellyfin/{_appHost?.ApplicationVersion}"));
+            return request;
+        }
 
         public async Task<SubtitleResponse> GetSubtitles(string id, CancellationToken cancellationToken)
         {
-            var opts = BaseRequestOptions;
-            opts.Url = "http://api.thesubdb.com/?action=download&hash=" + id;
-            _logger.LogDebug("Requesting {0}", opts.Url);
+            var opts = BaseRequestOptions(HttpMethod.Get, "http://api.thesubdb.com/?action=download&hash=" + id);
+            _logger.LogDebug("Requesting {0}", opts.RequestUri);
 
-            using (var response = await _httpClient.GetResponse(opts).ConfigureAwait(false))
+            using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
             {
                 var ms = new MemoryStream();
 
@@ -105,15 +105,14 @@ namespace n0tFlix.Subtitles.TheSubDB
             CancellationToken cancellationToken)
         {
             var hash = await GetHash(request.MediaPath, cancellationToken);
-            var opts = BaseRequestOptions;
-            opts.Url = "http://api.thesubdb.com/?action=search&hash=" + hash;
-            _logger.LogDebug("Requesting {0}", opts.Url);
+            var opts = BaseRequestOptions(HttpMethod.Get, "http://api.thesubdb.com/?action=search&hash=" + hash);
+            _logger.LogDebug("Requesting {0}", opts.RequestUri);
 
             try
             {
-                using (var response = await _httpClient.GetResponse(opts).ConfigureAwait(false))
+                using (var response = await _httpClientFactory.CreateClient().SendAsync(opts).ConfigureAwait(false))
                 {
-                    using (var reader = new StreamReader(response.Content))
+                    using (var reader = new StreamReader(response.Content.ReadAsStream()))
                     {
                         var result = await reader.ReadToEndAsync().ConfigureAwait(false);
                         _logger.LogDebug("Search for subtitles for {0} returned {1}", hash, result);
@@ -130,7 +129,7 @@ namespace n0tFlix.Subtitles.TheSubDB
                     }
                 }
             }
-            catch (HttpException ex)
+            catch (HttpRequestException ex)
             {
                 if (ex.StatusCode.HasValue && ex.StatusCode.Value == HttpStatusCode.NotFound)
                 {

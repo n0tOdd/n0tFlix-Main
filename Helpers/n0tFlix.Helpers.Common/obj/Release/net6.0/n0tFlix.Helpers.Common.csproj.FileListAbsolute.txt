@@ -1,0 +1,12 @@
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net6.0\n0tFlix.Helpers.Common.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net6.0\n0tFlix.Helpers.Common.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net6.0\ref\n0tFlix.Helpers.Common.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net6.0\n0tFlix.Helpers.Common.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\ref\n0tFlix.Helpers.Common.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net6.0\n0tFlix.Helpers.Common.pdb

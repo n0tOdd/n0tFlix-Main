@@ -1,0 +1,12 @@
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\bin\Release\net6.0\n0tFlix.Channel.Name.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\bin\Release\net6.0\n0tFlix.Channel.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\bin\Release\net6.0\ref\n0tFlix.Channel.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\bin\Release\net6.0\n0tFlix.Channel.Name.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\ref\n0tFlix.Channel.Name.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Channel.Name\obj\Release\net6.0\n0tFlix.Channel.Name.pdb

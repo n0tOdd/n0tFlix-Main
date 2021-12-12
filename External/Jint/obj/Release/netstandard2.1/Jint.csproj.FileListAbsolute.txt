@@ -23,3 +23,16 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Jint\obj\Release\nets
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.csproj.CopyComplete
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\bin\Release\netstandard2.1\Jint.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\bin\Release\netstandard2.1\Jint.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\bin\Release\netstandard2.1\Jint.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\bin\Release\netstandard2.1\Esprima.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\bin\Release\netstandard2.1\Esprima.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.csproj.CopyComplete
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\External\Jint\obj\Release\netstandard2.1\Jint.pdb

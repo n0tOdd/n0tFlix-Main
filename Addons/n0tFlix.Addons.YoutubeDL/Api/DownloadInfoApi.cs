@@ -1,31 +1,22 @@
-﻿using Jellyfin.Data.Entities;
-using MediaBrowser.Model.Services;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using n0tFlix.Addons.YoutubeDL.Helpers;
-using n0tFlix.Addons.YoutubeDL.Models;
-using n0tFlix.Addons.YoutubeDL.Services;
-using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.IO;
-using System.Net;
 using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace n0tFlix.Addons.YoutubeDL
 {
-    [Route("/YoutubeDL/DownloadInfo", "GET", Description = "Gets Streamlink / download link from a webpage")]
-    public class GetJson : IReturn<string>
+    public class YoutubeDLService
     {
-        [ApiMember(Name = "Url", Description = "Url", IsRequired = true, DataType = "string",
-          ParameterType = "query", Verb = "GET")]
+
+    }
+    public class GetJson
+    {
         public string Url { get; set; }
     }
 
-    public class DownloadInfoApi : IService
+    [ApiController]
+    public class DownloadInfoApi : ControllerBase
     {
         private readonly ILogger<DownloadInfoApi> logger;
 
@@ -39,7 +30,8 @@ namespace n0tFlix.Addons.YoutubeDL
         /// </summary>
         /// <param name="getURL"></param>
         /// <returns></returns>
-        public string Get(GetJson getURL)
+        [Route("DownloadInfoApi/{GetJson}")]
+        public ActionResult<string> Get(GetJson getURL)
         {
             string path = string.Empty;
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))

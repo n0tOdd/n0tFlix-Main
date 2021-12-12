@@ -15,3 +15,13 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Pornh
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\bin\Release\netstandard2.1\n0tFlix.Channel.Pornhub.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\bin\Release\netstandard2.1\n0tFlix.Channel.Pornhub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\bin\Release\netstandard2.1\n0tFlix.Channel.Pornhub.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.csproj.AssemblyReference.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Pornhub\obj\Release\netstandard2.1\n0tFlix.Channel.Pornhub.pdb

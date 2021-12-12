@@ -36,9 +36,9 @@ namespace n0tFlix.Channel.Redtube
         private readonly IJsonSerializer jsonSerializer;
         private readonly IMemoryCache memoryCache;
         public ChannelParentalRating ParentalRating => ChannelParentalRating.Adult;
-        private readonly IHttpClient _httpClient;
+        private readonly IHttpClientFactory _httpClientFactory;
 
-        public Channel(IHttpClient httpClient, IJsonSerializer jsonSerializer, ILogger<Channel> logger, IMemoryCache memoryCache)
+        public Channel(IHttpClientFactory httpClient, IJsonSerializer jsonSerializer, ILogger<Channel> logger, IMemoryCache memoryCache)
         {
             _logger = logger;
             this.jsonSerializer = jsonSerializer;
@@ -213,7 +213,8 @@ namespace n0tFlix.Channel.Redtube
                 CheckCertificateRevocationList = false,
             };
             httpClientHandler.ServerCertificateCustomValidationCallback += (sender, cert, chain, sslPolicyErrors) => { return true; };
-            var html = new WebClient().DownloadString("https://embed.redtube.com/?id=" + id);
+            var response = await _httpClientFactory.CreateClient().GetAsync("https://embed.redtube.com/?id=" + id);
+            var html = response.ToString();
             html = html.Substring(html.IndexOf("mediaDefinitions"));
             html = "{\"" + html.Substring(0, html.IndexOf(",\"video_unavailable")) + "}";
             Models.MediaInfo.root root = JsonConvert.DeserializeObject<Models.MediaInfo.root>(html);

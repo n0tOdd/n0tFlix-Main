@@ -49,3 +49,12 @@ C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Ad
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.csproj.CoreCompileInputs.cache
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.dll
 C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.deps.json
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.pdb
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.AssemblyInfoInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.AssemblyInfo.cs
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Release\netstandard2.1\n0tFlix.Subtitles.Addic7ed.pdb

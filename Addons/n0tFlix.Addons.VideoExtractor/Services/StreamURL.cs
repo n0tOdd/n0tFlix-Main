@@ -1,4 +1,4 @@
-﻿using MediaBrowser.Model.Services;
+﻿using Microsoft.AspNetCore.Mvc;
 using n0tFlix.Addons.VideoExtractor.Base;
 using System;
 using System.Collections.Generic;
@@ -8,19 +8,13 @@ using System.Threading.Tasks;
 
 namespace n0tFlix.Addons.VideoExtractor.Services
 {
-    public class StreamURL : IService
+    [ApiController]
+    public class StreamURL : ControllerBase
     {
-        [Route("/VideoExtractor/StreamURL", "GET", Description = "Gets Streamlink / download link from a webpage")]
-        public class GetJson : IReturn<string>
+        [Route("/VideoExtractor/StreamURL/{url}")]
+        public async Task<string> Get(string url)
         {
-            [ApiMember(Name = "Url", Description = "Gets a streamable link for the video in the page", IsRequired = true, DataType = "string",
-              ParameterType = "query", Verb = "GET")]
-            public string Url { get; set; }
-        }
-
-        public async Task<string> Get(GetJson getURL)
-        {
-            var res = await BaseExtractor.ExtractAsync(getURL.Url);
+            var res = await BaseExtractor.ExtractAsync(url);
             return res.First().Videos.First().url;
         }
     }
