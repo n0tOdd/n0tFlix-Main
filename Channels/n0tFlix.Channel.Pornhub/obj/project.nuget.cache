@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B9RJsHV7Bqj/RwDezHsDR8Xv6lPP+0SrtS9QMfx8H/juegl1+ETwGBI7ie7xeQr/vnyjOFDwX3h87UhOTpxI0g==",
+  "dgSpecHash": "fxc3Ud+8vJuEYbQZYONj0ZLwIMDwH2TdxKAuieLfQ1iOykRq8UGMuf0PoYBFEB/v7B8jWR/bCQ3U5Z+cGjRxYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
   "expectedPackageFiles": [
@@ -32,6 +32,7 @@
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.net.http.headers\\2.2.8\\microsoft.net.http.headers.2.2.8.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\ersoucy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",

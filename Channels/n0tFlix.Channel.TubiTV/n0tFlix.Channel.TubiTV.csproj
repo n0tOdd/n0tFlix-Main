@@ -18,6 +18,7 @@
 	  <PackageReference Include="Jellyfin.Common" Version="10.7.7" />
 	  <PackageReference Include="Jellyfin.Controller" Version="10.7.7" />
 	  <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
