@@ -72,8 +72,7 @@ namespace n0tFlix.Channel.ComedyCentral
 
         #endregion Configuration Variables for the plugin, remember to update the version on upgrades
 
-        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer)
-                     : base(applicationPaths, xmlSerializer)
+        public Plugin(IApplicationPaths applicationPaths, IXmlSerializer xmlSerializer) : base(applicationPaths, xmlSerializer)
         {
             Instance = this;
         }

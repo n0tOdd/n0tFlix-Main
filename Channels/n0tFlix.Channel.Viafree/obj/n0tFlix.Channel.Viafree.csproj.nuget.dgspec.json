@@ -52,10 +52,6 @@
               "target": "Package",
               "version": "[10.7.7, )"
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "System.Text.Encoding.CodePages": {
               "target": "Package",
               "version": "[6.0.0, )"

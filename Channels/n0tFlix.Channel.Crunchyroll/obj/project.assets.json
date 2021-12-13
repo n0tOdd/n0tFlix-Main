@@ -1747,7 +1747,6 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Jellyfin.Controller >= 10.7.7",
-      "Newtonsoft.Json >= 13.0.1",
       "System.Text.Encoding.CodePages >= 6.0.0",
       "n0tFlix.Helpers.Common >= 1.0.0"
     ]
@@ -1803,10 +1802,6 @@
           "Jellyfin.Controller": {
             "target": "Package",
             "version": "[10.7.7, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
           },
           "System.Text.Encoding.CodePages": {
             "target": "Package",
