@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Jellyfin.Common/10.7.7": {
         "type": "package",
         "dependencies": {
@@ -526,10 +526,10 @@
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
@@ -541,16 +541,16 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {}
+          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {}
         },
         "runtime": {
-          "lib/net6.0/System.Text.Encoding.CodePages.dll": {}
+          "lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {}
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Text.Encoding.CodePages.dll": {
+          "runtimes/win/lib/netcoreapp3.1/System.Text.Encoding.CodePages.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -1647,7 +1647,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "Jellyfin.Common >= 10.7.7",
       "Jellyfin.Controller >= 10.7.7",
       "Newtonsoft.Json >= 13.0.1",
@@ -1661,11 +1661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
+      "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
       "projectName": "n0tFlix.Channel.Viafree",
-      "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
+      "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
       "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\obj\\",
+      "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1676,15 +1676,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -1695,8 +1695,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Jellyfin.Common": {
             "target": "Package",

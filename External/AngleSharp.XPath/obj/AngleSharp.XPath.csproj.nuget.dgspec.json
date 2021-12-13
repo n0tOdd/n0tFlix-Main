@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj": {}
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj": {
       "version": "1.1.7",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
         "projectName": "AngleSharp.XPath",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
-                "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj"
+              "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
+                "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
         "projectName": "AngleSharp",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

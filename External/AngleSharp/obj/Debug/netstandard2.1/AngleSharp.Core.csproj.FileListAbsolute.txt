@@ -21,3 +21,16 @@ C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp\obj\Debug\nets
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.dll
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.xml
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\bin\Debug\netstandard2.1\AngleSharp.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\bin\Debug\netstandard2.1\AngleSharp.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\bin\Debug\netstandard2.1\AngleSharp.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\bin\Debug\netstandard2.1\AngleSharp.xml
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.Core.sourcelink.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.xml
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\AngleSharp\obj\Debug\netstandard2.1\AngleSharp.pdb

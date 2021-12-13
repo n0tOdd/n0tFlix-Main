@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jVPvPKaHmewoKi2lPimsixv6bz24ojcugS5YY3zL3y6P+HMIqpCVleNqMeigHPf3EuTpTYclZAxm12X4dxOpiQ==",
+  "dgSpecHash": "jNwE/JW9L+43EJiTvkwKkH/0p0En5iXRqph/xPl6nG8NjpqEm4V0+Re+CKEWnh3oTPASdYIGK0hWW5DVHoCSxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

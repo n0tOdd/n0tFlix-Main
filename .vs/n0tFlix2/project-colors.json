@@ -135,7 +135,12 @@
       "ProjectGuid": "297e493a-c758-4c73-ad19-4a130c5e92c4",
       "DisplayName": "AngleSharp.Core",
       "ColorIndex": 9
+    },
+    "d589be45-47c5-4838-8338-fde7cbef28ee": {
+      "ProjectGuid": "d589be45-47c5-4838-8338-fde7cbef28ee",
+      "DisplayName": "Manifest",
+      "ColorIndex": 10
     }
   },
-  "NextColorIndex": 10
+  "NextColorIndex": 11
 }

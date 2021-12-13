@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {}
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
         "projectName": "n0tFlix.Helpers.Common",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\n0tFlix.Helpers.Common.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Helpers\\n0tFlix.Helpers.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
             "Microsoft.CSharp": {
               "target": "Package",

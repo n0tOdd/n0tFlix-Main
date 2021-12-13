@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5dZUkIAvQah0jcP0svnKJFSvrOMAEu34k71uAYRaEVIRwGGjiU2g8JLfNQiQbSxr+P8kDMbBFvBL+3etovNmag==",
+  "dgSpecHash": "Q5Rx+4UxVALyrWEpsX0TZlxaG30Y0iO2kbmALQ1ciaxFH7LUru1SjJ/9SY5C86hcPnHRBS3safhtorYGikf8KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",

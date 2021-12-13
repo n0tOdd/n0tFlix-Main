@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v1Ej7OJ78l48cL6NMsBPgKBGWIJCy4vFBBbuxPU4AmEvErtUSBHNVItii5rvRqcWc6MUFbj7+xY7xPb83FNNXA==",
+  "dgSpecHash": "PZzz+tAom/nCXvP9RJZDQp/C/qTTlZKqeIeukNLqTSjZMedAdI+9SsWf1idSbovI0Guw5m+RM8tYoyyXS0P4xA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.XPath\\AngleSharp.XPath.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",

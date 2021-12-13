@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj": {}
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj",
         "projectName": "n0tFlix.Subtitles.Subscene",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\n0tFlix.Subtitles.Subscene.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Subscene\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

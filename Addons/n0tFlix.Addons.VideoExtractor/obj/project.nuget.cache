@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WwbBaAKpc4du/KrDjwlxuNKlmLylqCDiuzrS1uqcgQM89vDQTCZ7842xA1mbb9zSpEt6vvvFXkAROwkNAWLysw==",
+  "dgSpecHash": "8za2IuWqpBeGE1XqBZZuNXEeRantOyVMjGAxomObbkCyWFdfiNlBkSCHatKRlFn5swDf0KUb6FyMm6XbEyOTQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Addons\\n0tFlix.Addons.VideoExtractor\\n0tFlix.Addons.VideoExtractor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.data\\10.7.7\\jellyfin.data.10.7.7.nupkg.sha512",

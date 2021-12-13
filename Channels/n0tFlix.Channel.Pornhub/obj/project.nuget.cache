@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jlAA/gU4YmUUkIJd3P92OgBDKB+7zXVukEbWFPjxPMiXv9VxCgvFbJYBdBQieNN5SzNZQh3qgSe8WC/0pjhjKA==",
+  "dgSpecHash": "fxc3Ud+8vJuEYbQZYONj0ZLwIMDwH2TdxKAuieLfQ1iOykRq8UGMuf0PoYBFEB/v7B8jWR/bCQ3U5Z+cGjRxYw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

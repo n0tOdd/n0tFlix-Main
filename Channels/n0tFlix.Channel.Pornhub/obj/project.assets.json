@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
+    "net5.0": {
       "Jellyfin.Common/10.7.7": {
         "type": "package",
         "dependencies": {
@@ -1550,7 +1550,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net6.0": [
+    "net5.0": [
       "Jellyfin.Controller >= 10.7.7",
       "Newtonsoft.Json >= 13.0.1"
     ]
@@ -1562,11 +1562,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
+      "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
       "projectName": "n0tFlix.Channel.Pornhub",
-      "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
+      "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\n0tFlix.Channel.Pornhub.csproj",
       "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\obj\\",
+      "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Pornhub\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1577,15 +1577,15 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net6.0"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -1596,8 +1596,8 @@
       }
     },
     "frameworks": {
-      "net6.0": {
-        "targetAlias": "net6.0",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Jellyfin.Controller": {
             "target": "Package",

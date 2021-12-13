@@ -18,3 +18,13 @@ C:\Users\oddos\source\repos\n0tFlix.Extractor\External\Esprima\obj\Debug\netstan
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\Esprima\bin\Debug\netstandard2.1\Esprima.deps.json
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\Esprima\bin\Debug\netstandard2.1\Esprima.dll
 C:\Users\oddos\source\repos\n0tFlix.Extractor\External\Esprima\bin\Debug\netstandard2.1\Esprima.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Debug\netstandard2.1\Esprima.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Debug\netstandard2.1\Esprima.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\bin\Debug\netstandard2.1\Esprima.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.sourcelink.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\External\Esprima\obj\Debug\netstandard2.1\Esprima.pdb

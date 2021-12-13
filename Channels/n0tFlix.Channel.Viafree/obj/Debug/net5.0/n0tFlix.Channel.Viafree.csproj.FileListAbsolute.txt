@@ -1,0 +1,12 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\net5.0\n0tFlix.Channel.Viafree.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\net5.0\n0tFlix.Channel.Viafree.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\net5.0\ref\n0tFlix.Channel.Viafree.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\net5.0\n0tFlix.Channel.Viafree.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\ref\n0tFlix.Channel.Viafree.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\net5.0\n0tFlix.Channel.Viafree.pdb

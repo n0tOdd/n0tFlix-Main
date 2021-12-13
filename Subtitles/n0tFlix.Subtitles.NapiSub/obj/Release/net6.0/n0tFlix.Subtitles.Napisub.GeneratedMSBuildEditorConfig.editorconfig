@@ -7,4 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Jellyfin.Plugin.Subscene
-build_property.ProjectDir = C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\
+build_property.ProjectDir = C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.NapiSub\

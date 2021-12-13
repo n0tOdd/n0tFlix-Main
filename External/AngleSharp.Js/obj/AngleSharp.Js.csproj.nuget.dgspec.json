@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj": {}
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
         "projectName": "AngleSharp.Js",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\AngleSharp.Js.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp.Js\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -33,11 +33,11 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
-                "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj"
+              "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
+                "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj"
               },
-              "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj": {
-                "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj"
+              "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj": {
+                "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
         "projectName": "AngleSharp",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\AngleSharp.Core.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\AngleSharp\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -147,14 +147,14 @@
         }
       }
     },
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj": {
       "version": "2.0.0-beta-0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
         "projectName": "Esprima",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj": {
+    "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj",
+        "projectUniqueName": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj",
         "projectName": "Jint",
-        "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj",
+        "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\Jint.csproj",
         "packagesPath": "C:\\Users\\ersoucy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\obj\\",
+        "outputPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Jint\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -242,8 +242,8 @@
           "netstandard2.1": {
             "targetAlias": "netstandard2.1",
             "projectReferences": {
-              "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj": {
-                "projectPath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj"
+              "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj": {
+                "projectPath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj"
               }
             }
           }

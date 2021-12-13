@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Fs3ep8W0SrNQsNZKSUFBvz2FqmG7DX7EBje1DkeaUZ14vLLFZh4r3126llRuT6KUOTdmYHfp8B9Gvo+qTYY5Aw==",
+  "dgSpecHash": "MtMXeSn+7LHvkgPaWjo+3WQqOl601RMD3wWJvx8u9WdASLQzT98wguAQ+h8DTVh8bciyL1tofqJnpXym3sqabw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Podnapisi\\n0tFlix.Subtitles.Podnapisi.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.Podnapisi\\n0tFlix.Subtitles.Podnapisi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

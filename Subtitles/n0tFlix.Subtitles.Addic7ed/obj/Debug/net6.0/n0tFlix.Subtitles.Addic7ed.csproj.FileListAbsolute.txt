@@ -1,0 +1,12 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Debug\net6.0\ref\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\bin\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\ref\n0tFlix.Subtitles.Addic7ed.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Addic7ed\obj\Debug\net6.0\n0tFlix.Subtitles.Addic7ed.pdb

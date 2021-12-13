@@ -1,0 +1,12 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Debug\net6.0\n0tFlix.Subtitles.Name.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Debug\net6.0\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Debug\net6.0\ref\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\bin\Debug\net6.0\n0tFlix.Subtitles.Name.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\ref\n0tFlix.Subtitles.Name.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Templates\n0tFlix.Subtitles.Name\obj\Debug\net6.0\n0tFlix.Subtitles.Name.pdb

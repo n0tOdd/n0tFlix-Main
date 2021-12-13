@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FREEH+HUIFmmEcgY5m8568ajKZU4tx3eUqCLIA7CyO03uYy/P3YrioeC+wjCVVlFvJBjOAq2y1Tn27nv6Ot9og==",
+  "dgSpecHash": "cVo1aFpc0mA0k0ez78FsKhUe8sJCas5lWUNsyU/bz+3oQMaKvYDoOA77wCvrxCNEG+ACBLVMkA/C5toTYaNJ6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Crunchyroll\\n0tFlix.Channel.Crunchyroll.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Crunchyroll\\n0tFlix.Channel.Crunchyroll.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

@@ -1,0 +1,12 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\net5.0\n0tFlix.Channel.TWiT.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\net5.0\n0tFlix.Channel.TWiT.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\net5.0\ref\n0tFlix.Channel.TWiT.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\net5.0\n0tFlix.Channel.TWiT.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\ref\n0tFlix.Channel.TWiT.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\net5.0\n0tFlix.Channel.TWiT.pdb

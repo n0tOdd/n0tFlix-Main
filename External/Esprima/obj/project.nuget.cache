@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WgOAF5e4MUEhTwMN45o4vtPRtzo2R1ml3oS/GPbDDa7ovkMKZ4QD5qehOBGqYG335mPvepe1EDC+jkO57i5+vg==",
+  "dgSpecHash": "LX3WR6LJzEvaIJx5JxU7aWgi5K/gh/VfhX/fsL2/lMqz/dI/mpSDlp01uTcvqdjzxbvqAuZyNgUUzPBJ9/xc6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\External\\Esprima\\Esprima.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.build.tasks.git\\1.1.1\\microsoft.build.tasks.git.1.1.1.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\microsoft.sourcelink.common\\1.1.1\\microsoft.sourcelink.common.1.1.1.nupkg.sha512",

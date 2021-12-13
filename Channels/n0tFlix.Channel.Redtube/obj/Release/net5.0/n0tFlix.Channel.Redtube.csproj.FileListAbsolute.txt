@@ -1,0 +1,11 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\bin\Release\net5.0\n0tFlix.Channel.Redtube.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\bin\Release\net5.0\n0tFlix.Channel.Redtube.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\bin\Release\net5.0\ref\n0tFlix.Channel.Redtube.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\bin\Release\net5.0\n0tFlix.Channel.Redtube.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\ref\n0tFlix.Channel.Redtube.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Channels\n0tFlix.Channel.Redtube\obj\Release\net5.0\n0tFlix.Channel.Redtube.pdb

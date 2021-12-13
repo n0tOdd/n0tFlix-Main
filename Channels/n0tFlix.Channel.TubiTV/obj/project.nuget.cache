@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xp7Xc96JkUXOvdyliBAfzr/ioK3pfJt8jDePvDUh15Jk2zxZOO3ieqxosRfkXr83s9NS+eDXYbt2McecBme7LA==",
+  "dgSpecHash": "AyKeynAEEGM6Bfc2864jEeFNvTNhaTa9EuIE5eGiSV9a0P5JgqFYwGnJAr2f3e8YlOVpqIQHFzlQW7Bmh7PV5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.TubiTV\\n0tFlix.Channel.TubiTV.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.TubiTV\\n0tFlix.Channel.TubiTV.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

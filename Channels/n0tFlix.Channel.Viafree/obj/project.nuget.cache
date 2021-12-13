@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5a38LR+2pPNuu9EjgP4YCKmV2p49QQIS8diXEfWG1Zv1EFL67FHgdyUjsFCzxpUXPC1UdRy7L8gybMT7PU/rRw==",
+  "dgSpecHash": "aGMEFGQg4VU9XcjUQUcIZ2Jr3HIb/q7SmEnBmtmmCgJhPZhQ5um/cinUN8fwWWk9e8ax4EQTG3oY3B3O1Kcotw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Channels\\n0tFlix.Channel.Viafree\\n0tFlix.Channel.Viafree.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

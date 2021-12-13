@@ -18,9 +18,9 @@ namespace n0tFlix.Manifest.Manager
         {
             //  if (args.Length == 0)
             //    return;
-            string template = @"C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest-Template.json";
+            string template = @"C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Manifest-Template.json";
             string manifest = File.ReadAllText(template);
-            foreach (string file in Directory.GetFiles(@"C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\", "*.md5", SearchOption.AllDirectories))
+            foreach (string file in Directory.GetFiles(@"C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\", "*.md5", SearchOption.AllDirectories))
             {
                 if (file.Contains("Debug"))
                     continue;
@@ -31,7 +31,7 @@ namespace n0tFlix.Manifest.Manager
                 manifest = manifest.Replace(name + "-MD5", md5);
             }
 
-            File.WriteAllText(@"C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Manifest.json", manifest);
+            File.WriteAllText(@"C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Manifest.json", manifest);
         }
     }
 

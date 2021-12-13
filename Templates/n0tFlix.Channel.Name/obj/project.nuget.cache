@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9kVoA99NixT7hCWF+qfBSbxVRY95MyENTxWiP7B7WbuOBgsBbY87EAT0LIo2jrBW0/EkOwGpdTxxbnCgHC6smw==",
+  "dgSpecHash": "VfS8HBbvkIjttlemAeiZZTRaCQWWAsfBcW4LjL79ZdfyKMUiwvZubXmyQZIPybrcjgWC7lENo/P1JrEVX3INbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Templates\\n0tFlix.Channel.Name\\n0tFlix.Channel.Name.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",

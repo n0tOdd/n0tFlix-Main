@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ahNoONsa95SZyMCbxlAkLnB9nsqPAUru3PUXt7lVLmd4lBmiWVwJNqeISR6eXzJdfL6jxV7Cq/6CWtxXYhNcSA==",
+  "dgSpecHash": "ffyJdFyAKLqyZv7+RY9mgY8z71d5pQkDbUW51OE5r04JJvVEBPlidTF+rTmmTQkXw61LS+xi/28ltUdBAm67LA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ersoucy\\Source\\Repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.TheSubDB\\n0tFlix.Subtitles.TheSubDB.csproj",
+  "projectFilePath": "C:\\Users\\ersoucy\\source\\repos\\ersoucy\\n0tFlix-Main\\Subtitles\\n0tFlix.Subtitles.TheSubDB\\n0tFlix.Subtitles.TheSubDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.common\\10.7.7\\jellyfin.common.10.7.7.nupkg.sha512",
     "C:\\Users\\ersoucy\\.nuget\\packages\\jellyfin.controller\\10.7.7\\jellyfin.controller.10.7.7.nupkg.sha512",
