@@ -13,7 +13,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.Subscriptions/bin/Release/net5.0/n0tFlix.Addons.Subscriptions.zip",
-        "checksum": "84F5070B7368A80EB6EFA5590F659D3F",
+        "checksum": "99B61F5F23BBA5F984B89C202229F0F3",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -31,7 +31,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.VideoExtractor/bin/Release/net5.0/n0tFlix.Addons.VideoExtractor.zip",
-        "checksum": "5F02E905C3749A3219F2FB1C34893257",
+        "checksum": "C8D516CC5B41E8EECCC78E80379FD4C7",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -49,7 +49,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.YoutubeDL/bin/Release/net5.0/n0tFlix.Addons.YoutubeDL.zip",
-        "checksum": "46E8CEC532C7565CE7409C6E9342C283",
+        "checksum": "AACC98823A936977163424095ED713D8",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -67,7 +67,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/net5.0/n0tFlix.Channel.ComedyCentral.zip",
-        "checksum": "54422C43B011763CC9BDD477C6E58613",
+        "checksum": "B211EE2140238C1EC32E8405DEF1BEFA",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -85,7 +85,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Crunchyroll/bin/Release/net5.0/n0tFlix.Channel.Crunchyroll.zip",
-        "checksum": "953ED098B0B6A0B6CB161A6622883D6C",
+        "checksum": "E9F4AA395A0999D7D23CAEAA0B672776",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -103,7 +103,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.NRK/bin/Release/net5.0/n0tFlix.Channel.NRK.zip",
-        "checksum": "48E1648EACAEF0E26FA444235870BED9",
+        "checksum": "6CC0C626698948B2DDA78D32AC7E1F01",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -121,7 +121,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Pornhub/bin/Release/net5.0/n0tFlix.Channel.Pornhub.zip",
-        "checksum": "6D970662BC12F895ECE0B798EECF57D9",
+        "checksum": "F57400A806D5C0140C4F8557960BAB71",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -139,7 +139,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Redtube/bin/Release/net5.0/n0tFlix.Channel.Redtube.zip",
-        "checksum": "626DFD9B4D53510A62A07C02221334D4",
+        "checksum": "9B71DCEAC6712C65EA907FEAEA948471",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -157,7 +157,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.TubiTV/bin/Release/net5.0/n0tFlix.Channel.TubiTV.zip",
-        "checksum": "24650C4CB5A348C4E9287A4BA355F3B4",
+        "checksum": "C9CEC247F8A6E0211359B949CB5B7CA3",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -175,7 +175,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Twit/bin/Release/net5.0/n0tFlix.Channel.TWiT.zip",
-        "checksum": "3C902758D72A8B2C7010D33880A13A86",
+        "checksum": "F9654F76FF511AAA6137B6852E66A880",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -193,7 +193,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.Viafree/bin/Release/net5.0/n0tFlix.Channel.Viafree.zip",
-        "checksum": "D6ACCA80D9B845E2688ABB5B1F2B2BDB",
+        "checksum": "2BCBC1A1C3EA23DFCE865DC852EDEAB7",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -373,7 +373,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Providers/n0tFlix.Provider.Imvdb/bin/Release/net5.0/n0tFlix.Provider.Imvdb.zip",
-        "checksum": "AC6BB4A8D5DB86019EB85D42A97D036D",
+        "checksum": "120667164F1B93D28931BCDE692D87B4",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]

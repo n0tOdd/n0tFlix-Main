@@ -9,3 +9,4 @@ C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.S
 C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Release\net6.0\n0tFlix.Subtitles.SubDivX.dll
 C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Release\net6.0\ref\n0tFlix.Subtitles.SubDivX.dll
 C:\Users\ersoucy\Source\Repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Release\net6.0\n0tFlix.Subtitles.SubDivX.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.SubDivX\obj\Release\net6.0\n0tFlix.Subtitles.SubDivX.csproj.AssemblyReference.cache
