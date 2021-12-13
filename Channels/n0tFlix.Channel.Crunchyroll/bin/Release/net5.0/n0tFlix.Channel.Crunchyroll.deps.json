@@ -9,7 +9,6 @@
       "n0tFlix.Channel.Crunchyroll/1.0.0": {
         "dependencies": {
           "Jellyfin.Controller": "10.7.7",
-          "Newtonsoft.Json": "13.0.1",
           "System.Text.Encoding.CodePages": "6.0.0",
           "n0tFlix.Helpers.Common": "1.0.0"
         },
