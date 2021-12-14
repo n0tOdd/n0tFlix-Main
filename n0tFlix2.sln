@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Channels", "Channels", "{4BD46F6F-FB2E-4FA8-831D-9D6F08E7647D}"
 EndProject
@@ -110,7 +110,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jint", "External\Jint\Jint.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Providers", "Providers", "{97926DDC-C662-4BC5-91B8-D6A788C8B7FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "n0tFlix.Provider.Imvdb", "Providers\n0tFlix.Provider.Imvdb\n0tFlix.Provider.Imvdb.csproj", "{09ECFD1F-5062-496F-BAB5-5AA8EE2B49CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "n0tFlix.Provider.Imvdb", "Providers\n0tFlix.Provider.Imvdb\n0tFlix.Provider.Imvdb.csproj", "{09ECFD1F-5062-496F-BAB5-5AA8EE2B49CC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

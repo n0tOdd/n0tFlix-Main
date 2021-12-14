@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace n0tFlix.Channel.TubiTV
 {
-    public class Channel : IChannel, IRequiresMediaInfoCallback, ISupportsLatestMedia, ISupportsMediaProbe, IScheduledTask
+    public class Channel : IChannel, IRequiresMediaInfoCallback, ISupportsLatestMedia, ISupportsMediaProbe
     {
         #region Just some variables that uses the Plugin.cs file variables
 
@@ -156,28 +156,5 @@ namespace n0tFlix.Channel.TubiTV
         public async Task<IEnumerable<ChannelItemInfo>> GetLatestMedia(ChannelLatestMediaSearch request, CancellationToken cancellationToken)
              => default;// await worker.CollectLatestadded(logger, memoryCache);
 
-        /// <summary>
-        /// This is the execution of our schedueled tasks
-        /// this one only grabs the content for the channel on server startup so we have it in our memorycache for faster loading
-        /// </summary>
-        /// <param name="cancellationToken"></param>
-        /// <param name="progress"></param>
-        /// <returns></returns>
-        public async Task Execute(CancellationToken cancellationToken, IProgress<double> progress)
-        {
-            //Here we should grab all the channel content and save it to memeorycache for faster load after the startup
-        }
-
-        /// <summary>
-        /// The triggers for when the scheduled tasks should be run, only on startup here
-        /// </summary>
-        /// <returns></returns>
-        public IEnumerable<TaskTriggerInfo> GetDefaultTriggers()
-        {
-            yield return new TaskTriggerInfo
-            {
-                Type = TaskTriggerInfo.TriggerStartup
-            };
-        }
     }
 }
