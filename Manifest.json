@@ -31,7 +31,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Addons/n0tFlix.Addons.VideoExtractor/bin/Release/net5.0/n0tFlix.Addons.VideoExtractor.zip",
-        "checksum": "C8D516CC5B41E8EECCC78E80379FD4C7",
+        "checksum": "55CB00A97311F360D5033803E436DD31",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -67,7 +67,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.ComedyCentral/bin/Release/net5.0/n0tFlix.Channel.ComedyCentral.zip",
-        "checksum": "B211EE2140238C1EC32E8405DEF1BEFA",
+        "checksum": "7C4EEB19C4CB04AFBA97A62AAB2DEBCA",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -103,7 +103,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.NRK/bin/Release/net5.0/n0tFlix.Channel.NRK.zip",
-        "checksum": "6CC0C626698948B2DDA78D32AC7E1F01",
+        "checksum": "DC81A74A555B6D345C4ECE77C2AC29C8",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
@@ -157,7 +157,7 @@
         "changelog": "Initial Release",
         "targetAbi": "10.7.0.0",
         "sourceUrl": "https://github.com/ersoucy/n0tFlix-Main/raw/main/Channels/n0tFlix.Channel.TubiTV/bin/Release/net5.0/n0tFlix.Channel.TubiTV.zip",
-        "checksum": "C9CEC247F8A6E0211359B949CB5B7CA3",
+        "checksum": "A17F2B971EE2237D6666A57AD9E472B2",
         "timestamp": "2020-11-09T18:42:00Z"
       }
     ]
