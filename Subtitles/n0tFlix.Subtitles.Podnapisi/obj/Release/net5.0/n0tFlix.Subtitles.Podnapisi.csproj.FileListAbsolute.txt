@@ -1,0 +1,12 @@
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\net5.0\n0tFlix.Subtitles.Podnapisi.deps.json
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\net5.0\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\net5.0\ref\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\bin\Release\net5.0\n0tFlix.Subtitles.Podnapisi.pdb
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.csproj.AssemblyReference.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.AssemblyInfoInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.AssemblyInfo.cs
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.csproj.CoreCompileInputs.cache
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\ref\n0tFlix.Subtitles.Podnapisi.dll
+C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Subtitles\n0tFlix.Subtitles.Podnapisi\obj\Release\net5.0\n0tFlix.Subtitles.Podnapisi.pdb
