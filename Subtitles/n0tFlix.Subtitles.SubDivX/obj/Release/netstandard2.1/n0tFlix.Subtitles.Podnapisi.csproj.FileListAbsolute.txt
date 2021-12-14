@@ -1,9 +1,0 @@
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.deps.json
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.dll
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\bin\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.pdb
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.AssemblyInfoInputs.cache
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.AssemblyInfo.cs
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.csproj.CoreCompileInputs.cache
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.dll
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.pdb
-C:\Users\oddos\source\repos\n0tFlix\Subtitles\Jellyfin.Plugin.Podnapisi\obj\Release\netstandard2.1\n0tFlix.Subtitles.Podnapisi.csprojAssemblyReference.cache

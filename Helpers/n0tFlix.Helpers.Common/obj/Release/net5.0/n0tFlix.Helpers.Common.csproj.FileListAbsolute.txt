@@ -10,8 +10,3 @@ C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Commo
 C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net5.0\n0tFlix.Helpers.Common.dll
 C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net5.0\ref\n0tFlix.Helpers.Common.dll
 C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net5.0\n0tFlix.Helpers.Common.pdb
-C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net5.0\Newtonsoft.Json.dll
-C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net5.0\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net5.0\System.Text.Encoding.CodePages.dll
-C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Release\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll
-C:\Users\ersoucy\source\repos\ersoucy\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Release\net5.0\n0tFlix.Helpers.Common.csproj.CopyComplete

@@ -140,7 +140,12 @@
       "ProjectGuid": "d589be45-47c5-4838-8338-fde7cbef28ee",
       "DisplayName": "Manifest",
       "ColorIndex": 10
+    },
+    "b1e6f1eb-88c3-4bd3-a989-a4a155b8f93c": {
+      "ProjectGuid": "b1e6f1eb-88c3-4bd3-a989-a4a155b8f93c",
+      "DisplayName": "Tester",
+      "ColorIndex": 11
     }
   },
-  "NextColorIndex": 11
+  "NextColorIndex": 12
 }

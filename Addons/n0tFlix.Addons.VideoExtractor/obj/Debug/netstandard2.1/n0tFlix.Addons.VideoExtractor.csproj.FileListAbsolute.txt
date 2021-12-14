@@ -1,8 +1,0 @@
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\bin\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.deps.json
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\bin\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\bin\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\obj\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.AssemblyInfoInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\obj\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.AssemblyInfo.cs
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\obj\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.csproj.CoreCompileInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\obj\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\n0tFlix.Addons.VideoExtractor\obj\Debug\netstandard2.1\n0tFlix.Addons.VideoExtractor.pdb

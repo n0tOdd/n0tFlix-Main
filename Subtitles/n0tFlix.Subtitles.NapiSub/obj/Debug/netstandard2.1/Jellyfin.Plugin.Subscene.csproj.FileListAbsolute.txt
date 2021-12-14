@@ -1,9 +1,0 @@
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\bin\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.deps.json
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\bin\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.dll
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\bin\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.pdb
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.AssemblyInfoInputs.cache
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.AssemblyInfo.cs
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.csproj.CoreCompileInputs.cache
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.dll
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.pdb
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.Subscene\obj\Debug\netstandard2.1\Jellyfin.Plugin.Subscene.csprojAssemblyReference.cache

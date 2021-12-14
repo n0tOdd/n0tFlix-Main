@@ -1,9 +1,0 @@
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\bin\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.deps.json
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\bin\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.dll
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\bin\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.pdb
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.csprojAssemblyReference.cache
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.AssemblyInfoInputs.cache
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.AssemblyInfo.cs
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.csproj.CoreCompileInputs.cache
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.dll
-E:\Git\Jellyfin-Subtitle-Plugins\Jellyfin-Subtitle-Plugins\Jellyfin.Plugin.TheSubDB\obj\Debug\netstandard2.1\Jellyfin.Plugin.TheSubDB.pdb

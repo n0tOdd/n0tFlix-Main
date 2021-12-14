@@ -1,9 +1,0 @@
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Debug\netstandard2.1\n0tFlix.Helpers.Common.deps.json
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Debug\netstandard2.1\n0tFlix.Helpers.Common.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\bin\Debug\netstandard2.1\n0tFlix.Helpers.Common.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.csprojAssemblyReference.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.AssemblyInfoInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.AssemblyInfo.cs
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.csproj.CoreCompileInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Helpers\n0tFlix.Helpers.Common\obj\Debug\netstandard2.1\n0tFlix.Helpers.Common.pdb

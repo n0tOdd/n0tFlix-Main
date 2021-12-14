@@ -1,9 +1,0 @@
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\netstandard2.1\n0tFlix.Channel.Viafree.deps.json
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\netstandard2.1\n0tFlix.Channel.Viafree.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\bin\Debug\netstandard2.1\n0tFlix.Channel.Viafree.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.csprojAssemblyReference.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.AssemblyInfoInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.AssemblyInfo.cs
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.csproj.CoreCompileInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Viafree\obj\Debug\netstandard2.1\n0tFlix.Channel.Viafree.pdb

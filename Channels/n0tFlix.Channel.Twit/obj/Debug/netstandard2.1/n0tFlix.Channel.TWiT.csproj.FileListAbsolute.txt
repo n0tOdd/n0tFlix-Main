@@ -1,8 +1,0 @@
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\netstandard2.1\n0tFlix.Channel.TWiT.deps.json
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\netstandard2.1\n0tFlix.Channel.TWiT.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\bin\Debug\netstandard2.1\n0tFlix.Channel.TWiT.pdb
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\netstandard2.1\n0tFlix.Channel.TWiT.AssemblyInfoInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\netstandard2.1\n0tFlix.Channel.TWiT.AssemblyInfo.cs
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\netstandard2.1\n0tFlix.Channel.TWiT.csproj.CoreCompileInputs.cache
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\netstandard2.1\n0tFlix.Channel.TWiT.dll
-C:\Users\oddos\source\repos\n0tFlix2\n0tFlix-Main\Channels\n0tFlix.Channel.Twit\obj\Debug\netstandard2.1\n0tFlix.Channel.TWiT.pdb
